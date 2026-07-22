@@ -1,0 +1,1495 @@
+{
+  "schemaVersion": 1,
+  "algorithm": "sha256",
+  "manifestSha256": "f3ca153f6a089707295087ccc91244b06c906bb3b02398962e48ce12db7ee410",
+  "bundles": {
+    "main": {
+      "bytes": 11802,
+      "fileCount": 6,
+      "files": [
+        {
+          "path": "assets/data/local-bundle-manifest.json",
+          "bytes": 4354,
+          "sha256": "f3ca153f6a089707295087ccc91244b06c906bb3b02398962e48ce12db7ee410"
+        },
+        {
+          "path": "assets/main/bundle-entry.json",
+          "bytes": 127,
+          "sha256": "f725d8894e971bcb4c290f8dea94543c9adae8deedb02962a746e31cb3c03744"
+        },
+        {
+          "path": "assets/main/bundle-entry.json.meta",
+          "bytes": 179,
+          "sha256": "3ff14543842a04f7128f9aabf09ded547df92cb4712a4d8533287c99b525289d"
+        },
+        {
+          "path": "assets/main/scenes.meta",
+          "bytes": 169,
+          "sha256": "2534a1bd6e66411bf6ac8904e21408091e160f8bd180ce8c8514db4fa41fe6ed"
+        },
+        {
+          "path": "assets/main/scenes/Boot.scene",
+          "bytes": 6792,
+          "sha256": "a4571949e38365e8fe698231642cd1e45d8f75acd0be04eaf68f3b2ec3453a22"
+        },
+        {
+          "path": "assets/main/scenes/Boot.scene.meta",
+          "bytes": 181,
+          "sha256": "840d10d2dabd842853f3249fd8d7199e6e7bbb618763525f876e5184ee4f18bd"
+        }
+      ]
+    },
+    "core_game": {
+      "bytes": 6585842,
+      "fileCount": 135,
+      "files": [
+        {
+          "path": "assets/bundles/core_game/audio.meta",
+          "bytes": 169,
+          "sha256": "4e7aa94484dcdabc47e5fd482027e6900bf9b15a9db8b89a43fddf855ad2e26e"
+        },
+        {
+          "path": "assets/bundles/core_game/audio/v2-commercial.meta",
+          "bytes": 169,
+          "sha256": "231014e8faf9abe1eb3660998669023916a5fd2b013d83576f3d5c7105766d5c"
+        },
+        {
+          "path": "assets/bundles/core_game/audio/v2-commercial/bgm.mp3",
+          "bytes": 661673,
+          "sha256": "6515e7e240fbc796262cb346771d5e83be938c04fb470bf2a6fe8715e2aaa224"
+        },
+        {
+          "path": "assets/bundles/core_game/audio/v2-commercial/bgm.mp3.meta",
+          "bytes": 222,
+          "sha256": "0fc552d798332670e0243cf59904d9c80150c055fdc8a780527d064d6246def1"
+        },
+        {
+          "path": "assets/bundles/core_game/audio/v2-commercial/big_merge.ogg",
+          "bytes": 15493,
+          "sha256": "3f2d773572b26b7286b887c17bfa808b7df3d68b7c423451c698846360f5fba6"
+        },
+        {
+          "path": "assets/bundles/core_game/audio/v2-commercial/big_merge.ogg.meta",
+          "bytes": 222,
+          "sha256": "d98ee6fc11e311552de9946390b2b65a38f3ddc13f73f1971dfefc87bf6d06fa"
+        },
+        {
+          "path": "assets/bundles/core_game/audio/v2-commercial/button.ogg",
+          "bytes": 4383,
+          "sha256": "585bde3a4f921a788612ee8fafbc860f1f7b0384eb10e849dbff69dd2b8eff6b"
+        },
+        {
+          "path": "assets/bundles/core_game/audio/v2-commercial/button.ogg.meta",
+          "bytes": 222,
+          "sha256": "7ba45087fe01532fe99249cd72cdd9d09507d48241ff0e7f4741b1d4763bf5ff"
+        },
+        {
+          "path": "assets/bundles/core_game/audio/v2-commercial/drop.ogg",
+          "bytes": 5502,
+          "sha256": "d6f97cd1a4c6c6b105a4a5249db22d854050a64434ed107ab7ca8eca31fceb6e"
+        },
+        {
+          "path": "assets/bundles/core_game/audio/v2-commercial/drop.ogg.meta",
+          "bytes": 222,
+          "sha256": "4872620115977e5e56c375a7d8207b15cb722e6843af558800758c4f32a850dc"
+        },
+        {
+          "path": "assets/bundles/core_game/audio/v2-commercial/game_over.ogg",
+          "bytes": 6968,
+          "sha256": "c35eaf769aa3b3bac3a7c494c37563b8885d12adc400e989a6e78d443de1f1be"
+        },
+        {
+          "path": "assets/bundles/core_game/audio/v2-commercial/game_over.ogg.meta",
+          "bytes": 222,
+          "sha256": "40ec520d1e5d9163e1585e593d74ff6129dccef8f695ee512b48cac8284f5774"
+        },
+        {
+          "path": "assets/bundles/core_game/audio/v2-commercial/merge.ogg",
+          "bytes": 6102,
+          "sha256": "0e16c870065b9c8a7d7bf8f10c7744f7474adefb3c3eceb005bf5ac2c55ea531"
+        },
+        {
+          "path": "assets/bundles/core_game/audio/v2-commercial/merge.ogg.meta",
+          "bytes": 222,
+          "sha256": "4f3a109fd3beab1743d81869c939fc8751929d89e7a4c74e8354e67d7d8991a1"
+        },
+        {
+          "path": "assets/bundles/core_game/audio/v2-commercial/yizai.ogg",
+          "bytes": 7842,
+          "sha256": "d2902e019df870b67e068140eccb0150a77e85f274c6f51fdbc14a3e7a3f5cd4"
+        },
+        {
+          "path": "assets/bundles/core_game/audio/v2-commercial/yizai.ogg.meta",
+          "bytes": 222,
+          "sha256": "64015ae4d035b83f23e57762886a49a9596811948f19a077920dbe57465ad74b"
+        },
+        {
+          "path": "assets/bundles/core_game/bundle-entry.json",
+          "bytes": 269,
+          "sha256": "f38148b3e9f807864a313f4aa4b78b20887349c96678d7c10e52850b5a5ec99b"
+        },
+        {
+          "path": "assets/bundles/core_game/bundle-entry.json.meta",
+          "bytes": 179,
+          "sha256": "6cb93f39069643816da8b6b87cc2f612d28fcd9c567d6fedbb4236e30cdf7208"
+        },
+        {
+          "path": "assets/bundles/core_game/faces.meta",
+          "bytes": 169,
+          "sha256": "fe945cf4462e930008880366b7f159f36223b66eb34e154b109a670674e897cc"
+        },
+        {
+          "path": "assets/bundles/core_game/faces/default.meta",
+          "bytes": 169,
+          "sha256": "2899b7dd2721038c17b3c0c234a212adb48e548711acfe9998e2f9a1007d2c1c"
+        },
+        {
+          "path": "assets/bundles/core_game/faces/default/face_01_sprout_bead.png",
+          "bytes": 74083,
+          "sha256": "05717c9a929e054e2268489e4565e57fb991b5785599621555cbabc0cc4ab99e"
+        },
+        {
+          "path": "assets/bundles/core_game/faces/default/face_01_sprout_bead.png.meta",
+          "bytes": 2951,
+          "sha256": "0508540bb46ef9c829bf15fbea2dbd1418d13f147ea24375b3849f59283190ad"
+        },
+        {
+          "path": "assets/bundles/core_game/faces/default/face_02_peach_puff.png",
+          "bytes": 77012,
+          "sha256": "cf347e770df2bbb6dfa4a820669d5b65624575a7c5fa868d0ceb846be5dd43ea"
+        },
+        {
+          "path": "assets/bundles/core_game/faces/default/face_02_peach_puff.png.meta",
+          "bytes": 2949,
+          "sha256": "25453a7ddecb0044da7762881347d061532eba800d0af3eded51c8fe8a7ef9e6"
+        },
+        {
+          "path": "assets/bundles/core_game/faces/default/face_03_heart_jelly.png",
+          "bytes": 75355,
+          "sha256": "639e91b94bbdbc9cadc624e7aee1eb10531812cf0e8e28e30ea4255eb6463ff5"
+        },
+        {
+          "path": "assets/bundles/core_game/faces/default/face_03_heart_jelly.png.meta",
+          "bytes": 2951,
+          "sha256": "55ed8722ce28f0c5485e5fcdb555be9871bffb90d9961bfae2ce45d80287f1b1"
+        },
+        {
+          "path": "assets/bundles/core_game/faces/default/face_04_sun_wiggle.png",
+          "bytes": 74350,
+          "sha256": "aac36e10a5f0c2a384b3f96eb4a28f9064aec4ef59a2d836e60763b1979b6bad"
+        },
+        {
+          "path": "assets/bundles/core_game/faces/default/face_04_sun_wiggle.png.meta",
+          "bytes": 2949,
+          "sha256": "31e44c388aa721b3f859e486b899e834a497d78f0f3adfba67d817145003875a"
+        },
+        {
+          "path": "assets/bundles/core_game/faces/default/face_05_sky_spark.png",
+          "bytes": 84971,
+          "sha256": "475a91b4a982223bc179324445fea88a08d5872ea6a0def0f5063a9f5798d949"
+        },
+        {
+          "path": "assets/bundles/core_game/faces/default/face_05_sky_spark.png.meta",
+          "bytes": 2947,
+          "sha256": "a7ccc39137f4d50ee90b52014d998b7d2cde33b8599c28086439b69e5a903bb3"
+        },
+        {
+          "path": "assets/bundles/core_game/faces/default/face_06_cream_smile.png",
+          "bytes": 82373,
+          "sha256": "fb7fb3ae3cb3573fc5ff08054b230c71cfc36c0b31f6bdec3c06196e98061774"
+        },
+        {
+          "path": "assets/bundles/core_game/faces/default/face_06_cream_smile.png.meta",
+          "bytes": 2951,
+          "sha256": "719e289db716551106c85b10eca1aed17b89a7f737d34cbf2df96b290cfc7bfb"
+        },
+        {
+          "path": "assets/bundles/core_game/faces/default/face_07_seed_sage.png",
+          "bytes": 89984,
+          "sha256": "95a765f6880b8b2adddc8edf4d8752a05e23c6c21a7e31b89500de85d5ddc260"
+        },
+        {
+          "path": "assets/bundles/core_game/faces/default/face_07_seed_sage.png.meta",
+          "bytes": 2947,
+          "sha256": "4ae1cf611a33492d1cba426eec49592f34b0163ea57c5188bcc46c89f1a704f8"
+        },
+        {
+          "path": "assets/bundles/core_game/faces/default/face_08_grape_zap.png",
+          "bytes": 86751,
+          "sha256": "fc3bf3b69ad44e1102fe8c9feca97a3dbce3b786babc6db8e9e62698e95746c9"
+        },
+        {
+          "path": "assets/bundles/core_game/faces/default/face_08_grape_zap.png.meta",
+          "bytes": 2947,
+          "sha256": "c01ff67c5db9c4d2b8bae0bca527a6fcda99484ba7d4da642882de58b82c1750"
+        },
+        {
+          "path": "assets/bundles/core_game/faces/default/face_09_flame_grin.png",
+          "bytes": 76737,
+          "sha256": "3f4b68d624d54522cc8d5d20fb3c9f4ee45fc59440be7621f88fc96a63184d96"
+        },
+        {
+          "path": "assets/bundles/core_game/faces/default/face_09_flame_grin.png.meta",
+          "bytes": 2949,
+          "sha256": "cdd2eab31214bd0b02f7f51f1b3558cc255f7d5fe7e987f19f73f3c61592330c"
+        },
+        {
+          "path": "assets/bundles/core_game/faces/default/face_10_crown_star.png",
+          "bytes": 78128,
+          "sha256": "437de6db9ec86f8f2ada11d8e50347eea2caaa94f04ba712c898956bfb7e6d58"
+        },
+        {
+          "path": "assets/bundles/core_game/faces/default/face_10_crown_star.png.meta",
+          "bytes": 2949,
+          "sha256": "1606f0543eda35ac44aea617488f46c76e7d27b7ae5996c4a0dd0137c86e7253"
+        },
+        {
+          "path": "assets/bundles/core_game/faces/default/face_11_yizai.png",
+          "bytes": 71167,
+          "sha256": "70d1085e7e9478a7f9b2fbb8ec1f174d3d27fc3e2ae84a8e1a84d6a98a19f9b7"
+        },
+        {
+          "path": "assets/bundles/core_game/faces/default/face_11_yizai.png.meta",
+          "bytes": 2939,
+          "sha256": "9a10ed22e1a5fa4a7995bc4a74ee90c14fc91daf3c9b4aa698f20d224a873b8e"
+        },
+        {
+          "path": "assets/bundles/core_game/prefabs.meta",
+          "bytes": 169,
+          "sha256": "4b5989b99f5299baaa71fbb0a2a1e9866fb012b899cc59d046e521e098b1ff9e"
+        },
+        {
+          "path": "assets/bundles/core_game/prefabs/CommonModal.prefab",
+          "bytes": 1051,
+          "sha256": "b850b730076fa4070eb1d505991981c297809c97d9564686ffbce95892969e02"
+        },
+        {
+          "path": "assets/bundles/core_game/prefabs/CommonModal.prefab.meta",
+          "bytes": 219,
+          "sha256": "57e5062b13eeffcaddb4664f45a388e405a36e5373e80b389db31a88de8050db"
+        },
+        {
+          "path": "assets/bundles/core_game/prefabs/FaceBall.prefab",
+          "bytes": 1045,
+          "sha256": "d8ba77bea0656f8477e4fab123ba898c45ef9fec063d3e06cb0153b7e1038cc2"
+        },
+        {
+          "path": "assets/bundles/core_game/prefabs/FaceBall.prefab.meta",
+          "bytes": 216,
+          "sha256": "d8146bd25e7e59cfc2ca41b86fa8da52d4e2ac60a2b6792409ec97c97c187c2f"
+        },
+        {
+          "path": "assets/bundles/core_game/prefabs/StateButton.prefab",
+          "bytes": 1051,
+          "sha256": "d190b49d5da7f0825715209b9736eeebd6e3e225ddcc30dd12a00c2b4cb7e022"
+        },
+        {
+          "path": "assets/bundles/core_game/prefabs/StateButton.prefab.meta",
+          "bytes": 219,
+          "sha256": "07f6ecdb6b4231ea361358e640c3e2cf08b2c29a676092be972fcc341cf36c61"
+        },
+        {
+          "path": "assets/bundles/core_game/scenes.meta",
+          "bytes": 169,
+          "sha256": "322ace0f61319d7944b41758c8d58151af549c242f3873f1d30e8f0937396d1c"
+        },
+        {
+          "path": "assets/bundles/core_game/scenes/Game.scene",
+          "bytes": 6792,
+          "sha256": "51417ed96aa92cbb791765f15874da79d6cb11809cbea102a1d04e176ff1ac79"
+        },
+        {
+          "path": "assets/bundles/core_game/scenes/Game.scene.meta",
+          "bytes": 181,
+          "sha256": "c09f9de00ba2a21c88ff8fc3784a35f57a65122bc1ed06e76b9f5e298f6cfcf0"
+        },
+        {
+          "path": "assets/bundles/core_game/scenes/Home.scene",
+          "bytes": 6792,
+          "sha256": "8dc0cf1df86b01839b66b9f6a054b5d2f58b8e08b4d943d0ac207540dc09caee"
+        },
+        {
+          "path": "assets/bundles/core_game/scenes/Home.scene.meta",
+          "bytes": 181,
+          "sha256": "5e20fc2c0745d44d31d6ae95bc13a398b0c143a46928df9f2cfcc3c56e143b02"
+        },
+        {
+          "path": "assets/bundles/core_game/scenes/Result.scene",
+          "bytes": 6796,
+          "sha256": "1ef466e2303c857a95844ae317382feb68ef83c0244d94b63a6637db3f17d7f9"
+        },
+        {
+          "path": "assets/bundles/core_game/scenes/Result.scene.meta",
+          "bytes": 181,
+          "sha256": "f37e5d9c957d1a5e2b67de43654312aa49696d8cc10ba961c95ec20367a35722"
+        },
+        {
+          "path": "assets/bundles/core_game/scripts.meta",
+          "bytes": 169,
+          "sha256": "cf120a04fcf4b166546517b628f1cf241c0aa4a4789c9435d69a0ae1080efa57"
+        },
+        {
+          "path": "assets/bundles/core_game/scripts/CommercialScenePresenter.ts",
+          "bytes": 2907,
+          "sha256": "a10d2a0a58586b5f6a470acf25d2ade4a0eb240e7e11e4519d8cf93756edb11a"
+        },
+        {
+          "path": "assets/bundles/core_game/scripts/CommercialScenePresenter.ts.meta",
+          "bytes": 171,
+          "sha256": "58701eba4256566d4e9e6ae0d7977af2c8eb5fa609568f2d18cda16b19741f4f"
+        },
+        {
+          "path": "assets/bundles/core_game/ui.meta",
+          "bytes": 169,
+          "sha256": "ec9e6edd2660aca2adfe277afca33df40413ef5b3561475db4cec3bbf6341bab"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons.meta",
+          "bytes": 169,
+          "sha256": "d2730ac4c8dd5b5a7860de275a8ef7865fddbb4472344fa1e09b27180cf0c5dd"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/button_continue_disabled.png",
+          "bytes": 118099,
+          "sha256": "e3f8f161378576923a64a1c874eca68a48386eb88392198cd56c6e1e3499e3fa"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/button_continue_disabled.png.meta",
+          "bytes": 3041,
+          "sha256": "1c42c34434306898e6a99ec8fba7d0612c2944de3ddf17f12ee750574a158456"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/button_continue_normal.png",
+          "bytes": 320595,
+          "sha256": "913ea0d62ba21562214fc9529bc5590feb3ef2f8b473d09dec6ec45f2478d9c7"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/button_continue_normal.png.meta",
+          "bytes": 3037,
+          "sha256": "82db4f0a49d921f2a3047aebe09c767022f9d12603a1e9931aac9455c1d91c90"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/button_continue_pressed.png",
+          "bytes": 295506,
+          "sha256": "6ff74668f3de619dec2b95fd613db14a849258891be5cbbec7c5f6bec6aae9b8"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/button_continue_pressed.png.meta",
+          "bytes": 3039,
+          "sha256": "ec64a603bc615e7078ec3fdf8e228e86d90bfbb04b7ddc872eadfcb532f3ec59"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/button_primary_disabled.png",
+          "bytes": 98275,
+          "sha256": "524e9f8c168db7dbcac9d57c34463f6622a801a445cea090c8c397ce18c0fc92"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/button_primary_disabled.png.meta",
+          "bytes": 3027,
+          "sha256": "1bd97e24b4693de9dbeafb2b59f7338e2a522c489034aece87e318de94a4cf50"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/button_primary_normal.png",
+          "bytes": 275148,
+          "sha256": "79029b1c6f0fec553f616e2c1db447ba6b6c9821a04c5afa080c5564cd01cbda"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/button_primary_normal.png.meta",
+          "bytes": 3023,
+          "sha256": "6a4199956288f708d9949ebe4eedfdba43761df9950bb54151ae39d0059cbf48"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/button_primary_pressed.png",
+          "bytes": 271379,
+          "sha256": "af01fadd3fed4fe751ceb7b35bda2e0833f31ceb78a52291f4b7b1c96dce893c"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/button_primary_pressed.png.meta",
+          "bytes": 3025,
+          "sha256": "8678521d4bb0824217e8d29e7ff2959dcc92715c4146287e1a36a3b912a8ebc3"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/button_secondary_disabled.png",
+          "bytes": 110811,
+          "sha256": "8d33bfa49a659405d0468aaa43e6757bbba086cd3723a49c98b73d86efd429da"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/button_secondary_disabled.png.meta",
+          "bytes": 3037,
+          "sha256": "f2f9d8112547dac0a2b63dc9aa51f843de0062bda6fcf8bb75e570931d026d8f"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/button_secondary_normal.png",
+          "bytes": 313121,
+          "sha256": "783b2d7631c0ea1db177dffde00edfd5793d498c465751b7b8c24c56237aed31"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/button_secondary_normal.png.meta",
+          "bytes": 3033,
+          "sha256": "8d5b1cd47f61c1b5cbc491ba7c43f2e1bf327517b41018d04663356f3a3b9b61"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/button_secondary_pressed.png",
+          "bytes": 307654,
+          "sha256": "5833ffad587f0096975eff59a26e15b30808b19a13f0b75e7200dc555404fe69"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/button_secondary_pressed.png.meta",
+          "bytes": 3035,
+          "sha256": "bfd16f14e5cfcd3858de33371e741aeee11f65b70a839c5f35f7a5f15c4ecc34"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/button_start_disabled.png",
+          "bytes": 46180,
+          "sha256": "7fe1964541f131f11379025ac2a46f49e20da0a8384e0050eb700d2cc526e69f"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/button_start_disabled.png.meta",
+          "bytes": 2871,
+          "sha256": "891f76039dbce9b6f740dd34d6a46866e6e84960cabf772f1232a1f475ed94eb"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/button_start_normal.png",
+          "bytes": 40650,
+          "sha256": "885ac1b239f6ed104f133d07fd8222165573aca527ad60cb337544a93ea88c02"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/button_start_normal.png.meta",
+          "bytes": 2867,
+          "sha256": "bd50f5f7389957aae0733a43b3f81b8b39926bb2dbc5b5b52934de20b4f969a9"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/button_start_pressed.png",
+          "bytes": 40885,
+          "sha256": "2cb6c238636c8450e56584a7334cc7172755ba72a094c524a96b87b94017b85a"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/button_start_pressed.png.meta",
+          "bytes": 2869,
+          "sha256": "4f44cfdabd784bfb466e5d0ddfffee959f4778762113223321ab20f12c5641f8"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/control_pause_disabled.png",
+          "bytes": 7554,
+          "sha256": "a3980741aa83a9396a57243f7ea1c8eead98a72be93ab20e271a84b969a24400"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/control_pause_disabled.png.meta",
+          "bytes": 2929,
+          "sha256": "efd111b9261a0e3c454094a65ca78eb72e7099b629c97ef7e55ab4548531ff67"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/control_pause_normal.png",
+          "bytes": 7025,
+          "sha256": "b62b852455386eb4d7a464992cd95f475aa691495061ad1444763ee12d668c73"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/control_pause_normal.png.meta",
+          "bytes": 2925,
+          "sha256": "10f68984df085c4505f7607ccce0a0168f6ef7e8f6e9f2eb5cbe50c2511cc426"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/control_pause_pressed.png",
+          "bytes": 7227,
+          "sha256": "aadb470c8f36cc1fab46ea5d1a94f4f5094606fc9a04cdb80d4a92fd15354466"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/control_pause_pressed.png.meta",
+          "bytes": 2927,
+          "sha256": "2d25bf3d89a09806bdc95a67308b54c85d8174824fccd116a026aab5610c5638"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/control_restart_disabled.png",
+          "bytes": 8571,
+          "sha256": "b112e352e01a80191cd9f35095bc3df6797d7fefe54168ca5f0a76bdd1572f65"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/control_restart_disabled.png.meta",
+          "bytes": 2933,
+          "sha256": "2d1502afcfbc405a183ef02ca2f5c179f9a14ae5202b7dd2a7dfd68357843935"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/control_restart_normal.png",
+          "bytes": 7343,
+          "sha256": "a06570054586168ffe6a0ac463985f87515e58eb54bb9b3ecde6eb993f0883e6"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/control_restart_normal.png.meta",
+          "bytes": 2929,
+          "sha256": "0a733c1bd004f83f2992839603ba7adbfe824f5d704e2eff4d19a7d966f939f6"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/control_restart_pressed.png",
+          "bytes": 7549,
+          "sha256": "98088cbd4f48c48a37fab9b9c27c2e47bda11efbf08bc4f02f3653c755747789"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/control_restart_pressed.png.meta",
+          "bytes": 2931,
+          "sha256": "f63d9d7a07bf4ce90b64864ac9b2ad6e10946812cbd5a0c85018d40fed082638"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/control_sound_disabled.png",
+          "bytes": 8088,
+          "sha256": "5ac8f0eb10455688b96eab6337c31597ddac4f07c1df80631c91c171a300ca0c"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/control_sound_disabled.png.meta",
+          "bytes": 2929,
+          "sha256": "84cd251f65ba293008cfa34beb3a181f97c3d779de6c8de53f07c7d01909f175"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/control_sound_normal.png",
+          "bytes": 7301,
+          "sha256": "847b1d994cad9efdc02b49dfc3e6fca647bc762c32e624caf68ee537e42b1419"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/control_sound_normal.png.meta",
+          "bytes": 2925,
+          "sha256": "1869e71c6ed7ea9d973a62378cbcc05b189ecf2bf8cfcd618c8a95921db3e214"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/control_sound_pressed.png",
+          "bytes": 7508,
+          "sha256": "00899beeb7c09ee6623e5b2ae95c8cf404226e231e9f5e91f91333c0f867e976"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/buttons/control_sound_pressed.png.meta",
+          "bytes": 2927,
+          "sha256": "5cdca3a04c679417e0d1c66d4c3b18a501a9f99d1c9dfb87f4b6cf661580b6b0"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/gameplay.meta",
+          "bytes": 169,
+          "sha256": "7ef3b37883b80ed6eac054b67b31950e9534e5ed3187a16711aa7f74d619d3a3"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/gameplay/control_pause.png",
+          "bytes": 7063,
+          "sha256": "42319f357e5a1e109a6ae80e445a2fe570d418bbf44dd7ae9a70bb6c13d7ef2e"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/gameplay/control_pause.png.meta",
+          "bytes": 2911,
+          "sha256": "7668b72ef1f14f0c1aa12139a9830b424b6f27e2d842e839579ad924f06de3ce"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/gameplay/control_restart.png",
+          "bytes": 7371,
+          "sha256": "afa25c53e9ec16d90bbff371b540c109582acbc0dea4f153c44222cbaef0161c"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/gameplay/control_restart.png.meta",
+          "bytes": 2915,
+          "sha256": "c24b75a0fe7fcc7679ef4abd878661ff3c5f5776a182f7cc6aaa8feff9dc53d9"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/gameplay/control_sound.png",
+          "bytes": 7321,
+          "sha256": "5070604333ea033e6b3bb7607fda8808a94ba7a0a7f46c0875f43ad52cd22445"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/gameplay/control_sound.png.meta",
+          "bytes": 2911,
+          "sha256": "147868cc56810b7be7cfdabeb8765e6fd02c9685d77ccac45b73fe02b6ba2a08"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/gameplay/dropper_head.png",
+          "bytes": 2864,
+          "sha256": "c9cf1d841e159a9c2cc871008f163cbc0709fcbb9543605b0ea7ca1bf5ecd4d0"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/gameplay/dropper_head.png.meta",
+          "bytes": 2905,
+          "sha256": "01b1e4fd60bdc96e238c2024f2e8c260caa66d7d15e49da0cb16a3ef6eaa049f"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/gameplay/game_bg_750x1334.jpg",
+          "bytes": 264728,
+          "sha256": "611f3aef42848d1e12a9d0a5c3b545f375d569f6379f8cc15dbf9ff5d2cd4595"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/gameplay/game_bg_750x1334.jpg.meta",
+          "bytes": 2872,
+          "sha256": "c674616ab65688239edd4adc0359e282f39f54672cfc5a228b45c50d25810a75"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/gameplay/playfield_frame_750x1334.png",
+          "bytes": 40598,
+          "sha256": "02e0e28e044b8ef991e85143347c19ba67ddc29b179e5b28318882af621c6062"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/gameplay/playfield_frame_750x1334.png.meta",
+          "bytes": 3036,
+          "sha256": "52d8848dcd76d3eba54f9197a56e3180c6d6e0f8696a22d0fcfe2916a208e9e4"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/gameplay/splash_bg_750x1334.jpg",
+          "bytes": 383529,
+          "sha256": "be440b3dc87eecc17abd70ff1ff2709fffe68d71686e206a4e36abea62158201"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/gameplay/splash_bg_750x1334.jpg.meta",
+          "bytes": 2876,
+          "sha256": "b8bd5a0757df7b802493a9b9d0ed5b9c5a4902e6b537b493de86749467d8e036"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/gameplay/warning_line.png",
+          "bytes": 229,
+          "sha256": "8a31271a6b97f0f517d88ffd2775fbb9aa6a451631ea3a5463d1f08e3d4f63f8"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/gameplay/warning_line.png.meta",
+          "bytes": 2942,
+          "sha256": "3768e0ba26eee737b38bc5c6b218139c1268a6c088ad8d20b62b67b33847953c"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/panels.meta",
+          "bytes": 169,
+          "sha256": "fa5455e0cf3a2444b786a6e8d4afad566ec72b9a5ae31e07691fa705b8a4438a"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/panels/merge_bubble.png",
+          "bytes": 126517,
+          "sha256": "ad6d5c5077876c1ae058eb0377275896d2797e35e11c7240c315e7e03236c1a1"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/panels/merge_bubble.png.meta",
+          "bytes": 3007,
+          "sha256": "51e9c312e0c35c22c3b77231e8e603e8efe5d00f97434676a7cbbbcbfeab21ce"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/panels/next_frame.png",
+          "bytes": 83328,
+          "sha256": "8c890874a92c57ac417d49431293654530683b43ceb96cd45df5539b610cdac9"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/panels/next_frame.png.meta",
+          "bytes": 3011,
+          "sha256": "840035e68736d313c6507c7171277a8d7bd427b1c82e946282371fd935954104"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/panels/pause_panel.png",
+          "bytes": 650897,
+          "sha256": "2e71d4085dc7c981c44bf322e1efa6a633989e126f9fee2bc372b135835d2291"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/panels/pause_panel.png.meta",
+          "bytes": 3019,
+          "sha256": "25a8aac32993c2616c0e2ac18b3171e30ff0c0cdab13c45b45cfe394b49d6031"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/panels/progress_bar.png",
+          "bytes": 80925,
+          "sha256": "56e037bc3c0f9e00e7e46512cb3e0e5a1e8fc0ec59b0de84eeea1220f275ced9"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/panels/progress_bar.png.meta",
+          "bytes": 3003,
+          "sha256": "8e65337556d54ecf786ebda90aa13c4e69d69ce40f1a95293943c1c2571aaf21"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/panels/result_panel.png",
+          "bytes": 335489,
+          "sha256": "fa4300cb2c64d8e90bd1fad888071f301ce6c00a0085aec6aa419433b54bb0e3"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/panels/result_panel.png.meta",
+          "bytes": 3019,
+          "sha256": "cb3ca915889f724e425b37fd880520c58dfd742a331d562fae7c521afdd07a0c"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/panels/score_panel.png",
+          "bytes": 328318,
+          "sha256": "b1189e177c73e13c3c420c727ca9a925177bf6f5764a08e8a28eee89701fed4a"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/panels/score_panel.png.meta",
+          "bytes": 2913,
+          "sha256": "8820a60272447a90de48536468c3dfa1c98baaebd511ca39bc9d06345efb60be"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/panels/start_panel.png",
+          "bytes": 210596,
+          "sha256": "df39d33fc6d7c6209a96af8b5288abb0cd60e4fc2db3f6d9e079a4a75be628af"
+        },
+        {
+          "path": "assets/bundles/core_game/ui/panels/start_panel.png.meta",
+          "bytes": 3035,
+          "sha256": "03a3f82390cfee1c81c53810c069c88f48831ebf6eab4e2de04b04dd94c5ecc3"
+        }
+      ]
+    },
+    "meta_ui": {
+      "bytes": 11028,
+      "fileCount": 17,
+      "files": [
+        {
+          "path": "assets/bundles/meta_ui/bundle-entry.json",
+          "bytes": 287,
+          "sha256": "fdcc82a3756d62ffafab45020171e59409ccee9702eb6bd15dda96d65ef923fb"
+        },
+        {
+          "path": "assets/bundles/meta_ui/bundle-entry.json.meta",
+          "bytes": 179,
+          "sha256": "aaef67ef17da47f1bf55187bd56d48264d12e3e7274f9c6389b6ec1ac2170c77"
+        },
+        {
+          "path": "assets/bundles/meta_ui/prefabs.meta",
+          "bytes": 169,
+          "sha256": "6b0ddc6fcff4a13fdffd93a6827b8713ae6614979d670ac9e2cffaaa668b6c57"
+        },
+        {
+          "path": "assets/bundles/meta_ui/prefabs/RankPanel.prefab",
+          "bytes": 1047,
+          "sha256": "cd8c431cb4fe174462a2cd2cf1bc7ea177b8271c6392e03c62a58e4df1af1cd5"
+        },
+        {
+          "path": "assets/bundles/meta_ui/prefabs/RankPanel.prefab.meta",
+          "bytes": 217,
+          "sha256": "60e73e703feb0a3773cf9a2340514c474691a10ee8e52884409ab321681bcb36"
+        },
+        {
+          "path": "assets/bundles/meta_ui/prefabs/RankRow.prefab",
+          "bytes": 1043,
+          "sha256": "70f591b81794656067995dc5eb5749ba9747aceb4308c4fca56ca047f49c2110"
+        },
+        {
+          "path": "assets/bundles/meta_ui/prefabs/RankRow.prefab.meta",
+          "bytes": 215,
+          "sha256": "a5ce2638a25908b9cb99f713bb8a5a2dac9c82ca5d5a834d89fb21545b661002"
+        },
+        {
+          "path": "assets/bundles/meta_ui/prefabs/ShopPanel.prefab",
+          "bytes": 1047,
+          "sha256": "7bd3b1436c5933b57ab2860628ee64d75e03be281906ebc03104eb50dfa0e20e"
+        },
+        {
+          "path": "assets/bundles/meta_ui/prefabs/ShopPanel.prefab.meta",
+          "bytes": 217,
+          "sha256": "905720f00d69c19e0242ec43b8b54c8fbcf53cd6f63d0576737ee3608c910e54"
+        },
+        {
+          "path": "assets/bundles/meta_ui/prefabs/ShopSkinCard.prefab",
+          "bytes": 1053,
+          "sha256": "fb7be4a84801c6cd967879c747b9319b6ca0a9808cc62fba395f168d796b34b4"
+        },
+        {
+          "path": "assets/bundles/meta_ui/prefabs/ShopSkinCard.prefab.meta",
+          "bytes": 220,
+          "sha256": "06767d81e6475bd016def8218af339da3d3ebfd055c968f06ea6159fce8c7591"
+        },
+        {
+          "path": "assets/bundles/meta_ui/prefabs/TaskPanel.prefab",
+          "bytes": 1047,
+          "sha256": "9e6d3eed6a273c85062bc46cc24161114a0f72fc50ad598e70d3a58c3df18aa5"
+        },
+        {
+          "path": "assets/bundles/meta_ui/prefabs/TaskPanel.prefab.meta",
+          "bytes": 217,
+          "sha256": "92e1cb0572046e9e5ade5dc25de4ffacf7f4df3c5fbc6f09a9386c2cb491e174"
+        },
+        {
+          "path": "assets/bundles/meta_ui/prefabs/TaskRow.prefab",
+          "bytes": 1043,
+          "sha256": "5d1bdcd780406fb02784c2f448e2edb11bb0c77385f87f9e03f3f0684f98195e"
+        },
+        {
+          "path": "assets/bundles/meta_ui/prefabs/TaskRow.prefab.meta",
+          "bytes": 215,
+          "sha256": "83c160783d55eb2c67662eb0612c785994a8458fda48b4d6d931d21cbfd6a74a"
+        },
+        {
+          "path": "assets/data/shop-skins.json",
+          "bytes": 2201,
+          "sha256": "0d1e107992105845997648a77cf1fdab898482c64bbb43419a58ac642e864284"
+        },
+        {
+          "path": "assets/data/tasks.json",
+          "bytes": 611,
+          "sha256": "86189644b2122555e5abed4daea9434494ac6d7313a48158470d7ef2fadfed4f"
+        }
+      ]
+    },
+    "skin_jelly_v2": {
+      "bytes": 826826,
+      "fileCount": 26,
+      "files": [
+        {
+          "path": "assets/bundles/skin_jelly_v2/bundle-entry.json",
+          "bytes": 243,
+          "sha256": "d95f9216c86b7c2444d5a4af6ee12a226355c3eca595cc6423c8178dd67255d5"
+        },
+        {
+          "path": "assets/bundles/skin_jelly_v2/bundle-entry.json.meta",
+          "bytes": 179,
+          "sha256": "1019d0d78ce805fb4b43eac1c5399f5a789a516ece59433522864f5e49d39c2e"
+        },
+        {
+          "path": "assets/bundles/skin_jelly_v2/faces.meta",
+          "bytes": 169,
+          "sha256": "2df1064d4ecba0722dac5bb2556dcb082f6c4ce1050cb9402d3f0e2267e569d4"
+        },
+        {
+          "path": "assets/bundles/skin_jelly_v2/faces/jelly.meta",
+          "bytes": 169,
+          "sha256": "e729b51d0760d1c332ab0ea6e86a551c20950db741fe8a20d89b6a1542409f32"
+        },
+        {
+          "path": "assets/bundles/skin_jelly_v2/faces/jelly/skin_jelly_face_01.png",
+          "bytes": 78265,
+          "sha256": "5570da2d5178fe01c9c5fc569d3e5e240cb7ccc3f806ff41a7f938cf8c79d372"
+        },
+        {
+          "path": "assets/bundles/skin_jelly_v2/faces/jelly/skin_jelly_face_01.png.meta",
+          "bytes": 2949,
+          "sha256": "1550d31347f0ff01a48cf7cc8783ee441d5a07cf95c866ed9497511d7c2af109"
+        },
+        {
+          "path": "assets/bundles/skin_jelly_v2/faces/jelly/skin_jelly_face_02.png",
+          "bytes": 66073,
+          "sha256": "a003a617cfe823fc0ca4dd3bb1a3a288067e692a1fce1d38b643fc760befe7b9"
+        },
+        {
+          "path": "assets/bundles/skin_jelly_v2/faces/jelly/skin_jelly_face_02.png.meta",
+          "bytes": 2949,
+          "sha256": "6314e58a8b01ea3c6c1eaa46a966dea6c25eff49a7671ac15fd7a9eb9366e455"
+        },
+        {
+          "path": "assets/bundles/skin_jelly_v2/faces/jelly/skin_jelly_face_03.png",
+          "bytes": 71398,
+          "sha256": "1eb0149d1719cb73d6852e43586b72789671fb09075259504a4b7fb6d56dc00c"
+        },
+        {
+          "path": "assets/bundles/skin_jelly_v2/faces/jelly/skin_jelly_face_03.png.meta",
+          "bytes": 2949,
+          "sha256": "74518cfd7a4f638c6f0759ec8b791d61c5bb5e87609adce24e606877a2bda901"
+        },
+        {
+          "path": "assets/bundles/skin_jelly_v2/faces/jelly/skin_jelly_face_04.png",
+          "bytes": 72784,
+          "sha256": "95ada08a4847edf5e1edab669eaab03731c14cd9b4fc38469ee13696ef233f7e"
+        },
+        {
+          "path": "assets/bundles/skin_jelly_v2/faces/jelly/skin_jelly_face_04.png.meta",
+          "bytes": 2949,
+          "sha256": "8e2c7a6e6e9b7ba53b74a731e84673a7af5dec0b1d3a2a12883508b030d8e243"
+        },
+        {
+          "path": "assets/bundles/skin_jelly_v2/faces/jelly/skin_jelly_face_05.png",
+          "bytes": 87110,
+          "sha256": "dd3564d91a2fa62af79f7062d2f485dc56e34e26a309f6d2dda14b3a49657e8e"
+        },
+        {
+          "path": "assets/bundles/skin_jelly_v2/faces/jelly/skin_jelly_face_05.png.meta",
+          "bytes": 2949,
+          "sha256": "12fa801583d3cc8f8a2fda27857e34d5df6e46c68c1542387dd416fce89e3483"
+        },
+        {
+          "path": "assets/bundles/skin_jelly_v2/faces/jelly/skin_jelly_face_06.png",
+          "bytes": 80649,
+          "sha256": "7ccce75972e462f7c1489ea4ac5c08ebad0f40cce5d5644236edbce4faf57b1e"
+        },
+        {
+          "path": "assets/bundles/skin_jelly_v2/faces/jelly/skin_jelly_face_06.png.meta",
+          "bytes": 2949,
+          "sha256": "617f8b2cfd4c4b107774bf31195183bf663f58f2bd8d4a5a82007020a58583d3"
+        },
+        {
+          "path": "assets/bundles/skin_jelly_v2/faces/jelly/skin_jelly_face_07.png",
+          "bytes": 80186,
+          "sha256": "383cb77c554c0e1234e3de0743deaad385f4ba344f71b973e655a77a6f2c770a"
+        },
+        {
+          "path": "assets/bundles/skin_jelly_v2/faces/jelly/skin_jelly_face_07.png.meta",
+          "bytes": 2949,
+          "sha256": "e4445bdbb74d9680de4d92ac221a442dcae29a549be2aa00bc2a8418f61be725"
+        },
+        {
+          "path": "assets/bundles/skin_jelly_v2/faces/jelly/skin_jelly_face_08.png",
+          "bytes": 83874,
+          "sha256": "46b50a66e9def677fa03412bdd30b388bf99e0978f2e935eb777e21d872ef8a4"
+        },
+        {
+          "path": "assets/bundles/skin_jelly_v2/faces/jelly/skin_jelly_face_08.png.meta",
+          "bytes": 2949,
+          "sha256": "635195379fcdc75d120e2bc6cd936a33bd418b87f85356dd96c2f225adc35381"
+        },
+        {
+          "path": "assets/bundles/skin_jelly_v2/faces/jelly/skin_jelly_face_09.png",
+          "bytes": 79219,
+          "sha256": "3cb3486a133c6bb19f6593d2bff9434ceabb260c81f45cd7915baf962d2ee9df"
+        },
+        {
+          "path": "assets/bundles/skin_jelly_v2/faces/jelly/skin_jelly_face_09.png.meta",
+          "bytes": 2949,
+          "sha256": "83de166b41592ffd0284d25ae415a7a52ff4da10af146cabc3b46a72802dd912"
+        },
+        {
+          "path": "assets/bundles/skin_jelly_v2/faces/jelly/skin_jelly_face_10.png",
+          "bytes": 74366,
+          "sha256": "58ae4f619295cb495aaf6d9755550881fcebf83516c0212a900483eeee5f445b"
+        },
+        {
+          "path": "assets/bundles/skin_jelly_v2/faces/jelly/skin_jelly_face_10.png.meta",
+          "bytes": 2949,
+          "sha256": "6167774fef1a3f9bc18fdca4dfea07e638bc89c3171140414e730d84ed88cf06"
+        },
+        {
+          "path": "assets/bundles/skin_jelly_v2/faces/jelly/skin_preview_jelly.png",
+          "bytes": 19663,
+          "sha256": "7a1b7a70b886e64cfe698c3e618af8ddc348329731c80a7827798d19751274a1"
+        },
+        {
+          "path": "assets/bundles/skin_jelly_v2/faces/jelly/skin_preview_jelly.png.meta",
+          "bytes": 2989,
+          "sha256": "f10605dd5a557608097e2cb7545d06b4f86404ffd7450d57b824995c79cb7714"
+        }
+      ]
+    },
+    "skin_star_v2": {
+      "bytes": 897274,
+      "fileCount": 26,
+      "files": [
+        {
+          "path": "assets/bundles/skin_star_v2/bundle-entry.json",
+          "bytes": 240,
+          "sha256": "d1b59a6f07d381feace5d84edfaab90fe90af4e2e9960a73252e08919afd966d"
+        },
+        {
+          "path": "assets/bundles/skin_star_v2/bundle-entry.json.meta",
+          "bytes": 179,
+          "sha256": "73a1b4cab3d88a3c2332653a48b37f26d6c92dbd76c6d3194f833d9dc1a417e8"
+        },
+        {
+          "path": "assets/bundles/skin_star_v2/faces.meta",
+          "bytes": 169,
+          "sha256": "4dbfa5d3db29e7a88ce49574729684db22cd7786f4f5302566717d1c31f5b3db"
+        },
+        {
+          "path": "assets/bundles/skin_star_v2/faces/star.meta",
+          "bytes": 169,
+          "sha256": "897c61f215d3124e335d73bcfe933c2e24eeb45ec18aafcf11f78542c605c1af"
+        },
+        {
+          "path": "assets/bundles/skin_star_v2/faces/star/skin_preview_star.png",
+          "bytes": 19468,
+          "sha256": "bf79b42702de969d38789274295b05c0008744fe675f00f7a0f6d51249f78122"
+        },
+        {
+          "path": "assets/bundles/skin_star_v2/faces/star/skin_preview_star.png.meta",
+          "bytes": 2987,
+          "sha256": "ff846e5d40cf4e19567fd9a3510228b1f219e4450dd448a7b82533c388b61de6"
+        },
+        {
+          "path": "assets/bundles/skin_star_v2/faces/star/skin_star_face_01.png",
+          "bytes": 80864,
+          "sha256": "8af5c6422ec7ebfcb4932abd95ddf9c2ea2a4475c9b31227393674eac480a41d"
+        },
+        {
+          "path": "assets/bundles/skin_star_v2/faces/star/skin_star_face_01.png.meta",
+          "bytes": 2947,
+          "sha256": "08c3f2f0a9b2fcf30a9aa715420252bafbe31b9e72431ece7c090218575f936e"
+        },
+        {
+          "path": "assets/bundles/skin_star_v2/faces/star/skin_star_face_02.png",
+          "bytes": 82490,
+          "sha256": "07b115ea7fd5d14e68c82e2bd3ff2c8b11006810770c0502a9b571a53d69d1cd"
+        },
+        {
+          "path": "assets/bundles/skin_star_v2/faces/star/skin_star_face_02.png.meta",
+          "bytes": 2947,
+          "sha256": "20cb6137c345ef59101ea0b0e2cfbe7823f225b97b26a32c31ae4f7840ebddf8"
+        },
+        {
+          "path": "assets/bundles/skin_star_v2/faces/star/skin_star_face_03.png",
+          "bytes": 83437,
+          "sha256": "d70a9675a36543a297e920a4d1c8a310450e2eb4d60e28d7d961f42ad10c723a"
+        },
+        {
+          "path": "assets/bundles/skin_star_v2/faces/star/skin_star_face_03.png.meta",
+          "bytes": 2947,
+          "sha256": "a020c3fbdf56c7ca94c835180fee1d37c32baf296beb7d5ad7f740b39749ab23"
+        },
+        {
+          "path": "assets/bundles/skin_star_v2/faces/star/skin_star_face_04.png",
+          "bytes": 92871,
+          "sha256": "6e9c3c7ea7744aa1d2e91f299925f0229f91742429eea58318f0eaa18e22e120"
+        },
+        {
+          "path": "assets/bundles/skin_star_v2/faces/star/skin_star_face_04.png.meta",
+          "bytes": 2947,
+          "sha256": "4a386f36bdfd626d02a8c57d9a0f67b8b70a1a8eaf645abec216477c24e93310"
+        },
+        {
+          "path": "assets/bundles/skin_star_v2/faces/star/skin_star_face_05.png",
+          "bytes": 78118,
+          "sha256": "72b84b21318aa362fc270c58eeb2239806506217e1cdb862a0e8ca8a99b71ed7"
+        },
+        {
+          "path": "assets/bundles/skin_star_v2/faces/star/skin_star_face_05.png.meta",
+          "bytes": 2947,
+          "sha256": "72992bd7d2d6f2581c910e628cf507f197d50b2a30a02e201027f90158b87e78"
+        },
+        {
+          "path": "assets/bundles/skin_star_v2/faces/star/skin_star_face_06.png",
+          "bytes": 81209,
+          "sha256": "d7bbfb8f4d52111cfceecb13fffd1997aaa5375e30542aaadaac8712a86e5147"
+        },
+        {
+          "path": "assets/bundles/skin_star_v2/faces/star/skin_star_face_06.png.meta",
+          "bytes": 2947,
+          "sha256": "86cde3af17b06f22f1f5b2b7b0bf50da0cde6055d27e8f67fd2bf270ebba2057"
+        },
+        {
+          "path": "assets/bundles/skin_star_v2/faces/star/skin_star_face_07.png",
+          "bytes": 88515,
+          "sha256": "ac6cde3a994fad52b547d042e1a30e13f84372119ebc442c7f96983d9e92e747"
+        },
+        {
+          "path": "assets/bundles/skin_star_v2/faces/star/skin_star_face_07.png.meta",
+          "bytes": 2947,
+          "sha256": "42e8122e949d7b2926a14f07b5145d3c043daa4855daf3b8f75ed10ad25666e1"
+        },
+        {
+          "path": "assets/bundles/skin_star_v2/faces/star/skin_star_face_08.png",
+          "bytes": 96755,
+          "sha256": "419f5155c85003b2ea9810fa788bebc27d7833e37a36e149a52641e8afca17c4"
+        },
+        {
+          "path": "assets/bundles/skin_star_v2/faces/star/skin_star_face_08.png.meta",
+          "bytes": 2947,
+          "sha256": "245b27d5773a0808cda0106a33c9391d47ef9b7bebdb7da063db1bfc262a11c4"
+        },
+        {
+          "path": "assets/bundles/skin_star_v2/faces/star/skin_star_face_09.png",
+          "bytes": 78120,
+          "sha256": "e3246afb79797dbc6b1e1b935335a26383f77bb8dc384ae1cfa42a910caa073e"
+        },
+        {
+          "path": "assets/bundles/skin_star_v2/faces/star/skin_star_face_09.png.meta",
+          "bytes": 2947,
+          "sha256": "b0e900a5b863d0bc82ac2fa7cdd8291c2774a3e2326e8503587d6aaa1c854bb4"
+        },
+        {
+          "path": "assets/bundles/skin_star_v2/faces/star/skin_star_face_10.png",
+          "bytes": 82213,
+          "sha256": "ca39b59a1643ec2f2221c8535e57ff886ef0c87de3ce5c9c426342a33ea03d9e"
+        },
+        {
+          "path": "assets/bundles/skin_star_v2/faces/star/skin_star_face_10.png.meta",
+          "bytes": 2947,
+          "sha256": "22dbbd1590a8ec1929709e01302b93931003a35f0f38648692e6ae88df8f134d"
+        }
+      ]
+    },
+    "skin_cream_v2": {
+      "bytes": 845307,
+      "fileCount": 26,
+      "files": [
+        {
+          "path": "assets/bundles/skin_cream_v2/bundle-entry.json",
+          "bytes": 243,
+          "sha256": "dcf0d7c8b0674034fbffcbdeb00dd0edb85c6a8f871b6133205dcf2f3c53de5a"
+        },
+        {
+          "path": "assets/bundles/skin_cream_v2/bundle-entry.json.meta",
+          "bytes": 179,
+          "sha256": "a6a57e96fefbe29d64f2e937a81ff12a6b6cf4128a45b57156f5a9a9c716f3fa"
+        },
+        {
+          "path": "assets/bundles/skin_cream_v2/faces.meta",
+          "bytes": 169,
+          "sha256": "ef07a0abe3247cd45e76fb62871fe85f5d4a51da0cb0c12eb7f783eea04ca604"
+        },
+        {
+          "path": "assets/bundles/skin_cream_v2/faces/cream.meta",
+          "bytes": 169,
+          "sha256": "8d859c4a933b5c9208da7f5b62638093ee4d54f186cbe208a7381c4434361fe2"
+        },
+        {
+          "path": "assets/bundles/skin_cream_v2/faces/cream/skin_cream_face_01.png",
+          "bytes": 72766,
+          "sha256": "f6341c1696de4422bcb14c349daef81195328a777d528c9c5d7bb1ef0f54e5cd"
+        },
+        {
+          "path": "assets/bundles/skin_cream_v2/faces/cream/skin_cream_face_01.png.meta",
+          "bytes": 2949,
+          "sha256": "e40942fc752d8ef13441680a74ca6e6a531d29379f6e7c2ded2b13b1402794e6"
+        },
+        {
+          "path": "assets/bundles/skin_cream_v2/faces/cream/skin_cream_face_02.png",
+          "bytes": 81770,
+          "sha256": "528d7443830e0a7a9b462f09c56d0912e42a9a44f55f08f3a73793f772143276"
+        },
+        {
+          "path": "assets/bundles/skin_cream_v2/faces/cream/skin_cream_face_02.png.meta",
+          "bytes": 2949,
+          "sha256": "e884ba8b7ccf676b79b3c2383b8dc14449b90b255fe61a23c01de71d9daf9cba"
+        },
+        {
+          "path": "assets/bundles/skin_cream_v2/faces/cream/skin_cream_face_03.png",
+          "bytes": 83129,
+          "sha256": "ac3119ee127466bd57472da8e41520b698bcd4163eaab53279e0f34817db7c3a"
+        },
+        {
+          "path": "assets/bundles/skin_cream_v2/faces/cream/skin_cream_face_03.png.meta",
+          "bytes": 2949,
+          "sha256": "cd3d03f5c732af92910622127eb7c2e22567bf3847e40c523425e0a012da88a0"
+        },
+        {
+          "path": "assets/bundles/skin_cream_v2/faces/cream/skin_cream_face_04.png",
+          "bytes": 79582,
+          "sha256": "f49b520f008640f4d287e48574d172ab061caee4776e55f6c27c156c68f24632"
+        },
+        {
+          "path": "assets/bundles/skin_cream_v2/faces/cream/skin_cream_face_04.png.meta",
+          "bytes": 2949,
+          "sha256": "98548feaa9d84be63aebc604f22792517cc98baf261606db54f8d59d2a9179f4"
+        },
+        {
+          "path": "assets/bundles/skin_cream_v2/faces/cream/skin_cream_face_05.png",
+          "bytes": 75476,
+          "sha256": "0b6b07778bd9aa361120d2ae33246a1b96351d514c375bfe8100a402ac3fd148"
+        },
+        {
+          "path": "assets/bundles/skin_cream_v2/faces/cream/skin_cream_face_05.png.meta",
+          "bytes": 2949,
+          "sha256": "b2a591da1c20a241796ee92477076696fb083d5acdfa19d554f0532ce966c624"
+        },
+        {
+          "path": "assets/bundles/skin_cream_v2/faces/cream/skin_cream_face_06.png",
+          "bytes": 80246,
+          "sha256": "e3fabada58f22b36a886c6c909a3b0dba9103438930173ee85eabe9a161da1a2"
+        },
+        {
+          "path": "assets/bundles/skin_cream_v2/faces/cream/skin_cream_face_06.png.meta",
+          "bytes": 2949,
+          "sha256": "3b7788c6d9e8c2f9799947c8dfc5c88aa63a8926d1d2ca3ff88b47d2ab64dfc4"
+        },
+        {
+          "path": "assets/bundles/skin_cream_v2/faces/cream/skin_cream_face_07.png",
+          "bytes": 84365,
+          "sha256": "ed0f089d6437fb64911a59fc60e21cdaf6605af4a6bbdddf1d8caf2c7aa2fda0"
+        },
+        {
+          "path": "assets/bundles/skin_cream_v2/faces/cream/skin_cream_face_07.png.meta",
+          "bytes": 2949,
+          "sha256": "6948169e2c832388f1061f32280f7d70c1b1cadd155dd66f8660ba83e38674f7"
+        },
+        {
+          "path": "assets/bundles/skin_cream_v2/faces/cream/skin_cream_face_08.png",
+          "bytes": 81953,
+          "sha256": "5d1fc974a6e01bbf1ce32375eaec715a15829e570ec1c13840e5c3b2b55e18f4"
+        },
+        {
+          "path": "assets/bundles/skin_cream_v2/faces/cream/skin_cream_face_08.png.meta",
+          "bytes": 2949,
+          "sha256": "8ee4f6cac5ccaf98e9817bebeac41f192ef456dc4a841e1dad07d21181e2118d"
+        },
+        {
+          "path": "assets/bundles/skin_cream_v2/faces/cream/skin_cream_face_09.png",
+          "bytes": 79919,
+          "sha256": "d7575ce84b5f2a4109ac8aef2f70b3989ce313d544a25dadf3e9862347170378"
+        },
+        {
+          "path": "assets/bundles/skin_cream_v2/faces/cream/skin_cream_face_09.png.meta",
+          "bytes": 2949,
+          "sha256": "d87677f9aea2ee958d9cc4424090c91aafb933f0663eebafab90ea8007dec129"
+        },
+        {
+          "path": "assets/bundles/skin_cream_v2/faces/cream/skin_cream_face_10.png",
+          "bytes": 73586,
+          "sha256": "e978a7054bf9dac54d18cbfc273f0bc9dbc67281ae933c5456f957b553311202"
+        },
+        {
+          "path": "assets/bundles/skin_cream_v2/faces/cream/skin_cream_face_10.png.meta",
+          "bytes": 2949,
+          "sha256": "87d12eea1c7752a55ecb573a549880642c0c913aea1e61e79eb6eedaeb472b13"
+        },
+        {
+          "path": "assets/bundles/skin_cream_v2/faces/cream/skin_preview_cream.png",
+          "bytes": 19276,
+          "sha256": "7754bcf02a31568021aaabd2ebd30562108f2cc0615bebcdfe5b74e0a7710d57"
+        },
+        {
+          "path": "assets/bundles/skin_cream_v2/faces/cream/skin_preview_cream.png.meta",
+          "bytes": 2989,
+          "sha256": "88685ad98a397251e7fc1d51eb69d3eca2b0757cb09c56c9831620e72a7fede6"
+        }
+      ]
+    },
+    "skin_coin_v2": {
+      "bytes": 1025304,
+      "fileCount": 26,
+      "files": [
+        {
+          "path": "assets/bundles/skin_coin_v2/bundle-entry.json",
+          "bytes": 240,
+          "sha256": "4054d00526ecddcbb26fbab69ee1e5aeb9d423daff0159d37f6446511fbc6e02"
+        },
+        {
+          "path": "assets/bundles/skin_coin_v2/bundle-entry.json.meta",
+          "bytes": 179,
+          "sha256": "f6965cac9b9aafad90b7ad0bc7d0b1c5b6c61f030d63a521cee93c94aef5bd7b"
+        },
+        {
+          "path": "assets/bundles/skin_coin_v2/faces.meta",
+          "bytes": 169,
+          "sha256": "05c072c71a53e393cf0fb840c949a6b055c6d90b3891c3d80be51701bfb241cd"
+        },
+        {
+          "path": "assets/bundles/skin_coin_v2/faces/coin.meta",
+          "bytes": 169,
+          "sha256": "77d145ad2cd260be9f991543df6a4391b665745b9f7cee98d862521e829991c7"
+        },
+        {
+          "path": "assets/bundles/skin_coin_v2/faces/coin/skin_coin_face_01.png",
+          "bytes": 92318,
+          "sha256": "100ec979470bc720218fcd2c0b0c5e6979924a5db8f468e4bfcb6a149adaadd9"
+        },
+        {
+          "path": "assets/bundles/skin_coin_v2/faces/coin/skin_coin_face_01.png.meta",
+          "bytes": 2947,
+          "sha256": "a0b9ead3fb9f479f16e32c087b5f674568f9faa18f1d5f2c4a61b034db2d3b2b"
+        },
+        {
+          "path": "assets/bundles/skin_coin_v2/faces/coin/skin_coin_face_02.png",
+          "bytes": 96568,
+          "sha256": "d73c03cabce8a82053e783672c55d7410ca34249cac9b30d672403c6128974b5"
+        },
+        {
+          "path": "assets/bundles/skin_coin_v2/faces/coin/skin_coin_face_02.png.meta",
+          "bytes": 2947,
+          "sha256": "b6a5f30aa7887c060fcbb514184bb4640c1a6cf8e2aba0517e931446877b8abe"
+        },
+        {
+          "path": "assets/bundles/skin_coin_v2/faces/coin/skin_coin_face_03.png",
+          "bytes": 90541,
+          "sha256": "87f42d7a38d0eda11e843a4b00e52e0a13f8ea74b62145b058c09d0162f696aa"
+        },
+        {
+          "path": "assets/bundles/skin_coin_v2/faces/coin/skin_coin_face_03.png.meta",
+          "bytes": 2947,
+          "sha256": "254fcb82402444cccdb1562b73d1292d69a09e3b23dbf0fd76a13009390f4bc1"
+        },
+        {
+          "path": "assets/bundles/skin_coin_v2/faces/coin/skin_coin_face_04.png",
+          "bytes": 90731,
+          "sha256": "747761105541fd85aad36f7d21a8e139af65c971bab7cb4d135c9b6a1f23b0c9"
+        },
+        {
+          "path": "assets/bundles/skin_coin_v2/faces/coin/skin_coin_face_04.png.meta",
+          "bytes": 2947,
+          "sha256": "8c024226e2fa3aa9eac5d89096d230eb1663503919c6f9e5d5358295a5aab496"
+        },
+        {
+          "path": "assets/bundles/skin_coin_v2/faces/coin/skin_coin_face_05.png",
+          "bytes": 98412,
+          "sha256": "a0d4ad2b3f86a141d0473f6388ddc9841804426ab696f318b8a1cada5534c9da"
+        },
+        {
+          "path": "assets/bundles/skin_coin_v2/faces/coin/skin_coin_face_05.png.meta",
+          "bytes": 2947,
+          "sha256": "7fbea359f01998831a3f30d2668522e305e85afc8850e7333e236dc768363eb0"
+        },
+        {
+          "path": "assets/bundles/skin_coin_v2/faces/coin/skin_coin_face_06.png",
+          "bytes": 103333,
+          "sha256": "4a91aa561feb5730e04b40cecdfa7c1703a7e2a577f93f887958a82fa016048b"
+        },
+        {
+          "path": "assets/bundles/skin_coin_v2/faces/coin/skin_coin_face_06.png.meta",
+          "bytes": 2947,
+          "sha256": "5dc572a6cf9797a0b31d525179cc6a5d59e34d9f02d1437273d195c0087159b6"
+        },
+        {
+          "path": "assets/bundles/skin_coin_v2/faces/coin/skin_coin_face_07.png",
+          "bytes": 96388,
+          "sha256": "46956c86faaf9704fbf20a53556e3c2411443f04c3cdea4ecefcf7312cb8addf"
+        },
+        {
+          "path": "assets/bundles/skin_coin_v2/faces/coin/skin_coin_face_07.png.meta",
+          "bytes": 2947,
+          "sha256": "b2bc94aa16f65b8f383d449f8fe70e45451443d68339d2ea77e695b0d6f5b683"
+        },
+        {
+          "path": "assets/bundles/skin_coin_v2/faces/coin/skin_coin_face_08.png",
+          "bytes": 101038,
+          "sha256": "d1504355dfa9ef66e4e30c488cf728e035e9472484b8492d87326085dfaf6181"
+        },
+        {
+          "path": "assets/bundles/skin_coin_v2/faces/coin/skin_coin_face_08.png.meta",
+          "bytes": 2947,
+          "sha256": "b4f11bbff1b7860199cc17fdc6395432cf18993c2f10abff74646a97c1f79116"
+        },
+        {
+          "path": "assets/bundles/skin_coin_v2/faces/coin/skin_coin_face_09.png",
+          "bytes": 98098,
+          "sha256": "b55d6c54e5471978afb1549f63cd7d76e13f9362b8ed9ed5a63df9b71fbdbac7"
+        },
+        {
+          "path": "assets/bundles/skin_coin_v2/faces/coin/skin_coin_face_09.png.meta",
+          "bytes": 2947,
+          "sha256": "04efdec34472650ee5bf12a8273b78df1b73fe16de478e9f13ef2575d3f3c8e2"
+        },
+        {
+          "path": "assets/bundles/skin_coin_v2/faces/coin/skin_coin_face_10.png",
+          "bytes": 100010,
+          "sha256": "963d0f42de8ea18a1aab3934985866c9e916615e03e1ae2ff57f979ee29ed769"
+        },
+        {
+          "path": "assets/bundles/skin_coin_v2/faces/coin/skin_coin_face_10.png.meta",
+          "bytes": 2947,
+          "sha256": "1d29d15f251b36b617286e47f11de1517549c78504af1ccae5040642c543b396"
+        },
+        {
+          "path": "assets/bundles/skin_coin_v2/faces/coin/skin_preview_coin.png",
+          "bytes": 24653,
+          "sha256": "6aa42692163fbc525e16f1ff6ed02fb071f2913b7433769b5a356e95d40d48e3"
+        },
+        {
+          "path": "assets/bundles/skin_coin_v2/faces/coin/skin_preview_coin.png.meta",
+          "bytes": 2987,
+          "sha256": "cb3cbb133b5c2fa52edb1a8e430aa2cda76e6c9ddefece7c12845c532e4e6344"
+        }
+      ]
+    },
+    "skin_festival_v2": {
+      "bytes": 898903,
+      "fileCount": 26,
+      "files": [
+        {
+          "path": "assets/bundles/skin_festival_v2/bundle-entry.json",
+          "bytes": 252,
+          "sha256": "0ee8ec5987c8c368c42067a8231e89a1b9fafd72b4c1ba7687940a11d485db60"
+        },
+        {
+          "path": "assets/bundles/skin_festival_v2/bundle-entry.json.meta",
+          "bytes": 179,
+          "sha256": "11017b337eb6e59fbf366e20db448f3ccd79e00eb0b94f04ea442b394b3436c8"
+        },
+        {
+          "path": "assets/bundles/skin_festival_v2/faces.meta",
+          "bytes": 169,
+          "sha256": "0538d7ac59ec057c07dca14797fe80cfbaf09cba8abb39e4c60bc773c13fecff"
+        },
+        {
+          "path": "assets/bundles/skin_festival_v2/faces/festival.meta",
+          "bytes": 169,
+          "sha256": "b9029a61553a8dfb7dca60053b26d3d7e1443aea45aee5d5c9d47e23a4c9e33d"
+        },
+        {
+          "path": "assets/bundles/skin_festival_v2/faces/festival/skin_festival_face_01.png",
+          "bytes": 83346,
+          "sha256": "a5adc36b182abcd99d6cd98f4d1ceee7846dc22142e2cfcd4d35956539d9a32c"
+        },
+        {
+          "path": "assets/bundles/skin_festival_v2/faces/festival/skin_festival_face_01.png.meta",
+          "bytes": 2955,
+          "sha256": "78584e68f3ac8e2741a841585b0b6cf1d1b550ce76679fb943c3f70804c1f5dc"
+        },
+        {
+          "path": "assets/bundles/skin_festival_v2/faces/festival/skin_festival_face_02.png",
+          "bytes": 88193,
+          "sha256": "46660da4f3ff25e9da23579552de8618667f413397111d0f407723109448cce5"
+        },
+        {
+          "path": "assets/bundles/skin_festival_v2/faces/festival/skin_festival_face_02.png.meta",
+          "bytes": 2955,
+          "sha256": "85c46e79f30d7f1e9f3c8f82a04b89f038f7d229267b5f6809b5227c528ff188"
+        },
+        {
+          "path": "assets/bundles/skin_festival_v2/faces/festival/skin_festival_face_03.png",
+          "bytes": 79940,
+          "sha256": "6f290d30f33b3ad6d683824680a16aec91376e33fe378b5d6e07b52717e9930b"
+        },
+        {
+          "path": "assets/bundles/skin_festival_v2/faces/festival/skin_festival_face_03.png.meta",
+          "bytes": 2955,
+          "sha256": "3cbd3d2e598f120bfa38ee9780ff0df98b7df6b5bc7b6cb2c5cf034110e72621"
+        },
+        {
+          "path": "assets/bundles/skin_festival_v2/faces/festival/skin_festival_face_04.png",
+          "bytes": 94510,
+          "sha256": "35dc67c927c165c426de37fc39e820d639c1a20d825db4383f99b75d2ac1b052"
+        },
+        {
+          "path": "assets/bundles/skin_festival_v2/faces/festival/skin_festival_face_04.png.meta",
+          "bytes": 2955,
+          "sha256": "390476b81c0db132b9e74d0be3449f56469509a8e2e6949b5a376b327517439d"
+        },
+        {
+          "path": "assets/bundles/skin_festival_v2/faces/festival/skin_festival_face_05.png",
+          "bytes": 84411,
+          "sha256": "447c08e521cbaffc36c6168cfa5f71fabbd2c506bba5f6893e669efde4000d80"
+        },
+        {
+          "path": "assets/bundles/skin_festival_v2/faces/festival/skin_festival_face_05.png.meta",
+          "bytes": 2955,
+          "sha256": "8f706059219cf3af9cb574f54bd8be12b7fe80926472d71f43cde2a12a10a45b"
+        },
+        {
+          "path": "assets/bundles/skin_festival_v2/faces/festival/skin_festival_face_06.png",
+          "bytes": 82576,
+          "sha256": "508d17c6346c0d22fa2bce807f413c87d59652f89ba6d254f2321050b3e5148a"
+        },
+        {
+          "path": "assets/bundles/skin_festival_v2/faces/festival/skin_festival_face_06.png.meta",
+          "bytes": 2955,
+          "sha256": "20bd96259d4a143ba12f4c335ef53a324a334a60b6d323265e98d92f86bcb53b"
+        },
+        {
+          "path": "assets/bundles/skin_festival_v2/faces/festival/skin_festival_face_07.png",
+          "bytes": 83066,
+          "sha256": "df78eba379c3f3cc58c2ba2eca0a1acf3178842705996f1f614c4c696498af77"
+        },
+        {
+          "path": "assets/bundles/skin_festival_v2/faces/festival/skin_festival_face_07.png.meta",
+          "bytes": 2955,
+          "sha256": "102c2d1f1da51d727e30e00983e7f7ac4f1f9ea58c0f370a0af983f90b41d21e"
+        },
+        {
+          "path": "assets/bundles/skin_festival_v2/faces/festival/skin_festival_face_08.png",
+          "bytes": 81118,
+          "sha256": "431d1f6044632771faa6489aeb3432dd44195eaee7a22be07e019269408ac1f3"
+        },
+        {
+          "path": "assets/bundles/skin_festival_v2/faces/festival/skin_festival_face_08.png.meta",
+          "bytes": 2955,
+          "sha256": "58d752d338400450d6a92571eda21297e31e09e09b225b79b095d585692a31c2"
+        },
+        {
+          "path": "assets/bundles/skin_festival_v2/faces/festival/skin_festival_face_09.png",
+          "bytes": 85421,
+          "sha256": "51a14f761b3caf5c62a66f0a2356bea1cc5df724f5d9b6ba4e54e1e914db3fc0"
+        },
+        {
+          "path": "assets/bundles/skin_festival_v2/faces/festival/skin_festival_face_09.png.meta",
+          "bytes": 2955,
+          "sha256": "03df54a3c86fddddebb7757eaeb9d5fb60e2f1713df16c1ada76d969b340e54d"
+        },
+        {
+          "path": "assets/bundles/skin_festival_v2/faces/festival/skin_festival_face_10.png",
+          "bytes": 81237,
+          "sha256": "2328c21516b5577ff4a706327d35fc3f91714650ffc6417bf4206a5a7cf63a69"
+        },
+        {
+          "path": "assets/bundles/skin_festival_v2/faces/festival/skin_festival_face_10.png.meta",
+          "bytes": 2955,
+          "sha256": "640ad327a55f3258fdbb8256c2cb488681dd85604a88c1285d20b6981359e096"
+        },
+        {
+          "path": "assets/bundles/skin_festival_v2/faces/festival/skin_preview_festival.png",
+          "bytes": 21771,
+          "sha256": "15c9e603f582e2b4237527fc5cae5d0f3e3341529734792c94dadc08c5e1557e"
+        },
+        {
+          "path": "assets/bundles/skin_festival_v2/faces/festival/skin_preview_festival.png.meta",
+          "bytes": 2995,
+          "sha256": "5e4fc495a0855d0a5e32ab31aa673f197911af7da6af8e7d1b535f9a5526db92"
+        }
+      ]
+    }
+  }
+}

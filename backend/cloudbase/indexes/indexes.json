@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "v2-cloudbase-1",
+  "indexes": [
+    {
+      "collection": "players",
+      "name": "openid_unique",
+      "unique": true,
+      "fields": [{ "field": "openid", "direction": "asc" }]
+    },
+    {
+      "collection": "run_sessions",
+      "name": "player_started_desc",
+      "unique": false,
+      "fields": [
+        { "field": "playerId", "direction": "asc" },
+        { "field": "startedAtMs", "direction": "desc" }
+      ]
+    },
+    {
+      "collection": "run_results",
+      "name": "player_completed_desc",
+      "unique": false,
+      "fields": [
+        { "field": "playerId", "direction": "asc" },
+        { "field": "completedAtMs", "direction": "desc" }
+      ]
+    },
+    {
+      "collection": "run_results",
+      "name": "review_queue",
+      "unique": false,
+      "fields": [
+        { "field": "verdict", "direction": "asc" },
+        { "field": "completedAtMs", "direction": "desc" }
+      ]
+    },
+    {
+      "collection": "leaderboard_entries",
+      "name": "period_visible_rank",
+      "unique": false,
+      "fields": [
+        { "field": "periodId", "direction": "asc" },
+        { "field": "status", "direction": "asc" },
+        { "field": "score", "direction": "desc" },
+        { "field": "maxLevel", "direction": "desc" },
+        { "field": "durationMs", "direction": "asc" },
+        { "field": "achievedAtMs", "direction": "asc" },
+        { "field": "playerId", "direction": "asc" }
+      ]
+    },
+    {
+      "collection": "leaderboard_entries",
+      "name": "period_visible_rank_reverse",
+      "unique": false,
+      "fields": [
+        { "field": "periodId", "direction": "asc" },
+        { "field": "status", "direction": "asc" },
+        { "field": "score", "direction": "asc" },
+        { "field": "maxLevel", "direction": "asc" },
+        { "field": "durationMs", "direction": "desc" },
+        { "field": "achievedAtMs", "direction": "desc" },
+        { "field": "playerId", "direction": "desc" }
+      ]
+    }
+  ]
+}

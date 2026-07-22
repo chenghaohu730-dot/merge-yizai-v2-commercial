@@ -1,0 +1,10 @@
+{
+  "name": "skin_coin_v2",
+  "skinId": "coin_v2",
+  "kind": "local-subpackage",
+  "localOnly": true,
+  "compression": "subpackage",
+  "assetSourceRoot": "assets/balls/skins/coin",
+  "skinnableLevels": 10,
+  "finalYizaiFrom": "core_game"
+}

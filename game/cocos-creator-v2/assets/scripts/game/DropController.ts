@@ -7,6 +7,13 @@ import { FaceSpriteRegistry } from "./FaceSpriteRegistry";
 
 const { ccclass, property } = _decorator;
 
+export type SpawnLevelSource = () => number;
+
+export interface FaceDroppedPayload {
+  level: number;
+  normalizedX: number;
+}
+
 @ccclass("DropController")
 export class DropController extends Component {
   @property(GameArea)
@@ -27,6 +34,7 @@ export class DropController extends Component {
 
   private acceptingInput = false;
   private readyToDrop = false;
+  private spawnLevelSource: SpawnLevelSource = () => rollSpawnLevel();
 
   async onLoad(): Promise<void> {
     await FaceSpriteRegistry.loadAll();
@@ -46,10 +54,12 @@ export class DropController extends Component {
     input.off(Input.EventType.TOUCH_CANCEL, this.onTouchEnd, this);
   }
 
-  beginRun(): void {
+  beginRun(spawnLevelSource?: SpawnLevelSource): void {
+    // No source keeps the original Math.random distribution for offline/V1-reference behavior.
+    this.spawnLevelSource = spawnLevelSource || (() => rollSpawnLevel());
     this.dropX = this.gameArea?.dropX || 0;
-    this.currentLevel = rollSpawnLevel();
-    this.nextLevel = rollSpawnLevel();
+    this.currentLevel = this.spawnLevelSource();
+    this.nextLevel = this.spawnLevelSource();
     this.acceptingInput = true;
     this.readyToDrop = true;
     gameEvents.emit(GameEvents.ScoreChanged);
@@ -103,10 +113,19 @@ export class DropController extends Component {
     const rigidBody = node.getComponent(RigidBody2D);
     if (rigidBody) rigidBody.linearVelocity = new Vec2(0, -10);
 
-    gameEvents.emit(GameEvents.FaceDropped, this.currentLevel);
+    const bounds = this.gameArea.bounds;
+    const radius = getFaceDefinition(this.currentLevel).radius;
+    const minimum = bounds.left + radius;
+    const maximum = bounds.right - radius;
+    const normalizedX = maximum <= minimum ? 0 : ((this.dropX - minimum) / (maximum - minimum)) * 2 - 1;
+    const payload: FaceDroppedPayload = {
+      level: this.currentLevel,
+      normalizedX: Math.max(-1, Math.min(1, normalizedX))
+    };
+    gameEvents.emit(GameEvents.FaceDropped, payload);
 
     this.currentLevel = this.nextLevel;
-    this.nextLevel = rollSpawnLevel();
+    this.nextLevel = this.spawnLevelSource();
     this.scheduleOnce(() => {
       this.readyToDrop = this.acceptingInput;
       gameEvents.emit(GameEvents.ScoreChanged);

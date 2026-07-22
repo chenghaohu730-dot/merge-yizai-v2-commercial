@@ -1,5 +1,10 @@
 import { sys } from "cc";
-import { DEFAULT_SKIN_ID, getDefaultUnlockedSkinIds } from "../config/ShopConfig";
+import {
+  DEFAULT_SKIN_ID,
+  getDefaultUnlockedSkinIds,
+  hasSkinDefinition,
+  normalizeSkinId
+} from "../config/ShopConfig";
 import { createDailyTaskStates, todayKey } from "../config/TaskConfig";
 import type { LocalRankEntry, PlayerProfile } from "./GameState";
 
@@ -14,10 +19,13 @@ export class SaveManager {
 
     try {
       const saved = JSON.parse(raw) as Partial<PlayerProfile>;
+      const unlockedSkinIds = this.normalizeSkinIds(saved.unlockedSkinIds || fallback.unlockedSkinIds);
+      const selectedSkinId = normalizeSkinId(saved.selectedSkinId || fallback.selectedSkinId);
       const profile: PlayerProfile = {
         ...fallback,
         ...saved,
-        unlockedSkinIds: saved.unlockedSkinIds?.length ? saved.unlockedSkinIds : fallback.unlockedSkinIds,
+        selectedSkinId: unlockedSkinIds.includes(selectedSkinId) ? selectedSkinId : DEFAULT_SKIN_ID,
+        unlockedSkinIds,
         localRanks: this.normalizeRanks(saved.localRanks || [])
       };
 
@@ -55,5 +63,10 @@ export class SaveManager {
       .filter((rank) => Number.isFinite(rank.score) && Number.isFinite(rank.createdAt))
       .sort((a, b) => b.score - a.score || b.createdAt - a.createdAt)
       .slice(0, 20);
+  }
+
+  private static normalizeSkinIds(skinIds: string[]): string[] {
+    const normalized = skinIds.map(normalizeSkinId).filter(hasSkinDefinition);
+    return [...new Set([DEFAULT_SKIN_ID, ...normalized])];
   }
 }

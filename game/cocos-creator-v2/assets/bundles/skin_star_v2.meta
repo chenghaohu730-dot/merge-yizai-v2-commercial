@@ -1,0 +1,20 @@
+{
+  "ver": "1.2.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "25987048-9c1d-4525-8712-0b0cf81ea677",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "isBundle": true,
+    "bundleName": "skin_star_v2",
+    "bundleConfigID": "auto_dac1brmoFNLe7Zo9JMMpwGv",
+    "priority": 4,
+    "compressionType": {
+      "wechatgame": "subpackage"
+    },
+    "isRemoteBundle": {
+      "wechatgame": false
+    }
+  }
+}

@@ -1,27 +1,76 @@
 {
+  "schemaVersion": 2,
   "currency": "yizaiCoin",
-  "defaultSkinId": "classic_round",
+  "defaultSkinId": "classic_v2",
+  "economyStatus": "provisional-except-default",
+  "finalFacePolicy": "Level 11 always uses the compliant classic Yizai asset. Skins only replace levels 1-10.",
+  "gameplayInvariant": "Skins cannot change radius, mass, friction, restitution, spawn weights or score.",
   "skins": [
     {
-      "id": "classic_round",
-      "name": "经典圆球",
+      "id": "classic_v2",
+      "name": "经典亿仔",
+      "theme": "classic",
       "price": 0,
       "unlockedByDefault": true,
-      "description": "默认头像链外观，不改变数值。"
+      "bundleName": "core_game",
+      "preview": "faces/default/face_01_sprout_bead",
+      "pricingStatus": "locked",
+      "availability": "available"
     },
     {
-      "id": "candy_gloss",
-      "name": "糖果高光",
+      "id": "jelly_v2",
+      "name": "果冻派对",
+      "theme": "jelly",
       "price": 300,
       "unlockedByDefault": false,
-      "description": "只增加外观高光，不改变半径、重量、概率和得分。"
+      "bundleName": "skin_jelly_v2",
+      "preview": "faces/jelly/skin_preview_jelly",
+      "pricingStatus": "provisional",
+      "availability": "available"
     },
     {
-      "id": "sticker_edge",
-      "name": "贴纸描边",
+      "id": "star_v2",
+      "name": "星星电台",
+      "theme": "star",
       "price": 500,
       "unlockedByDefault": false,
-      "description": "只替换边框装饰，不改变玩法数值。"
+      "bundleName": "skin_star_v2",
+      "preview": "faces/star/skin_preview_star",
+      "pricingStatus": "provisional",
+      "availability": "available"
+    },
+    {
+      "id": "cream_v2",
+      "name": "奶油云朵",
+      "theme": "cream",
+      "price": 700,
+      "unlockedByDefault": false,
+      "bundleName": "skin_cream_v2",
+      "preview": "faces/cream/skin_preview_cream",
+      "pricingStatus": "provisional",
+      "availability": "available"
+    },
+    {
+      "id": "coin_v2",
+      "name": "亿仔金币",
+      "theme": "coin",
+      "price": 900,
+      "unlockedByDefault": false,
+      "bundleName": "skin_coin_v2",
+      "preview": "faces/coin/skin_preview_coin",
+      "pricingStatus": "provisional",
+      "availability": "available"
+    },
+    {
+      "id": "festival_v2",
+      "name": "节日糖果",
+      "theme": "festival",
+      "price": 1200,
+      "unlockedByDefault": false,
+      "bundleName": "skin_festival_v2",
+      "preview": "faces/festival/skin_preview_festival",
+      "pricingStatus": "provisional",
+      "availability": "available"
     }
   ]
 }

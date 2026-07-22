@@ -1,0 +1,12 @@
+{
+  "deviceOrientation": "portrait",
+  "subpackages": [
+    { "name": "core_game", "root": "subpackages/core_game" },
+    { "name": "meta_ui", "root": "subpackages/meta_ui" },
+    { "name": "skin_jelly_v2", "root": "subpackages/skin_jelly_v2" },
+    { "name": "skin_star_v2", "root": "subpackages/skin_star_v2" },
+    { "name": "skin_cream_v2", "root": "subpackages/skin_cream_v2" },
+    { "name": "skin_coin_v2", "root": "subpackages/skin_coin_v2" },
+    { "name": "skin_festival_v2", "root": "subpackages/skin_festival_v2" }
+  ]
+}

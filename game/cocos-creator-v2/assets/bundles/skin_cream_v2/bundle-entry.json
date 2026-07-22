@@ -1,0 +1,10 @@
+{
+  "name": "skin_cream_v2",
+  "skinId": "cream_v2",
+  "kind": "local-subpackage",
+  "localOnly": true,
+  "compression": "subpackage",
+  "assetSourceRoot": "assets/balls/skins/cream",
+  "skinnableLevels": 10,
+  "finalYizaiFrom": "core_game"
+}

@@ -1,0 +1,39 @@
+{
+  "hashAlgorithm": "sha256(path\\0bytes\\0)",
+  "mainBytes": 2313447,
+  "mainFiles": 24,
+  "mainSha256": "1d2c8c3073fff50eb6d137f3f311d6fd3d55f6b991de23d3692f9e701e3f9890",
+  "bundles": {
+    "core_game": 6474090,
+    "meta_ui": 3670,
+    "skin_jelly_v2": 806021,
+    "skin_star_v2": 876411,
+    "skin_cream_v2": 824502,
+    "skin_coin_v2": 1004440,
+    "skin_festival_v2": 878275
+  },
+  "bundleFiles": {
+    "core_game": 165,
+    "meta_ui": 9,
+    "skin_jelly_v2": 37,
+    "skin_star_v2": 37,
+    "skin_cream_v2": 37,
+    "skin_coin_v2": 37,
+    "skin_festival_v2": 37
+  },
+  "bundleSha256": {
+    "core_game": "77cfdd922a1f0934902f1f0233746610e1a8da398c3f3d957c50cc1b81ab3de3",
+    "meta_ui": "b95ced785607ea050144dfae7d987b1bff1793649f3bc1743996fcdca89e4a70",
+    "skin_jelly_v2": "4936b0fce0976802ad48190bbaafca67156c71e29b0b731aa6d6a255cb6d1b99",
+    "skin_star_v2": "88fcbfa72d6e2d5b12d5b1cf891c4c0c6070ea5bbde2d4788e74aa76641e64b9",
+    "skin_cream_v2": "e9b4161b73699141841a230a110a74ddd7f27f75f2e73eb6752f8a08991e2f3e",
+    "skin_coin_v2": "564f2cac7170e99c7b5222cf707d278a7810278a4666e8ba6f3239e7f18d20e6",
+    "skin_festival_v2": "6da0f46cdc5c992d078923024f205cf75c67485dd7273c067ce385ec17a5ee7d"
+  },
+  "totalBytes": 13180856,
+  "totalFiles": 383,
+  "totalSha256": "5fc79ef2c6dccbf2af29636eb604acc56d864b40c524c3e8453b221be81ccf0e",
+  "gameJsonPath": "D:\\01_Codex源码项目\\微信小游戏\\game\\cocos-creator-v2\\build\\wechatgame\\game.json",
+  "errors": [],
+  "warnings": []
+}

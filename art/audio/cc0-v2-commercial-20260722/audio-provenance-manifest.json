@@ -1,0 +1,1450 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-22T08:52:32.724Z",
+  "downloadedAt": "2026-07-22",
+  "selectionStatus": "candidate-selected; final device listening remains required before release",
+  "toolchain": {
+    "node": "v24.15.0",
+    "ffmpeg": "ffmpeg version 8.1.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+    "ffprobe": "ffprobe version 8.1.1-full_build-www.gyan.dev Copyright (c) 2007-2026 the FFmpeg developers"
+  },
+  "sources": [
+    {
+      "id": "dustyroom-casual-game-sounds",
+      "title": "Free Casual Game Sounds",
+      "author": "Dustyroom",
+      "sourcePage": "https://dustyroom.com/free-casual-game-sounds/",
+      "downloadUrl": "https://dustyroom.com/casualgamesounds/DM-CGS.zip",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false,
+      "archiveVerification": "HTTP Content-Length matched 8,891,352 bytes; archive listing and selective extraction succeeded.",
+      "archive": {
+        "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/DM-CGS.zip",
+        "bytes": 8891352,
+        "sha256": "7ffc649a641a8b8ee0136d431b5dd69bcf9eeabc250a18285ad984ad09bd4a4f"
+      },
+      "includedLicense": {
+        "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/license.pdf",
+        "bytes": 334540,
+        "sha256": "fa3693afc38aac134361b33d0b73cd7bc1300fdca8c87af813c64fa91b218cca"
+      },
+      "extractedAudio": [
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-01.wav",
+          "bytes": 12318,
+          "sha256": "f23ad46f162e3ca89d4228e29cf7873cbdccbb9f9d529267b68bace53daaa778",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.027687,
+            "bitRate": 3559215,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-02.wav",
+          "bytes": 140882,
+          "sha256": "c795835403e16d55ead769846803f04f5885b6a38de8d1034f83ea3ae2129525",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.502834,
+            "bitRate": 2241407,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-03.wav",
+          "bytes": 61980,
+          "sha256": "cb6febbba59dce8ef1bee80b48891c74280f26f34502ae4b70bb48b466394e8e",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.215374,
+            "bitRate": 2302227,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-04.wav",
+          "bytes": 270606,
+          "sha256": "e9b22e221c391e3fd57855f8cae894de5efc9a8c9ccf3d1903fbf9ac6281af39",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 1.003832,
+            "bitRate": 2156583,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-05.wav",
+          "bytes": 535068,
+          "sha256": "92f88e9401f9dfa403d1277d9a4a2281da57fe6a3729f8c16a2024d5dd50ba28",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 2.003311,
+            "bitRate": 2136734,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-06.wav",
+          "bytes": 416532,
+          "sha256": "71f241daef495837ee9d9a583f562287c551fec9125aa3151d3871036b9d8c6c",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 1.555329,
+            "bitRate": 2142476,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-07.wav",
+          "bytes": 82362,
+          "sha256": "2b8ffec7c0eb499c8c7f860b16ae418028ba0a13f62b015d2ee16322e44dd230",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.292404,
+            "bitRate": 2253375,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-08.wav",
+          "bytes": 228366,
+          "sha256": "1a15843a59b3219d9281084e792c046d4c14de718fdcfa24ef2125c03130c7b2",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.844195,
+            "bitRate": 2164106,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-09.wav",
+          "bytes": 534192,
+          "sha256": "8734bd076c721f5f94a0004d86d48752ebc84e5bfb42362c4eb4538ede641bbd",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 2,
+            "bitRate": 2136768,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-10.wav",
+          "bytes": 376218,
+          "sha256": "44c5776c6415751d9ab6e155b3bd38255ee81436797f8e2cb548943c5b1f4645",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 1.402971,
+            "bitRate": 2145264,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-11.wav",
+          "bytes": 706314,
+          "sha256": "63ed51f3b43667dcb5dc75e7e7edddad417fd611b8a6b577773e834cc33ea07d",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 2.650499,
+            "bitRate": 2131867,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-12.wav",
+          "bytes": 507000,
+          "sha256": "ab398512f9dd40b62abf94f8bced89d812c8f17367cbf9ebd87e6290e83aadb3",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 1.897234,
+            "bitRate": 2137849,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-13.wav",
+          "bytes": 255990,
+          "sha256": "b5d94d5b2e90750de316130cb58d9e64eaf5849fa85c4f21ea43fec02a16d1e7",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.948594,
+            "bitRate": 2158900,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-14.wav",
+          "bytes": 68526,
+          "sha256": "bfd88ed990c514db1074c8b3a5d69e8e21ba7caece468ac3cdc09a508149e180",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.240113,
+            "bitRate": 2283125,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-15.wav",
+          "bytes": 72294,
+          "sha256": "a8bc5b88d7767d30c6e28b4433b9385cdaa12a9a1fedf00a5bbb84b9524fd8c0",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.254399,
+            "bitRate": 2273405,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-16.wav",
+          "bytes": 52194,
+          "sha256": "424e8f427d3943fac810b4a6fdb32fa76998f2c79af51ecb6f760811183db5a8",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.17839,
+            "bitRate": 2340669,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-17.wav",
+          "bytes": 129978,
+          "sha256": "16be1d9fc3242f5593b76d8f6541843d1645211a0b7d3ddb3703547a74dd39d2",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.472358,
+            "bitRate": 2201347,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-18.wav",
+          "bytes": 266382,
+          "sha256": "73d10801514141097a68269e0fc31681ea765cf826d74d0eed9208865b786683",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.987868,
+            "bitRate": 2157227,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-19.wav",
+          "bytes": 92562,
+          "sha256": "0a08009faca43ec5e8062173ed579eab2b154e5b3374dfdb8ce6a296ce961f13",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.330952,
+            "bitRate": 2237472,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-20.wav",
+          "bytes": 30642,
+          "sha256": "2410a12ed43a9796457e4459b8f49bedbe0a6ef9b1aa1b52c1a5e7514ee8cac8",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.096939,
+            "bitRate": 2528765,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-21.wav",
+          "bytes": 37116,
+          "sha256": "c370437cb08ef19de05ea89a0c59d336bc85c26f3e46459139e9848ef295822f",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.121406,
+            "bitRate": 2445744,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-22.wav",
+          "bytes": 62562,
+          "sha256": "1bcf593662d6377cb474d2017cc2d4d759e8f12fe0e30064b65d18e0a00e55c1",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.217574,
+            "bitRate": 2300348,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-23.wav",
+          "bytes": 415494,
+          "sha256": "d526089b4175bc1da7a39b943f31b0994fa59a863c9937b78ec433e07915a7b5",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 1.551406,
+            "bitRate": 2142541,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-24.wav",
+          "bytes": 308580,
+          "sha256": "d9839027d2ccfc992d050cdf0b96e71fa59c25fa8af6d880f4f24da036b01fe4",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 1.147347,
+            "bitRate": 2151607,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-25.wav",
+          "bytes": 401520,
+          "sha256": "80faf3e5014b54311cca0648cb8411885e4dcfbba38e7979866355226713723f",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 1.498594,
+            "bitRate": 2143449,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-26.wav",
+          "bytes": 139380,
+          "sha256": "1ead91423eff0f1b4584182778d89f83fd5be3f9467bc5da7ee7f5c463840da3",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.499841,
+            "bitRate": 2230789,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-27.wav",
+          "bytes": 113028,
+          "sha256": "44daa6ee6747cec7707450e300731f80fbe9015386db37391efc182f2e778a82",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.400249,
+            "bitRate": 2259153,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-28.wav",
+          "bytes": 190824,
+          "sha256": "1ac30cf024c6bcab13c492406dda241b94ada0ee8804736eabc3c93dbdb8ae39",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.702313,
+            "bitRate": 2173663,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-29.wav",
+          "bytes": 163542,
+          "sha256": "b0bf1ff3444ae2b599d15c266ed253cf09cb28103ef67bb514918f49849cc046",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.599206,
+            "bitRate": 2183449,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-30.wav",
+          "bytes": 136782,
+          "sha256": "1b1ad19e5a6ef6dfa9341fe585650e0d9772d233ab98f6e38f495726203c079a",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.498073,
+            "bitRate": 2196979,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-31.wav",
+          "bytes": 76890,
+          "sha256": "f30684a5ec9a933db626b4e167e063993d1daf88c7138a3ea0597cffcd44ba2e",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.271723,
+            "bitRate": 2263775,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-32.wav",
+          "bytes": 54510,
+          "sha256": "718a8f04c9eecc0466dd865fcc64884988df66e18f3fd96ad7e291f2b9b0bd9a",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.187143,
+            "bitRate": 2330196,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-33.wav",
+          "bytes": 333334,
+          "sha256": "a03ab0e5cbdb258d2a286b5f935c1e0d1a012fe5b89002e26a2c0597d76716bb",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 1.259592,
+            "bitRate": 2117091,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-34.wav",
+          "bytes": 37180,
+          "sha256": "4f5ef6d809fa9aba82214b5ccd25f15da717e4509a74765040fe416a246b5e8d",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.14034,
+            "bitRate": 2119424,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-35.wav",
+          "bytes": 58938,
+          "sha256": "1d5b7107ebcfe652f88e96782a9c1913fc07e598c081939c08dbd8ae55142068",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.203878,
+            "bitRate": 2312677,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-36.wav",
+          "bytes": 112848,
+          "sha256": "d45f707bbe8ff98c2cf424280e5c6bec40089908ec6d1da47285b48b11e7de86",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.403628,
+            "bitRate": 2236673,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-37.wav",
+          "bytes": 84216,
+          "sha256": "cac6441f46e97b738c54803579dcef31f9f366353a1c8c87fd7ed48e1d69bdff",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.29941,
+            "bitRate": 2250185,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-38.wav",
+          "bytes": 93090,
+          "sha256": "80b4c619864694ea36d2643435bfb3aa48bbc3ae99dd7ae0cfa23c9b711c9a62",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.332948,
+            "bitRate": 2236745,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-39.wav",
+          "bytes": 109152,
+          "sha256": "251a86ba6a67c6f30c0e5a50a1bd038ce1297ec7fa389be4e61bc0c4eda373f3",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.393651,
+            "bitRate": 2218249,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-40.wav",
+          "bytes": 17676,
+          "sha256": "68a94a613b6d693e7e73435c44405463da5d1789d66cf5a226a6b054c947a8c1",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.047937,
+            "bitRate": 2949871,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-41.wav",
+          "bytes": 66594,
+          "sha256": "0bfc754abd918de0c0f56c8189e9da69506b00086ecc09d7134659dac4453381",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.232812,
+            "bitRate": 2288335,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-42.wav",
+          "bytes": 106314,
+          "sha256": "45943d7b17cc63a1585f35692cbb9ae8be7dc1e43d6d60c3df893f42f37003ca",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.382925,
+            "bitRate": 2221092,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-43.wav",
+          "bytes": 534192,
+          "sha256": "4b86b20eb59ad67b4d88ee1049565cc1ffb033d513a6994de9137e41e079a6a9",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 2,
+            "bitRate": 2136768,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-44.wav",
+          "bytes": 38418,
+          "sha256": "b1dbcf73ea50246a3f0791660064c167d0c891411d4fd4270bbc5546c8e4621d",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.126327,
+            "bitRate": 2432924,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-45.wav",
+          "bytes": 534192,
+          "sha256": "91dd9ebdde539e058bda67fb0b150f30c035addc7857e2e620cdf8f901213034",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 2,
+            "bitRate": 2136768,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-46.wav",
+          "bytes": 100428,
+          "sha256": "b7b1754f0bd236b6e63769cc960799fabd1d86113f8231f520aa33b10914f714",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.36068,
+            "bitRate": 2227525,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-47.wav",
+          "bytes": 68406,
+          "sha256": "3e1fa31017499d83cc2b56a608577e728d1d9e46e5478d45c1be12892f2b3621",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 0.23966,
+            "bitRate": 2283434,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-48.wav",
+          "bytes": 534192,
+          "sha256": "0dce6f2372a425ea647cd1d28137062f38445c582593426e6d45dbce5bb97010",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 2,
+            "bitRate": 2136768,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-49.wav",
+          "bytes": 602100,
+          "sha256": "154de0c7e89b50b9d637b35f171eba4f185c0fd601770ab9ff15c5fb021e095a",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 2.256644,
+            "bitRate": 2134497,
+            "format": "wav"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-50.wav",
+          "bytes": 289290,
+          "sha256": "b3d8490be7b816fda3b380743ac488ce16c2bad3fc5f17893a849ec3343ebd51",
+          "probe": {
+            "codec": "pcm_s24le",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": null,
+            "bitsPerSample": 24,
+            "sampleFormat": "s32",
+            "durationSeconds": 1.074444,
+            "bitRate": 2153969,
+            "format": "wav"
+          }
+        }
+      ]
+    },
+    {
+      "id": "qubodup-two-simple-game-music-loops",
+      "title": "Two Simple Game Music Loops",
+      "author": "qubodup",
+      "sourcePage": "https://opengameart.org/content/two-simple-game-music-loops",
+      "downloadUrls": [
+        "https://opengameart.org/sites/default/files/menumusicloop-tiggo.ogg",
+        "https://opengameart.org/sites/default/files/levelmusicloop-tigrun.ogg"
+      ],
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false,
+      "attributionRequested": "qubodup (optional)",
+      "sourceAudio": [
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/qubodup/menumusicloop-tiggo.ogg",
+          "bytes": 786754,
+          "sha256": "3028433d60fa198ac919a934aef07256e1bf81eeb585f25426fd57f2a76cee7d",
+          "probe": {
+            "codec": "vorbis",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": "stereo",
+            "bitsPerSample": 0,
+            "sampleFormat": "fltp",
+            "durationSeconds": 51.612925,
+            "bitRate": 121946,
+            "format": "ogg"
+          }
+        },
+        {
+          "path": "art/audio/cc0-v2-commercial-20260722/qubodup/levelmusicloop-tigrun.ogg",
+          "bytes": 708976,
+          "sha256": "5323dfe7f172e6b85870790f60027a533bd87bfd233e6c99cab0caf923f68f3f",
+          "probe": {
+            "codec": "vorbis",
+            "sampleRateHz": 44100,
+            "channels": 2,
+            "channelLayout": "stereo",
+            "bitsPerSample": 0,
+            "sampleFormat": "fltp",
+            "durationSeconds": 41.29034,
+            "bitRate": 137364,
+            "format": "ogg"
+          }
+        }
+      ]
+    }
+  ],
+  "derived": [
+    {
+      "key": "button",
+      "bus": "uiSfx",
+      "source": {
+        "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-40.wav",
+        "bytes": 17676,
+        "sha256": "68a94a613b6d693e7e73435c44405463da5d1789d66cf5a226a6b054c947a8c1"
+      },
+      "output": {
+        "path": "game/cocos-creator-v2/assets/bundles/core_game/audio/v2-commercial/button.ogg",
+        "bytes": 4383,
+        "sha256": "585bde3a4f921a788612ee8fafbc860f1f7b0384eb10e849dbff69dd2b8eff6b",
+        "probe": {
+          "codec": "vorbis",
+          "sampleRateHz": 44100,
+          "channels": 1,
+          "channelLayout": "mono",
+          "bitsPerSample": 0,
+          "sampleFormat": "fltp",
+          "durationSeconds": 0.047937,
+          "bitRate": 731460,
+          "format": "ogg"
+        },
+        "volume": {
+          "meanDbfs": -25.3,
+          "peakDbfs": -6.8
+        }
+      },
+      "inputProbe": {
+        "codec": "pcm_s24le",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "channelLayout": null,
+        "bitsPerSample": 24,
+        "sampleFormat": "s32",
+        "durationSeconds": 0.047937,
+        "bitRate": 2949871,
+        "format": "wav"
+      },
+      "inputVolume": {
+        "meanDbfs": -24,
+        "peakDbfs": -5.3
+      },
+      "selectionRationale": "48 ms compact high-frequency click; leaves headroom for repeated UI taps.",
+      "transformation": {
+        "purpose": "Conservative peak normalization, mono downmix and mobile runtime compression.",
+        "gainDb": -0.7,
+        "targetPeakDbfs": -6,
+        "filter": "pan=mono|c0=0.5*c0+0.5*c1,volume=-0.7dB",
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "codec": "libvorbis",
+        "quality": 4,
+        "ffmpegArgs": [
+          "-hide_banner",
+          "-loglevel",
+          "error",
+          "-y",
+          "-i",
+          "D:\\01_Codex源码项目\\微信小游戏\\art\\audio\\cc0-v2-commercial-20260722\\dustyroom\\extracted\\DM-CGS\\WAV\\DM-CGS-40.wav",
+          "-map",
+          "0:a:0",
+          "-vn",
+          "-af",
+          "pan=mono|c0=0.5*c0+0.5*c1,volume=-0.7dB",
+          "-ar",
+          "44100",
+          "-ac",
+          "1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "4",
+          "-map_metadata",
+          "-1",
+          "game/cocos-creator-v2/assets/bundles/core_game/audio/v2-commercial/button.ogg"
+        ]
+      }
+    },
+    {
+      "key": "drop",
+      "bus": "gameSfx",
+      "source": {
+        "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-22.wav",
+        "bytes": 62562,
+        "sha256": "1bcf593662d6377cb474d2017cc2d4d759e8f12fe0e30064b65d18e0a00e55c1"
+      },
+      "output": {
+        "path": "game/cocos-creator-v2/assets/bundles/core_game/audio/v2-commercial/drop.ogg",
+        "bytes": 5502,
+        "sha256": "d6f97cd1a4c6c6b105a4a5249db22d854050a64434ed107ab7ca8eca31fceb6e",
+        "probe": {
+          "codec": "vorbis",
+          "sampleRateHz": 44100,
+          "channels": 1,
+          "channelLayout": "mono",
+          "bitsPerSample": 0,
+          "sampleFormat": "fltp",
+          "durationSeconds": 0.217574,
+          "bitRate": 202303,
+          "format": "ogg"
+        },
+        "volume": {
+          "meanDbfs": -17,
+          "peakDbfs": -3.9
+        }
+      },
+      "inputProbe": {
+        "codec": "pcm_s24le",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "channelLayout": null,
+        "bitsPerSample": 24,
+        "sampleFormat": "s32",
+        "durationSeconds": 0.217574,
+        "bitRate": 2300348,
+        "format": "wav"
+      },
+      "inputVolume": {
+        "meanDbfs": -13.1,
+        "peakDbfs": 0
+      },
+      "selectionRationale": "218 ms rounded low-mid transient suitable for a soft face release.",
+      "transformation": {
+        "purpose": "Conservative peak normalization, mono downmix and mobile runtime compression.",
+        "gainDb": -4,
+        "targetPeakDbfs": -4,
+        "filter": "pan=mono|c0=0.5*c0+0.5*c1,volume=-4dB",
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "codec": "libvorbis",
+        "quality": 4,
+        "ffmpegArgs": [
+          "-hide_banner",
+          "-loglevel",
+          "error",
+          "-y",
+          "-i",
+          "D:\\01_Codex源码项目\\微信小游戏\\art\\audio\\cc0-v2-commercial-20260722\\dustyroom\\extracted\\DM-CGS\\WAV\\DM-CGS-22.wav",
+          "-map",
+          "0:a:0",
+          "-vn",
+          "-af",
+          "pan=mono|c0=0.5*c0+0.5*c1,volume=-4dB",
+          "-ar",
+          "44100",
+          "-ac",
+          "1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "4",
+          "-map_metadata",
+          "-1",
+          "game/cocos-creator-v2/assets/bundles/core_game/audio/v2-commercial/drop.ogg"
+        ]
+      }
+    },
+    {
+      "key": "merge",
+      "bus": "gameSfx",
+      "source": {
+        "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-07.wav",
+        "bytes": 82362,
+        "sha256": "2b8ffec7c0eb499c8c7f860b16ae418028ba0a13f62b015d2ee16322e44dd230"
+      },
+      "output": {
+        "path": "game/cocos-creator-v2/assets/bundles/core_game/audio/v2-commercial/merge.ogg",
+        "bytes": 6102,
+        "sha256": "0e16c870065b9c8a7d7bf8f10c7744f7474adefb3c3eceb005bf5ac2c55ea531",
+        "probe": {
+          "codec": "vorbis",
+          "sampleRateHz": 44100,
+          "channels": 1,
+          "channelLayout": "mono",
+          "bitsPerSample": 0,
+          "sampleFormat": "fltp",
+          "durationSeconds": 0.292404,
+          "bitRate": 166947,
+          "format": "ogg"
+        },
+        "volume": {
+          "meanDbfs": -17.7,
+          "peakDbfs": -3.3
+        }
+      },
+      "inputProbe": {
+        "codec": "pcm_s24le",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "channelLayout": null,
+        "bitsPerSample": 24,
+        "sampleFormat": "s32",
+        "durationSeconds": 0.292404,
+        "bitRate": 2253375,
+        "format": "wav"
+      },
+      "inputVolume": {
+        "meanDbfs": -14.7,
+        "peakDbfs": 0
+      },
+      "selectionRationale": "292 ms rising tonal sweep; remains short enough for rapid merge chains.",
+      "transformation": {
+        "purpose": "Conservative peak normalization, mono downmix and mobile runtime compression.",
+        "gainDb": -3,
+        "targetPeakDbfs": -3,
+        "filter": "pan=mono|c0=0.5*c0+0.5*c1,volume=-3dB",
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "codec": "libvorbis",
+        "quality": 4,
+        "ffmpegArgs": [
+          "-hide_banner",
+          "-loglevel",
+          "error",
+          "-y",
+          "-i",
+          "D:\\01_Codex源码项目\\微信小游戏\\art\\audio\\cc0-v2-commercial-20260722\\dustyroom\\extracted\\DM-CGS\\WAV\\DM-CGS-07.wav",
+          "-map",
+          "0:a:0",
+          "-vn",
+          "-af",
+          "pan=mono|c0=0.5*c0+0.5*c1,volume=-3dB",
+          "-ar",
+          "44100",
+          "-ac",
+          "1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "4",
+          "-map_metadata",
+          "-1",
+          "game/cocos-creator-v2/assets/bundles/core_game/audio/v2-commercial/merge.ogg"
+        ]
+      }
+    },
+    {
+      "key": "big_merge",
+      "bus": "gameSfx",
+      "source": {
+        "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-33.wav",
+        "bytes": 333334,
+        "sha256": "a03ab0e5cbdb258d2a286b5f935c1e0d1a012fe5b89002e26a2c0597d76716bb"
+      },
+      "output": {
+        "path": "game/cocos-creator-v2/assets/bundles/core_game/audio/v2-commercial/big_merge.ogg",
+        "bytes": 15493,
+        "sha256": "3f2d773572b26b7286b887c17bfa808b7df3d68b7c423451c698846360f5fba6",
+        "probe": {
+          "codec": "vorbis",
+          "sampleRateHz": 44100,
+          "channels": 1,
+          "channelLayout": "mono",
+          "bitsPerSample": 0,
+          "sampleFormat": "fltp",
+          "durationSeconds": 1.259592,
+          "bitRate": 98400,
+          "format": "ogg"
+        },
+        "volume": {
+          "meanDbfs": -20.8,
+          "peakDbfs": -2.7
+        }
+      },
+      "inputProbe": {
+        "codec": "pcm_s24le",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "channelLayout": null,
+        "bitsPerSample": 24,
+        "sampleFormat": "s32",
+        "durationSeconds": 1.259592,
+        "bitRate": 2117091,
+        "format": "wav"
+      },
+      "inputVolume": {
+        "meanDbfs": -18.5,
+        "peakDbfs": -0.1
+      },
+      "selectionRationale": "1.26 s harmonic rise gives high-level merges a distinct larger payoff.",
+      "transformation": {
+        "purpose": "Conservative peak normalization, mono downmix and mobile runtime compression.",
+        "gainDb": -1.9,
+        "targetPeakDbfs": -2,
+        "filter": "pan=mono|c0=0.5*c0+0.5*c1,volume=-1.9dB",
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "codec": "libvorbis",
+        "quality": 4,
+        "ffmpegArgs": [
+          "-hide_banner",
+          "-loglevel",
+          "error",
+          "-y",
+          "-i",
+          "D:\\01_Codex源码项目\\微信小游戏\\art\\audio\\cc0-v2-commercial-20260722\\dustyroom\\extracted\\DM-CGS\\WAV\\DM-CGS-33.wav",
+          "-map",
+          "0:a:0",
+          "-vn",
+          "-af",
+          "pan=mono|c0=0.5*c0+0.5*c1,volume=-1.9dB",
+          "-ar",
+          "44100",
+          "-ac",
+          "1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "4",
+          "-map_metadata",
+          "-1",
+          "game/cocos-creator-v2/assets/bundles/core_game/audio/v2-commercial/big_merge.ogg"
+        ]
+      }
+    },
+    {
+      "key": "yizai",
+      "bus": "brandSfx",
+      "source": {
+        "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-26.wav",
+        "bytes": 139380,
+        "sha256": "1ead91423eff0f1b4584182778d89f83fd5be3f9467bc5da7ee7f5c463840da3"
+      },
+      "output": {
+        "path": "game/cocos-creator-v2/assets/bundles/core_game/audio/v2-commercial/yizai.ogg",
+        "bytes": 7842,
+        "sha256": "d2902e019df870b67e068140eccb0150a77e85f274c6f51fdbc14a3e7a3f5cd4",
+        "probe": {
+          "codec": "vorbis",
+          "sampleRateHz": 44100,
+          "channels": 1,
+          "channelLayout": "mono",
+          "bitsPerSample": 0,
+          "sampleFormat": "fltp",
+          "durationSeconds": 0.499841,
+          "bitRate": 125511,
+          "format": "ogg"
+        },
+        "volume": {
+          "meanDbfs": -16.7,
+          "peakDbfs": -2.6
+        }
+      },
+      "inputProbe": {
+        "codec": "pcm_s24le",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "channelLayout": null,
+        "bitsPerSample": 24,
+        "sampleFormat": "s32",
+        "durationSeconds": 0.499841,
+        "bitRate": 2230789,
+        "format": "wav"
+      },
+      "inputVolume": {
+        "meanDbfs": -14.9,
+        "peakDbfs": -0.3
+      },
+      "selectionRationale": "500 ms ascending multi-note figure reserved for the Yizai completion event.",
+      "transformation": {
+        "purpose": "Conservative peak normalization, mono downmix and mobile runtime compression.",
+        "gainDb": -1.7,
+        "targetPeakDbfs": -2,
+        "filter": "pan=mono|c0=0.5*c0+0.5*c1,volume=-1.7dB",
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "codec": "libvorbis",
+        "quality": 4,
+        "ffmpegArgs": [
+          "-hide_banner",
+          "-loglevel",
+          "error",
+          "-y",
+          "-i",
+          "D:\\01_Codex源码项目\\微信小游戏\\art\\audio\\cc0-v2-commercial-20260722\\dustyroom\\extracted\\DM-CGS\\WAV\\DM-CGS-26.wav",
+          "-map",
+          "0:a:0",
+          "-vn",
+          "-af",
+          "pan=mono|c0=0.5*c0+0.5*c1,volume=-1.7dB",
+          "-ar",
+          "44100",
+          "-ac",
+          "1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "4",
+          "-map_metadata",
+          "-1",
+          "game/cocos-creator-v2/assets/bundles/core_game/audio/v2-commercial/yizai.ogg"
+        ]
+      }
+    },
+    {
+      "key": "game_over",
+      "bus": "gameSfx",
+      "source": {
+        "path": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-30.wav",
+        "bytes": 136782,
+        "sha256": "1b1ad19e5a6ef6dfa9341fe585650e0d9772d233ab98f6e38f495726203c079a"
+      },
+      "output": {
+        "path": "game/cocos-creator-v2/assets/bundles/core_game/audio/v2-commercial/game_over.ogg",
+        "bytes": 6968,
+        "sha256": "c35eaf769aa3b3bac3a7c494c37563b8885d12adc400e989a6e78d443de1f1be",
+        "probe": {
+          "codec": "vorbis",
+          "sampleRateHz": 44100,
+          "channels": 1,
+          "channelLayout": "mono",
+          "bitsPerSample": 0,
+          "sampleFormat": "fltp",
+          "durationSeconds": 0.498073,
+          "bitRate": 111919,
+          "format": "ogg"
+        },
+        "volume": {
+          "meanDbfs": -21.8,
+          "peakDbfs": -2.8
+        }
+      },
+      "inputProbe": {
+        "codec": "pcm_s24le",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "channelLayout": null,
+        "bitsPerSample": 24,
+        "sampleFormat": "s32",
+        "durationSeconds": 0.498073,
+        "bitRate": 2196979,
+        "format": "wav"
+      },
+      "inputVolume": {
+        "meanDbfs": -19.3,
+        "peakDbfs": -0.4
+      },
+      "selectionRationale": "498 ms descending tonal gesture communicates failure without a long interruption.",
+      "transformation": {
+        "purpose": "Conservative peak normalization, mono downmix and mobile runtime compression.",
+        "gainDb": -2.6,
+        "targetPeakDbfs": -3,
+        "filter": "pan=mono|c0=0.5*c0+0.5*c1,volume=-2.6dB",
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "codec": "libvorbis",
+        "quality": 4,
+        "ffmpegArgs": [
+          "-hide_banner",
+          "-loglevel",
+          "error",
+          "-y",
+          "-i",
+          "D:\\01_Codex源码项目\\微信小游戏\\art\\audio\\cc0-v2-commercial-20260722\\dustyroom\\extracted\\DM-CGS\\WAV\\DM-CGS-30.wav",
+          "-map",
+          "0:a:0",
+          "-vn",
+          "-af",
+          "pan=mono|c0=0.5*c0+0.5*c1,volume=-2.6dB",
+          "-ar",
+          "44100",
+          "-ac",
+          "1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "4",
+          "-map_metadata",
+          "-1",
+          "game/cocos-creator-v2/assets/bundles/core_game/audio/v2-commercial/game_over.ogg"
+        ]
+      }
+    },
+    {
+      "key": "bgm",
+      "bus": "bgm",
+      "source": {
+        "path": "art/audio/cc0-v2-commercial-20260722/qubodup/levelmusicloop-tigrun.ogg",
+        "bytes": 708976,
+        "sha256": "5323dfe7f172e6b85870790f60027a533bd87bfd233e6c99cab0caf923f68f3f"
+      },
+      "output": {
+        "path": "game/cocos-creator-v2/assets/bundles/core_game/audio/v2-commercial/bgm.mp3",
+        "bytes": 661673,
+        "sha256": "6515e7e240fbc796262cb346771d5e83be938c04fb470bf2a6fe8715e2aaa224",
+        "probe": {
+          "codec": "mp3",
+          "sampleRateHz": 44100,
+          "channels": 2,
+          "channelLayout": "stereo",
+          "bitsPerSample": 0,
+          "sampleFormat": "fltp",
+          "durationSeconds": 41.29034,
+          "bitRate": 128199,
+          "format": "mp3"
+        },
+        "volume": {
+          "meanDbfs": -23.4,
+          "peakDbfs": -5.9
+        },
+        "loudness": {
+          "integratedLufs": -20.44,
+          "truePeakDbfs": -5.9,
+          "loudnessRangeLu": 10.3,
+          "thresholdLufs": -30.76
+        }
+      },
+      "inputProbe": {
+        "codec": "vorbis",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "channelLayout": "stereo",
+        "bitsPerSample": 0,
+        "sampleFormat": "fltp",
+        "durationSeconds": 41.29034,
+        "bitRate": 137364,
+        "format": "ogg"
+      },
+      "inputLoudness": {
+        "integratedLufs": -21.55,
+        "truePeakDbfs": -6.86,
+        "loudnessRangeLu": 10.4,
+        "thresholdLufs": -31.87
+      },
+      "selectionRationale": "The in-game loop from qubodup's matched menu/game pair; kept stereo and normalized by gain only.",
+      "transformation": {
+        "purpose": "Transparent gain-only loudness alignment; no compression or limiting was applied.",
+        "gainDb": 1.55,
+        "targetIntegratedLufs": -20,
+        "targetPeakDbfs": -1.5,
+        "filter": "volume=1.55dB",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "codec": "libmp3lame",
+        "bitRate": 128000,
+        "ffmpegArgs": [
+          "-hide_banner",
+          "-loglevel",
+          "error",
+          "-y",
+          "-i",
+          "D:\\01_Codex源码项目\\微信小游戏\\art\\audio\\cc0-v2-commercial-20260722\\qubodup\\levelmusicloop-tigrun.ogg",
+          "-map",
+          "0:a:0",
+          "-vn",
+          "-af",
+          "volume=1.55dB",
+          "-ar",
+          "44100",
+          "-ac",
+          "2",
+          "-c:a",
+          "libmp3lame",
+          "-b:a",
+          "128k",
+          "-write_xing",
+          "1",
+          "-map_metadata",
+          "-1",
+          "game/cocos-creator-v2/assets/bundles/core_game/audio/v2-commercial/bgm.mp3"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "environment": "dev|staging|prod",
+  "cloudbaseEnvId": "REPLACE_WITH_REAL_ENV_ID",
+  "variables": {
+    "PLAYER_ID_SECRET": "GENERATE_AT_LEAST_32_RANDOM_CHARACTERS",
+    "RUN_ID_SECRET": "GENERATE_AT_LEAST_32_RANDOM_CHARACTERS",
+    "RANK_CURSOR_SECRET": "GENERATE_AT_LEAST_32_RANDOM_CHARACTERS",
+    "RUN_CONFIG_VERSION": "v2-dev-1",
+    "ACTIVE_SEASON_ID": "season:prelaunch"
+  },
+  "neverCommit": [
+    "real secret values",
+    "AppSecret",
+    "OPENID exports"
+  ]
+}

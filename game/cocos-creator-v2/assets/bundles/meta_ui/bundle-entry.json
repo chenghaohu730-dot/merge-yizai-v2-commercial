@@ -1,0 +1,8 @@
+{
+  "name": "meta_ui",
+  "kind": "local-subpackage",
+  "localOnly": true,
+  "compression": "subpackage",
+  "assetSourceRoots": ["assets/data/tasks.json", "assets/data/shop-skins.json"],
+  "requiredPrefabs": ["TaskPanel", "ShopPanel", "RankPanel", "TaskRow", "ShopSkinCard", "RankRow"]
+}

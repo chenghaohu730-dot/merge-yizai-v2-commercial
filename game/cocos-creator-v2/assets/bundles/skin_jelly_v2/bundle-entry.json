@@ -1,0 +1,10 @@
+{
+  "name": "skin_jelly_v2",
+  "skinId": "jelly_v2",
+  "kind": "local-subpackage",
+  "localOnly": true,
+  "compression": "subpackage",
+  "assetSourceRoot": "assets/balls/skins/jelly",
+  "skinnableLevels": 10,
+  "finalYizaiFrom": "core_game"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "core_game",
+  "kind": "local-subpackage",
+  "localOnly": true,
+  "compression": "subpackage",
+  "assetSourceRoots": ["assets/balls/default"],
+  "requiredScenes": ["Home", "Game", "Result"],
+  "requiredPrefabs": ["FaceBall", "StateButton", "CommonModal"]
+}

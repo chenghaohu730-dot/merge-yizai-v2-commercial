@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "clientVersion": "2.0.0-dev",
+  "deliveryMode": "wechat-local-subpackages",
+  "localOnly": true,
+  "externalAssetUrls": [],
+  "rollbackMode": "previous-client-package",
+  "budgets": {
+    "mainMaxBytes": 3460300,
+    "localTotalTargetBytes": 16777216,
+    "localTotalHardMaxBytes": 20971520
+  },
+  "integrity": {
+    "algorithm": "sha256",
+    "inventory": "assets/data/local-bundle-integrity.json",
+    "runtimeDownloadVerification": false,
+    "buildArtifactVerification": true
+  },
+  "bundles": [
+    {
+      "name": "main",
+      "kind": "main",
+      "compression": "merge_all_json",
+      "localOnly": true,
+      "required": true,
+      "loadWhen": "cold-start",
+      "budgetBytes": 3460300,
+      "editorRoot": "assets/main",
+      "sourcePaths": [
+        "assets/main",
+        "assets/data/local-bundle-manifest.json"
+      ],
+      "entryAssets": [
+        "scenes/Boot.scene"
+      ]
+    },
+    {
+      "name": "core_game",
+      "kind": "local-subpackage",
+      "compression": "subpackage",
+      "localOnly": true,
+      "required": true,
+      "loadWhen": "before-home",
+      "budgetBytes": 8912896,
+      "editorRoot": "assets/bundles/core_game",
+      "sourcePaths": [
+        "assets/bundles/core_game"
+      ],
+      "entryAssets": [
+        "scenes/Home.scene",
+        "scenes/Game.scene",
+        "scenes/Result.scene",
+        "prefabs/FaceBall.prefab",
+        "prefabs/StateButton.prefab",
+        "prefabs/CommonModal.prefab"
+      ]
+    },
+    {
+      "name": "meta_ui",
+      "kind": "local-subpackage",
+      "compression": "subpackage",
+      "localOnly": true,
+      "required": false,
+      "loadWhen": "home-idle-or-feature-open",
+      "budgetBytes": 2097152,
+      "editorRoot": "assets/bundles/meta_ui",
+      "sourcePaths": [
+        "assets/bundles/meta_ui",
+        "assets/data/tasks.json",
+        "assets/data/shop-skins.json"
+      ],
+      "entryAssets": [
+        "prefabs/TaskPanel.prefab",
+        "prefabs/ShopPanel.prefab",
+        "prefabs/RankPanel.prefab",
+        "prefabs/TaskRow.prefab",
+        "prefabs/ShopSkinCard.prefab",
+        "prefabs/RankRow.prefab"
+      ]
+    },
+    {
+      "name": "skin_jelly_v2",
+      "kind": "local-subpackage",
+      "compression": "subpackage",
+      "localOnly": true,
+      "required": false,
+      "loadWhen": "unlock-or-equip",
+      "budgetBytes": 1572864,
+      "editorRoot": "assets/bundles/skin_jelly_v2",
+      "sourcePaths": [
+        "assets/bundles/skin_jelly_v2"
+      ],
+      "skinId": "jelly_v2"
+    },
+    {
+      "name": "skin_star_v2",
+      "kind": "local-subpackage",
+      "compression": "subpackage",
+      "localOnly": true,
+      "required": false,
+      "loadWhen": "unlock-or-equip",
+      "budgetBytes": 1572864,
+      "editorRoot": "assets/bundles/skin_star_v2",
+      "sourcePaths": [
+        "assets/bundles/skin_star_v2"
+      ],
+      "skinId": "star_v2"
+    },
+    {
+      "name": "skin_cream_v2",
+      "kind": "local-subpackage",
+      "compression": "subpackage",
+      "localOnly": true,
+      "required": false,
+      "loadWhen": "unlock-or-equip",
+      "budgetBytes": 1572864,
+      "editorRoot": "assets/bundles/skin_cream_v2",
+      "sourcePaths": [
+        "assets/bundles/skin_cream_v2"
+      ],
+      "skinId": "cream_v2"
+    },
+    {
+      "name": "skin_coin_v2",
+      "kind": "local-subpackage",
+      "compression": "subpackage",
+      "localOnly": true,
+      "required": false,
+      "loadWhen": "unlock-or-equip",
+      "budgetBytes": 1572864,
+      "editorRoot": "assets/bundles/skin_coin_v2",
+      "sourcePaths": [
+        "assets/bundles/skin_coin_v2"
+      ],
+      "skinId": "coin_v2"
+    },
+    {
+      "name": "skin_festival_v2",
+      "kind": "local-subpackage",
+      "compression": "subpackage",
+      "localOnly": true,
+      "required": false,
+      "loadWhen": "unlock-or-equip",
+      "budgetBytes": 1572864,
+      "editorRoot": "assets/bundles/skin_festival_v2",
+      "sourcePaths": [
+        "assets/bundles/skin_festival_v2"
+      ],
+      "skinId": "festival_v2"
+    }
+  ],
+  "skinRules": {
+    "defaultSkinId": "classic_v2",
+    "skinnableLevels": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "level11Bundle": "core_game",
+    "level11Resource": "faces/default/face_11_yizai",
+    "failureFallbackSkinId": "classic_v2",
+    "gameplayValuesMutableBySkin": false
+  }
+}

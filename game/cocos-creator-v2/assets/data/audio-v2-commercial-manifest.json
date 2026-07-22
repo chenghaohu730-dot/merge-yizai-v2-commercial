@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-22T08:52:32.724Z",
+  "provenanceManifest": "art/audio/cc0-v2-commercial-20260722/audio-provenance-manifest.json",
+  "legacyFallbackKept": true,
+  "bindingNote": "No AudioService exists in the current skeleton. Bind these extensionless Cocos resource paths to EffectManager AudioClip fields when scenes/prefabs are authored.",
+  "bundles": {
+    "recommended": "core_game local bundle",
+    "firstCoreExperienceMustRemainOffline": true
+  },
+  "clips": {
+    "button": {
+      "resource": "audio/v2-commercial/button",
+      "file": "game/cocos-creator-v2/assets/bundles/core_game/audio/v2-commercial/button.ogg",
+      "bus": "uiSfx",
+      "bytes": 4383,
+      "sha256": "585bde3a4f921a788612ee8fafbc860f1f7b0384eb10e849dbff69dd2b8eff6b",
+      "codec": "vorbis",
+      "durationSeconds": 0.047937,
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "peakDbfs": -6.8,
+      "sourceFile": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-40.wav"
+    },
+    "drop": {
+      "resource": "audio/v2-commercial/drop",
+      "file": "game/cocos-creator-v2/assets/bundles/core_game/audio/v2-commercial/drop.ogg",
+      "bus": "gameSfx",
+      "bytes": 5502,
+      "sha256": "d6f97cd1a4c6c6b105a4a5249db22d854050a64434ed107ab7ca8eca31fceb6e",
+      "codec": "vorbis",
+      "durationSeconds": 0.217574,
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "peakDbfs": -3.9,
+      "sourceFile": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-22.wav"
+    },
+    "merge": {
+      "resource": "audio/v2-commercial/merge",
+      "file": "game/cocos-creator-v2/assets/bundles/core_game/audio/v2-commercial/merge.ogg",
+      "bus": "gameSfx",
+      "bytes": 6102,
+      "sha256": "0e16c870065b9c8a7d7bf8f10c7744f7474adefb3c3eceb005bf5ac2c55ea531",
+      "codec": "vorbis",
+      "durationSeconds": 0.292404,
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "peakDbfs": -3.3,
+      "sourceFile": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-07.wav"
+    },
+    "big_merge": {
+      "resource": "audio/v2-commercial/big_merge",
+      "file": "game/cocos-creator-v2/assets/bundles/core_game/audio/v2-commercial/big_merge.ogg",
+      "bus": "gameSfx",
+      "bytes": 15493,
+      "sha256": "3f2d773572b26b7286b887c17bfa808b7df3d68b7c423451c698846360f5fba6",
+      "codec": "vorbis",
+      "durationSeconds": 1.259592,
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "peakDbfs": -2.7,
+      "sourceFile": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-33.wav"
+    },
+    "yizai": {
+      "resource": "audio/v2-commercial/yizai",
+      "file": "game/cocos-creator-v2/assets/bundles/core_game/audio/v2-commercial/yizai.ogg",
+      "bus": "brandSfx",
+      "bytes": 7842,
+      "sha256": "d2902e019df870b67e068140eccb0150a77e85f274c6f51fdbc14a3e7a3f5cd4",
+      "codec": "vorbis",
+      "durationSeconds": 0.499841,
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "peakDbfs": -2.6,
+      "sourceFile": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-26.wav"
+    },
+    "game_over": {
+      "resource": "audio/v2-commercial/game_over",
+      "file": "game/cocos-creator-v2/assets/bundles/core_game/audio/v2-commercial/game_over.ogg",
+      "bus": "gameSfx",
+      "bytes": 6968,
+      "sha256": "c35eaf769aa3b3bac3a7c494c37563b8885d12adc400e989a6e78d443de1f1be",
+      "codec": "vorbis",
+      "durationSeconds": 0.498073,
+      "sampleRateHz": 44100,
+      "channels": 1,
+      "peakDbfs": -2.8,
+      "sourceFile": "art/audio/cc0-v2-commercial-20260722/dustyroom/extracted/DM-CGS/WAV/DM-CGS-30.wav"
+    },
+    "bgm": {
+      "resource": "audio/v2-commercial/bgm",
+      "file": "game/cocos-creator-v2/assets/bundles/core_game/audio/v2-commercial/bgm.mp3",
+      "bus": "bgm",
+      "bytes": 661673,
+      "sha256": "6515e7e240fbc796262cb346771d5e83be938c04fb470bf2a6fe8715e2aaa224",
+      "codec": "mp3",
+      "durationSeconds": 41.29034,
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "peakDbfs": -5.9,
+      "sourceFile": "art/audio/cc0-v2-commercial-20260722/qubodup/levelmusicloop-tigrun.ogg"
+    }
+  },
+  "sourceOnly": {
+    "menu_bgm": {
+      "file": "art/audio/cc0-v2-commercial-20260722/qubodup/menumusicloop-tiggo.ogg",
+      "note": "Preserved as a matched optional menu loop; not emitted into runtime to avoid increasing the core package."
+    }
+  }
+}

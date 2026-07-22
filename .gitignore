@@ -32,6 +32,8 @@ asset_audit/previews/
 tests/device-checks/
 test-results/
 playwright-report/
+.playwright-cli/
+.tmp_asar_bundle/
 
 # Local platform settings and secrets.
 **/project.private.config.json

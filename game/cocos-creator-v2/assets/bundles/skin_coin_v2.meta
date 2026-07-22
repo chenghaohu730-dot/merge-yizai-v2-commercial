@@ -1,0 +1,20 @@
+{
+  "ver": "1.2.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "3b461ec5-5fd5-4450-ac4d-b801d097c435",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "isBundle": true,
+    "bundleName": "skin_coin_v2",
+    "bundleConfigID": "auto_dac1brmoFNLe7Zo9JMMpwGv",
+    "priority": 2,
+    "compressionType": {
+      "wechatgame": "subpackage"
+    },
+    "isRemoteBundle": {
+      "wechatgame": false
+    }
+  }
+}

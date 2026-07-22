@@ -1,4 +1,4 @@
-import { DEFAULT_SKIN_ID, SKIN_DEFINITIONS, type SkinDefinition } from "../config/ShopConfig";
+import { SKIN_DEFINITIONS, normalizeSkinId, type SkinDefinition } from "../config/ShopConfig";
 import type { PlayerProfile } from "../core/GameState";
 
 export interface SkinViewModel extends SkinDefinition {
@@ -18,18 +18,21 @@ export class ShopService {
   }
 
   static buy(profile: PlayerProfile, skinId: string): boolean {
-    const skin = SKIN_DEFINITIONS.find((item) => item.id === skinId);
-    if (!skin || profile.unlockedSkinIds.includes(skinId) || profile.yizaiCoins < skin.price) return false;
+    const normalizedSkinId = normalizeSkinId(skinId);
+    const skin = SKIN_DEFINITIONS.find((item) => item.id === normalizedSkinId);
+    if (!skin || profile.unlockedSkinIds.includes(normalizedSkinId) || profile.yizaiCoins < skin.price) return false;
 
     profile.yizaiCoins -= skin.price;
-    profile.unlockedSkinIds.push(skinId);
-    profile.selectedSkinId = skinId;
+    profile.unlockedSkinIds.push(normalizedSkinId);
+    profile.selectedSkinId = normalizedSkinId;
     return true;
   }
 
   static select(profile: PlayerProfile, skinId: string): boolean {
-    if (!profile.unlockedSkinIds.includes(skinId)) return false;
-    profile.selectedSkinId = skinId || DEFAULT_SKIN_ID;
+    const normalizedSkinId = normalizeSkinId(skinId);
+    if (!SKIN_DEFINITIONS.some((skin) => skin.id === normalizedSkinId)) return false;
+    if (!profile.unlockedSkinIds.includes(normalizedSkinId)) return false;
+    profile.selectedSkinId = normalizedSkinId;
     return true;
   }
 }

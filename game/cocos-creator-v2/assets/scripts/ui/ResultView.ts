@@ -2,6 +2,7 @@ import { _decorator, Component, Label, Node } from "cc";
 import { getFaceDefinition } from "../config/FaceConfig";
 import { GameEvents, gameEvents } from "../core/EventBus";
 import type { RunSummary } from "../core/GameState";
+import type { RunFinishData } from "../domain/run/RunContracts";
 
 const { ccclass, property } = _decorator;
 
@@ -18,6 +19,9 @@ export class ResultView extends Component {
 
   @property(Label)
   rewardLabel: Label | null = null;
+
+  @property(Label)
+  cloudStatusLabel: Label | null = null;
 
   @property(Node)
   replayButton: Node | null = null;
@@ -45,5 +49,29 @@ export class ResultView extends Component {
     if (this.bestScoreLabel) this.bestScoreLabel.string = String(summary.bestScore);
     if (this.maxFaceLabel) this.maxFaceLabel.string = getFaceDefinition(summary.maxLevel).name;
     if (this.rewardLabel) this.rewardLabel.string = `+${summary.earnedCoins} 亿仔币`;
+    if (this.cloudStatusLabel) this.cloudStatusLabel.string = "";
+  }
+
+  showCloudPending(): void {
+    if (this.cloudStatusLabel) this.cloudStatusLabel.string = "全服榜校验中，不影响本地结算";
+  }
+
+  showCloudDeferred(): void {
+    if (this.cloudStatusLabel) this.cloudStatusLabel.string = "网络暂不可用，恢复后自动重试上榜";
+  }
+
+  showLocalOnly(): void {
+    if (this.cloudStatusLabel) this.cloudStatusLabel.string = "本局为本地局，不参与全服榜";
+  }
+
+  showCloudReceipt(receipt: RunFinishData): void {
+    if (!this.cloudStatusLabel) return;
+    if (receipt.verdict === "valid") {
+      this.cloudStatusLabel.string = `全服榜校验通过 · 服务端 ${receipt.serverScore} 分`;
+    } else if (receipt.verdict === "review") {
+      this.cloudStatusLabel.string = `服务端 ${receipt.serverScore} 分 · 成绩审核中`;
+    } else {
+      this.cloudStatusLabel.string = "本局未通过全服榜校验";
+    }
   }
 }

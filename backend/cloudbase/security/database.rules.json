@@ -1,0 +1,16 @@
+{
+  "format": "deployment-intent-v1",
+  "warning": "This records the required CloudBase console policy. Verify the exact imported rule syntax against the target environment before applying.",
+  "collections": {
+    "players": { "clientRead": false, "clientWrite": false, "cloudFunctionWrite": true },
+    "run_sessions": { "clientRead": false, "clientWrite": false, "cloudFunctionWrite": true },
+    "run_results": { "clientRead": false, "clientWrite": false, "cloudFunctionWrite": true },
+    "leaderboard_entries": { "clientRead": false, "clientWrite": false, "cloudFunctionWrite": true }
+  },
+  "requiredVerification": [
+    "Direct client add/update/remove is denied for every collection",
+    "All public leaderboard reads pass through rank cloud functions",
+    "OPENID is never returned by any cloud function",
+    "Server SDK transaction writes still succeed after rules are enabled"
+  ]
+}

@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { validateLocalBundleSources } from "./validate-cocos-local-bundles.mjs";
 
 const cwd = process.cwd();
 const projectRoot =
@@ -31,6 +32,25 @@ mustExist("assets/scenes/README.md");
 mustExist("assets/prefabs/README.md");
 mustExist("assets/data/asset_manifest.json");
 mustExist("assets/data/resource-gap-report.json");
+mustExist("assets/data/local-bundle-manifest.json");
+mustExist("assets/data/local-bundle-integrity.json");
+for (const scene of [
+  "assets/main/scenes/Boot.scene",
+  "assets/bundles/core_game/scenes/Home.scene",
+  "assets/bundles/core_game/scenes/Game.scene",
+  "assets/bundles/core_game/scenes/Result.scene"
+]) mustExist(scene);
+for (const prefab of [
+  "assets/bundles/core_game/prefabs/FaceBall.prefab",
+  "assets/bundles/core_game/prefabs/StateButton.prefab",
+  "assets/bundles/core_game/prefabs/CommonModal.prefab",
+  "assets/bundles/meta_ui/prefabs/TaskPanel.prefab",
+  "assets/bundles/meta_ui/prefabs/ShopPanel.prefab",
+  "assets/bundles/meta_ui/prefabs/RankPanel.prefab",
+  "assets/bundles/meta_ui/prefabs/TaskRow.prefab",
+  "assets/bundles/meta_ui/prefabs/ShopSkinCard.prefab",
+  "assets/bundles/meta_ui/prefabs/RankRow.prefab"
+]) mustExist(prefab);
 
 const faceChain = readJson("assets/data/face-chain.json");
 if (faceChain) {
@@ -43,8 +63,8 @@ if (faceChain) {
     faceChain.faces.forEach((face, index) => {
       const expectedLevel = index + 1;
       if (face.level !== expectedLevel) errors.push(`Face level order mismatch at ${expectedLevel}.`);
-      const assetPath = `${face.asset}.png`;
-      mustExist(path.join("assets", "resources", assetPath));
+      const assetName = `${path.basename(face.asset)}.png`;
+      mustExist(path.join("assets", "bundles", "core_game", "faces", "default", assetName));
     });
     const yizai = faceChain.faces[10];
     if (yizai.name !== "亿仔" || yizai.ipRules?.visibleText !== "MAEE") {
@@ -67,9 +87,10 @@ if (shop && (!Array.isArray(shop.skins) || !shop.skins.some((skin) => skin.unloc
 
 const buttonStates = readJson("assets/data/button-states.json");
 if (buttonStates) {
+  if (buttonStates.bundle !== "core_game") errors.push("Button states must resolve from core_game.");
   for (const button of buttonStates.buttons || []) {
     for (const state of ["normal", "pressed", "disabled"]) {
-      mustExist(path.join("assets", "resources", `${button[state]}.png`));
+      mustExist(path.join("assets", "bundles", "core_game", `${button[state]}.png`));
     }
   }
 }
@@ -105,8 +126,35 @@ if (assetManifest) {
   }
 }
 
-for (const audio of ["button.wav", "drop.wav", "merge.wav", "big_merge.wav", "game_over.wav", "yizai.wav", "bgm.mp3"]) {
-  mustExist(path.join("assets", "resources", "audio", audio));
+const audioManifest = readJson("assets/data/audio-v2-commercial-manifest.json");
+const requiredAudioKeys = ["button", "drop", "merge", "big_merge", "game_over", "yizai", "bgm"];
+if (audioManifest) {
+  for (const key of requiredAudioKeys) {
+    const clip = audioManifest.clips?.[key];
+    if (!clip) {
+      errors.push(`Missing commercial audio mapping: ${key}.`);
+      continue;
+    }
+    const extension = path.extname(clip.file || "");
+    mustExist(path.join("assets", "bundles", "core_game", `${clip.resource}${extension}`));
+  }
+}
+
+if (fs.existsSync(path.join(projectRoot, "assets", "resources"))) {
+  errors.push("assets/resources must stay absent; it would force the legacy library into the built-in resources bundle.");
+}
+
+const engineSettings = readJson("settings/v2/packages/engine.json");
+const selectedEngineConfig = engineSettings?.modules?.configs?.[engineSettings?.modules?.globalConfigKey];
+if (!selectedEngineConfig) {
+  errors.push("Missing selected minimal engine module configuration.");
+} else {
+  for (const moduleName of ["base", "gfx-webgl", "2d", "ui", "audio", "physics-2d-box2d", "legacy-pipeline"]) {
+    if (!selectedEngineConfig.includeModules?.includes(moduleName)) errors.push(`Missing required engine module: ${moduleName}.`);
+  }
+  for (const forbidden of ["3d", "physics-ammo", "spine-3.8", "video", "webview", "custom-pipeline"]) {
+    if (selectedEngineConfig.includeModules?.includes(forbidden)) errors.push(`Unexpected main-package engine module: ${forbidden}.`);
+  }
 }
 
 const requiredScripts = [
@@ -123,6 +171,13 @@ const requiredScripts = [
   "assets/scripts/platform/WechatAdapter.ts"
 ];
 requiredScripts.forEach(mustExist);
+
+try {
+  const localBundles = validateLocalBundleSources(projectRoot);
+  errors.push(...localBundles.errors.map((error) => `Local bundle: ${error}`));
+} catch (error) {
+  errors.push(`Local bundle validation crashed: ${error.message}`);
+}
 
 if (errors.length > 0) {
   console.error("Cocos V2 validation failed:");

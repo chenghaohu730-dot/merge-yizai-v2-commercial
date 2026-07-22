@@ -1,0 +1,7 @@
+{
+  "name": "main",
+  "kind": "main",
+  "localOnly": true,
+  "compression": "merge_all_json",
+  "entry": "scenes/Boot.scene"
+}

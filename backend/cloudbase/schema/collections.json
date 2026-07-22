@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "v2-cloudbase-1",
+  "collections": {
+    "players": {
+      "primaryKey": "_id",
+      "privateFields": ["openid"],
+      "serverWriteOnly": true
+    },
+    "run_sessions": {
+      "primaryKey": "_id",
+      "ttlCandidate": "submitDeadlineAtMs",
+      "serverWriteOnly": true
+    },
+    "run_results": {
+      "primaryKey": "_id",
+      "immutableIdentity": "runId",
+      "serverWriteOnly": true
+    },
+    "leaderboard_entries": {
+      "primaryKey": "periodId:playerId",
+      "publicReadPath": "cloud-functions-only",
+      "serverWriteOnly": true
+    }
+  }
+}

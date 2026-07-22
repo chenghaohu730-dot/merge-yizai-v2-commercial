@@ -1,0 +1,10 @@
+{
+  "name": "skin_festival_v2",
+  "skinId": "festival_v2",
+  "kind": "local-subpackage",
+  "localOnly": true,
+  "compression": "subpackage",
+  "assetSourceRoot": "assets/balls/skins/festival",
+  "skinnableLevels": 10,
+  "finalYizaiFrom": "core_game"
+}

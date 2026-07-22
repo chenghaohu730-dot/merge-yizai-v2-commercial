@@ -4,6 +4,19 @@
   "private": true,
   "description": "Cocos Creator 3.8 LTS migration workspace for 合成亿仔.",
   "scripts": {
-    "validate": "node ../../tools/validate-cocos-v2.mjs"
-  }
+    "scaffold": "node ../../tools/generate-cocos-v2-scaffold.mjs",
+    "prepare:assets": "node ../../tools/prepare-cocos-v2-local-assets.mjs && node ../../tools/build-v2-commercial-audio.mjs && node ../../tools/configure-cocos-v2-sprite-metas.mjs",
+    "validate": "node ../../tools/validate-cocos-v2.mjs",
+    "validate:bundles": "node ../../tools/validate-cocos-local-bundles.mjs",
+    "integrity:check": "node ../../tools/generate-cocos-local-bundle-integrity.mjs --check",
+    "integrity:write": "node ../../tools/generate-cocos-local-bundle-integrity.mjs --write",
+    "test:bundles": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test ../../tests/assets/local-bundle-contract.test.mjs",
+    "audit:audio": "node ../../tools/audit-v2-commercial-audio.mjs",
+    "audit:bundle-sizes": "node ../../tools/audit-cocos-local-bundle-sizes.mjs",
+    "test": "npm run validate && npm run test:bundles"
+  },
+  "creator": {
+    "version": "3.8.8"
+  },
+  "uuid": "e89e707a-70a1-4e2c-a59b-9370525c8d57"
 }

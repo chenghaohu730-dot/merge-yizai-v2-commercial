@@ -1,0 +1,168 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://merge-yizai.local/contracts/cloudbase-v1.schema.json",
+  "title": "合成亿仔 CloudBase API v1",
+  "type": "object",
+  "$defs": {
+    "baseRequest": {
+      "type": "object",
+      "required": ["apiVersion", "requestId"],
+      "properties": {
+        "apiVersion": { "const": 1 },
+        "requestId": { "type": "string", "minLength": 8, "maxLength": 128 }
+      }
+    },
+    "runEvent": {
+      "oneOf": [
+        {
+          "title": "drop [0, wallTimeMs, normalizedX]",
+          "type": "array",
+          "prefixItems": [
+            { "const": 0 },
+            { "type": "integer", "minimum": 0 },
+            { "type": "integer", "minimum": -10000, "maximum": 10000 }
+          ],
+          "minItems": 3,
+          "maxItems": 3
+        },
+        {
+          "title": "merge [1, wallTimeMs, fromLevel]",
+          "type": "array",
+          "prefixItems": [
+            { "const": 1 },
+            { "type": "integer", "minimum": 0 },
+            { "type": "integer", "minimum": 1, "maximum": 11 }
+          ],
+          "minItems": 3,
+          "maxItems": 3
+        },
+        {
+          "title": "pause/resume [2|3, wallTimeMs]",
+          "type": "array",
+          "prefixItems": [
+            { "enum": [2, 3] },
+            { "type": "integer", "minimum": 0 }
+          ],
+          "minItems": 2,
+          "maxItems": 2
+        },
+        {
+          "title": "warning [4, wallTimeMs, active]",
+          "type": "array",
+          "prefixItems": [
+            { "const": 4 },
+            { "type": "integer", "minimum": 0 },
+            { "enum": [0, 1] }
+          ],
+          "minItems": 3,
+          "maxItems": 3
+        }
+      ]
+    },
+    "runStartRequest": {
+      "allOf": [
+        { "$ref": "#/$defs/baseRequest" },
+        {
+          "type": "object",
+          "required": ["clientVersion", "configVersion"],
+          "properties": {
+            "clientVersion": { "type": "string", "minLength": 1, "maxLength": 64 },
+            "configVersion": { "type": "string", "minLength": 1, "maxLength": 64 }
+          }
+        }
+      ]
+    },
+    "runFinishRequest": {
+      "allOf": [
+        { "$ref": "#/$defs/baseRequest" },
+        {
+          "type": "object",
+          "required": ["runId", "nonce", "configVersion", "eventStream", "finish", "clientClaim"],
+          "properties": {
+            "runId": { "type": "string", "minLength": 3, "maxLength": 128 },
+            "nonce": { "type": "string", "minLength": 8, "maxLength": 128 },
+            "configVersion": { "type": "string", "minLength": 1, "maxLength": 64 },
+            "eventStream": {
+              "type": "object",
+              "required": ["encoding", "events", "sha256"],
+              "properties": {
+                "encoding": { "const": "compact-v1" },
+                "events": { "type": "array", "maxItems": 10000, "items": { "$ref": "#/$defs/runEvent" } },
+                "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+              }
+            },
+            "finish": {
+              "type": "object",
+              "required": ["reason", "wallDurationMs", "activeDurationMs", "warningHoldMs"],
+              "properties": {
+                "reason": { "const": "warning_line" },
+                "wallDurationMs": { "type": "integer", "minimum": 0 },
+                "activeDurationMs": { "type": "integer", "minimum": 0 },
+                "warningHoldMs": { "type": "integer", "minimum": 0 }
+              }
+            },
+            "clientClaim": {
+              "type": "object",
+              "required": ["score", "maxLevel", "dropCount", "mergeCounts", "yizaiCount"],
+              "properties": {
+                "score": { "type": "integer", "minimum": 0 },
+                "maxLevel": { "type": "integer", "minimum": 1, "maximum": 11 },
+                "dropCount": { "type": "integer", "minimum": 0 },
+                "mergeCounts": {
+                  "type": "array",
+                  "minItems": 12,
+                  "maxItems": 12,
+                  "items": { "type": "integer", "minimum": 0 }
+                },
+                "yizaiCount": { "type": "integer", "minimum": 0 }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "rankRequest": {
+      "allOf": [
+        { "$ref": "#/$defs/baseRequest" },
+        {
+          "type": "object",
+          "required": ["periodId"],
+          "properties": {
+            "periodId": { "type": "string", "minLength": 1, "maxLength": 128 },
+            "limit": { "type": "integer", "minimum": 1, "maximum": 100 },
+            "radius": { "type": "integer", "minimum": 1, "maximum": 10 },
+            "cursor": { "type": "string", "maxLength": 2048 }
+          }
+        }
+      ]
+    },
+    "successEnvelope": {
+      "type": "object",
+      "required": ["ok", "requestId", "serverTimeMs", "data"],
+      "properties": {
+        "ok": { "const": true },
+        "requestId": { "type": "string" },
+        "serverTimeMs": { "type": "integer" },
+        "data": {}
+      }
+    },
+    "errorEnvelope": {
+      "type": "object",
+      "required": ["ok", "requestId", "serverTimeMs", "error"],
+      "properties": {
+        "ok": { "const": false },
+        "requestId": { "type": "string" },
+        "serverTimeMs": { "type": "integer" },
+        "error": {
+          "type": "object",
+          "required": ["code", "retryable", "messageKey"],
+          "properties": {
+            "code": { "type": "string" },
+            "retryable": { "type": "boolean" },
+            "messageKey": { "type": "string" }
+          }
+        }
+      }
+    }
+  }
+}

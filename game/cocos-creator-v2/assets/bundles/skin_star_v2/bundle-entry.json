@@ -1,0 +1,10 @@
+{
+  "name": "skin_star_v2",
+  "skinId": "star_v2",
+  "kind": "local-subpackage",
+  "localOnly": true,
+  "compression": "subpackage",
+  "assetSourceRoot": "assets/balls/skins/star",
+  "skinnableLevels": 10,
+  "finalYizaiFrom": "core_game"
+}

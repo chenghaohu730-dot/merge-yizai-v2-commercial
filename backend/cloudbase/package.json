@@ -1,0 +1,11 @@
+{
+  "name": "merge-yizai-cloudbase",
+  "version": "2.0.0",
+  "private": true,
+  "description": "CloudBase leaderboard backend for 合成亿仔 V2.0",
+  "scripts": {
+    "test": "node --test ../../tests/contracts/cloudbase-contracts.test.cjs ../../tests/leaderboard/leaderboard-service.test.cjs ../../tests/cloudbase/cloudbase-package.test.cjs ../../tests/cloudbase/client-wiring.test.cjs",
+    "package:functions": "node scripts/package-functions.cjs",
+    "check": "node --check shared/contracts.cjs && node --check shared/leaderboard-service.cjs && node --check shared/cloudbase-handler.cjs"
+  }
+}
