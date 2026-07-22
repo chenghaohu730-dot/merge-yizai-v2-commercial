@@ -1,0 +1,141 @@
+{
+  "version": "2.0-resource-table-alignment-20260613",
+  "sourceTable": "docs/V2.0美术资源需求表_给GPT.md",
+  "designSize": {
+    "width": 750,
+    "height": 1334
+  },
+  "coordinateSystem": {
+    "source": "top-left",
+    "cocosCanvasOrigin": "center",
+    "rectFormula": {
+      "cocosX": "x + w / 2 - 375",
+      "cocosY": "667 - (y + h / 2)"
+    },
+    "pointFormula": {
+      "cocosX": "x - 375",
+      "cocosY": "667 - y"
+    }
+  },
+  "safeArea": {
+    "designSafePadding": 24,
+    "avoidNotchStatusBarAndWechatCapsule": true,
+    "avoidBottomGestureArea": true,
+    "rule": "Top HUD and bottom control_bar must be shifted or padded by runtime safe-area data in WeChat."
+  },
+  "layout": {
+    "home": {
+      "home_bg": { "x": 0, "y": 0, "w": 750, "h": 1334, "anchor": "top-left", "zIndex": 0 },
+      "home_machine_rect": { "x": 0, "y": 0, "w": 750, "h": 1334, "anchor": "top-left", "zIndex": 10 },
+      "start_button_rect": { "x": 115, "y": 910, "w": 520, "h": 160, "anchor": "top-left", "zIndex": 40 },
+      "task_button_rect": { "x": 580, "y": 790, "w": 150, "h": 150, "anchor": "top-left", "zIndex": 45 },
+      "rank_button_rect": { "x": 580, "y": 955, "w": 150, "h": 150, "anchor": "top-left", "zIndex": 45 },
+      "shop_button_rect": { "x": 55, "y": 1135, "w": 150, "h": 150, "anchor": "top-left", "zIndex": 45 },
+      "daily_goal_rect": { "x": 50, "y": 720, "w": 220, "h": 110, "anchor": "top-left", "zIndex": 35 },
+      "best_score_rect": { "x": 50, "y": 840, "w": 220, "h": 110, "anchor": "top-left", "zIndex": 35 },
+      "coin_balance_rect": { "x": 265, "y": 1120, "w": 220, "h": 90, "anchor": "top-left", "zIndex": 35 }
+    },
+    "game": {
+      "screen": { "x": 0, "y": 0, "w": 750, "h": 1334, "anchor": "top-left", "zIndex": 0 },
+      "hud_top": { "x": 0, "y": 0, "w": 750, "h": 170, "anchor": "top-left", "zIndex": 50 },
+      "playfield_rect": { "x": 65, "y": 230, "w": 620, "h": 780, "anchor": "top-left", "zIndex": 20 },
+      "playfield_bg": { "x": 65, "y": 230, "w": 620, "h": 780, "anchor": "top-left", "zIndex": 10 },
+      "playfield_frame": { "x": 50, "y": 210, "w": 650, "h": 820, "anchor": "top-left", "zIndex": 30 },
+      "physics_rect": { "x": 89, "y": 254, "w": 572, "h": 732, "anchor": "top-left", "derivedFrom": "playfield_rect", "inset": 24 },
+      "warning_line": { "x": 95, "y": 345, "w": 560, "h": 40, "anchor": "top-left", "zIndex": 35 },
+      "warning_line_y": 345,
+      "dropper_anchor": { "x": 375, "y": 210, "anchor": "center", "zIndex": 45 },
+      "control_bar": { "x": 115, "y": 1160, "w": 520, "h": 150, "anchor": "top-left", "zIndex": 50 }
+    }
+  },
+  "ballSafety": {
+    "canvas": [512, 512],
+    "center": [256, 256],
+    "maxSubjectDiameter": 460,
+    "transparentMargin": 26,
+    "collisionCircle": {
+      "cx": 256,
+      "cy": 256,
+      "diameter": 460
+    },
+    "yizaiExtraRule": "MAEE, head accessory, thick eyebrows, black nose and orange-yellow muzzle must stay inside the 460px safety circle."
+  },
+  "bundles": {
+    "main": [
+      "assets/ui/home/home_bg.jpg",
+      "assets/ui/home/home_machine.png",
+      "assets/ui/game/game_shell.png",
+      "assets/ui/game/game_playfield_bg.jpg",
+      "assets/ui/game/game_playfield_frame.png",
+      "assets/ui/game/hud_top.png",
+      "assets/ui/game/control_bar.png",
+      "assets/balls/default/face_01_sprout_bead.png",
+      "assets/balls/default/face_02_peach_puff.png",
+      "assets/balls/default/face_03_heart_jelly.png",
+      "assets/balls/default/face_04_sun_wiggle.png",
+      "assets/balls/default/face_05_sky_spark.png",
+      "assets/balls/default/face_06_cream_smile.png",
+      "assets/balls/default/face_07_seed_sage.png",
+      "assets/balls/default/face_08_grape_zap.png",
+      "assets/balls/default/face_09_flame_grin.png",
+      "assets/balls/default/face_10_crown_star.png",
+      "assets/balls/default/face_11_yizai.png"
+    ],
+    "skins_jelly": [],
+    "skins_star": [],
+    "skins_cream": [],
+    "skins_coin": [],
+    "skins_festival": [],
+    "fx_extra": [
+      "assets/fx/big_merge/fx_big_merge_001.png",
+      "assets/fx/yizai_success/fx_yizai_success_001.png",
+      "assets/fx/coin_fly/fx_coin_fly_001.png"
+    ],
+    "share": [
+      "assets/share/share_card_bg.jpg",
+      "assets/share/store_cover.jpg"
+    ]
+  },
+  "buttonStates": {
+    "soundOn": {
+      "normal": "assets/ui/game/btn_sound_on_normal.png",
+      "pressed": "assets/ui/game/btn_sound_on_pressed.png",
+      "disabled": "assets/ui/game/btn_sound_on_disabled.png"
+    },
+    "soundOff": {
+      "normal": "assets/ui/game/btn_sound_off_normal.png",
+      "pressed": "assets/ui/game/btn_sound_off_pressed.png",
+      "disabled": "assets/ui/game/btn_sound_off_disabled.png"
+    },
+    "pause": {
+      "normal": "assets/ui/game/btn_pause_normal.png",
+      "pressed": "assets/ui/game/btn_pause_pressed.png",
+      "disabled": "assets/ui/game/btn_pause_disabled.png"
+    },
+    "restart": {
+      "normal": "assets/ui/game/btn_restart_normal.png",
+      "pressed": "assets/ui/game/btn_restart_pressed.png",
+      "disabled": "assets/ui/game/btn_restart_disabled.png"
+    },
+    "resume": {
+      "normal": "assets/ui/modal/btn_resume_normal.png",
+      "pressed": "assets/ui/modal/btn_resume_pressed.png",
+      "disabled": "assets/ui/modal/btn_resume_disabled.png"
+    },
+    "pauseHome": {
+      "normal": "assets/ui/modal/btn_pause_home_normal.png",
+      "pressed": "assets/ui/modal/btn_pause_home_pressed.png"
+    },
+    "pauseRestart": {
+      "normal": "assets/ui/modal/btn_pause_restart_normal.png",
+      "pressed": "assets/ui/modal/btn_pause_restart_pressed.png"
+    }
+  },
+  "fx": {
+    "fx_merge_spark": { "dir": "assets/fx/merge_spark/", "frames": 12, "pattern": "fx_merge_spark_{###}.png", "fps": 12, "loop": false, "anchor": [0.5, 0.5] },
+    "fx_big_merge": { "dir": "assets/fx/big_merge/", "frames": 16, "pattern": "fx_big_merge_{###}.png", "fps": 12, "loop": false, "anchor": [0.5, 0.5] },
+    "fx_yizai_success": { "dir": "assets/fx/yizai_success/", "frames": 24, "pattern": "fx_yizai_success_{###}.png", "fps": 12, "loop": false, "anchor": [0.5, 0.5], "mustNotCover": "MAEE" },
+    "fx_coin_fly": { "dir": "assets/fx/coin_fly/", "frames": 16, "pattern": "fx_coin_fly_{###}.png", "fps": 24, "loop": false, "anchor": [0.5, 0.5] },
+    "fx_button_tap": { "dir": "assets/fx/button_tap/", "frames": 8, "pattern": "fx_button_tap_{###}.png", "fps": 24, "loop": false, "anchor": [0.5, 0.5] }
+  }
+}

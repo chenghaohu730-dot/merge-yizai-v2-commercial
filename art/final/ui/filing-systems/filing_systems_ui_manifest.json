@@ -1,0 +1,255 @@
+{
+  "source": "tools/generate-filing-system-ui-assets.mjs",
+  "generated_at": "2026-06-27T04:23:36.952Z",
+  "rule": "Layered UI only: no baked text, no baked switches, no baked list data, no baked badge grid.",
+  "assets": [
+    {
+      "file": "achievement_badge_01.png",
+      "size": [
+        160,
+        160
+      ],
+      "bytes": 0
+    },
+    {
+      "file": "achievement_badge_02.png",
+      "size": [
+        160,
+        160
+      ],
+      "bytes": 0
+    },
+    {
+      "file": "achievement_badge_03.png",
+      "size": [
+        160,
+        160
+      ],
+      "bytes": 0
+    },
+    {
+      "file": "achievement_badge_04.png",
+      "size": [
+        160,
+        160
+      ],
+      "bytes": 0
+    },
+    {
+      "file": "achievement_badge_05.png",
+      "size": [
+        160,
+        160
+      ],
+      "bytes": 0
+    },
+    {
+      "file": "achievement_badge_06.png",
+      "size": [
+        160,
+        160
+      ],
+      "bytes": 0
+    },
+    {
+      "file": "achievement_item_locked.png",
+      "alias_of": "achievement_row_locked.png",
+      "size": [
+        560,
+        120
+      ]
+    },
+    {
+      "file": "achievement_item_unlocked.png",
+      "alias_of": "achievement_row_unlocked.png",
+      "size": [
+        560,
+        120
+      ]
+    },
+    {
+      "file": "achievement_panel_frame.png",
+      "size": [
+        620,
+        760
+      ],
+      "bytes": 0
+    },
+    {
+      "file": "achievement_panel.png",
+      "alias_of": "achievement_panel_frame.png",
+      "size": [
+        620,
+        760
+      ]
+    },
+    {
+      "file": "achievement_row_locked.png",
+      "size": [
+        560,
+        120
+      ],
+      "bytes": 0
+    },
+    {
+      "file": "achievement_row_unlocked.png",
+      "size": [
+        560,
+        120
+      ],
+      "bytes": 0
+    },
+    {
+      "file": "btn_achievement_normal.png",
+      "alias_of": "icon_achievement.png",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "btn_achievement_pressed.png",
+      "alias_of": "icon_achievement.png",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "btn_rank_normal.png",
+      "alias_of": "icon_rank.png",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "btn_rank_pressed.png",
+      "alias_of": "icon_rank.png",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "btn_settings_normal.png",
+      "alias_of": "icon_settings.png",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "btn_settings_pressed.png",
+      "alias_of": "icon_settings.png",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "close_button.png",
+      "size": [
+        96,
+        96
+      ],
+      "bytes": 0
+    },
+    {
+      "file": "icon_achievement.png",
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 0
+    },
+    {
+      "file": "icon_rank.png",
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 0
+    },
+    {
+      "file": "icon_settings.png",
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 0
+    },
+    {
+      "file": "rank_item.png",
+      "alias_of": "rank_row.png",
+      "size": [
+        560,
+        96
+      ]
+    },
+    {
+      "file": "rank_panel_frame.png",
+      "size": [
+        620,
+        800
+      ],
+      "bytes": 0
+    },
+    {
+      "file": "rank_panel.png",
+      "alias_of": "rank_panel_frame.png",
+      "size": [
+        620,
+        800
+      ]
+    },
+    {
+      "file": "rank_row.png",
+      "size": [
+        560,
+        96
+      ],
+      "bytes": 0
+    },
+    {
+      "file": "setting_row.png",
+      "size": [
+        560,
+        112
+      ],
+      "bytes": 0
+    },
+    {
+      "file": "settings_panel_frame.png",
+      "size": [
+        620,
+        860
+      ],
+      "bytes": 0
+    },
+    {
+      "file": "settings_panel.png",
+      "alias_of": "settings_panel_frame.png",
+      "size": [
+        620,
+        860
+      ]
+    },
+    {
+      "file": "toggle_off.png",
+      "size": [
+        180,
+        86
+      ],
+      "bytes": 0
+    },
+    {
+      "file": "toggle_on.png",
+      "size": [
+        180,
+        86
+      ],
+      "bytes": 0
+    }
+  ]
+}

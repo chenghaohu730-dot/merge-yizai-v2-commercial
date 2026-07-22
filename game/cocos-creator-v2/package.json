@@ -1,0 +1,9 @@
+{
+  "name": "merge-yizai-cocos-v2",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Cocos Creator 3.8 LTS migration workspace for 合成亿仔.",
+  "scripts": {
+    "validate": "node ../../tools/validate-cocos-v2.mjs"
+  }
+}

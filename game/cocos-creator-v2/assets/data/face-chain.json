@@ -1,0 +1,41 @@
+{
+  "designWidth": 750,
+  "designHeight": 1334,
+  "maxLevel": 11,
+  "spawnLevels": [
+    { "level": 1, "weight": 45 },
+    { "level": 2, "weight": 30 },
+    { "level": 3, "weight": 18 },
+    { "level": 4, "weight": 7 }
+  ],
+  "faces": [
+    { "level": 1, "name": "芽芽豆", "radius": 29, "diameter": 58, "score": 0, "color": "#56c7a6", "asset": "faces/face_01_sprout_bead" },
+    { "level": 2, "name": "桃桃泡芙", "radius": 36, "diameter": 72, "score": 2, "color": "#f5e8ce", "asset": "faces/face_02_peach_puff" },
+    { "level": 3, "name": "心心果冻", "radius": 46, "diameter": 92, "score": 5, "color": "#f5a8be", "asset": "faces/face_03_heart_jelly" },
+    { "level": 4, "name": "阳光摇摇", "radius": 58, "diameter": 116, "score": 10, "color": "#ffbf48", "asset": "faces/face_04_sun_wiggle" },
+    { "level": 5, "name": "蓝莓惊惊", "radius": 72, "diameter": 144, "score": 20, "color": "#4fa8f5", "asset": "faces/face_05_sky_spark" },
+    { "level": 6, "name": "奶油笑笑", "radius": 88, "diameter": 176, "score": 40, "color": "#ffd866", "asset": "faces/face_06_cream_smile" },
+    { "level": 7, "name": "小芽贤者", "radius": 106, "diameter": 212, "score": 80, "color": "#cbb79a", "asset": "faces/face_07_seed_sage" },
+    { "level": 8, "name": "葡萄电电", "radius": 128, "diameter": 256, "score": 160, "color": "#b899ff", "asset": "faces/face_08_grape_zap" },
+    { "level": 9, "name": "火苗哈哈", "radius": 154, "diameter": 308, "score": 320, "color": "#ff795d", "asset": "faces/face_09_flame_grin" },
+    { "level": 10, "name": "星冠团团", "radius": 184, "diameter": 368, "score": 640, "color": "#6a5cf6", "asset": "faces/face_10_crown_star" },
+    {
+      "level": 11,
+      "name": "亿仔",
+      "radius": 216,
+      "diameter": 432,
+      "score": 1280,
+      "color": "#ffffff",
+      "asset": "faces/face_11_yizai",
+      "ipRules": {
+        "whiteBear": true,
+        "orangeYellowMuzzle": true,
+        "blackNose": true,
+        "thickEyebrows": true,
+        "headAccessory": true,
+        "visibleText": "MAEE"
+      }
+    }
+  ],
+  "doubleYizaiBonusScore": 3000
+}

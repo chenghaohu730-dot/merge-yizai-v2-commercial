@@ -1,0 +1,9 @@
+{
+  "model": "gpt-image-1.5",
+  "size": "1024x1024",
+  "quality": "high",
+  "background": "transparent",
+  "output_format": "png",
+  "out": "art/generated/v2-ai-test/face_01_sprout_bead_test.png",
+  "prompt": "Create one production-quality game sprite for a mobile 2D physics merge game. Subject: an original cute abstract round face ball named sprout bead, low-level starter ball, glossy 3D cartoon candy material, cheerful simple face. CRITICAL physics rule: the visible outer silhouette must be a perfect standard circle, not oval, not squashed, no protrusions. No leaves, crown points, flames, ears, hats, antennae, shadows, highlights, or decorations may extend outside the circular ball edge. The sprout motif must be painted flat on the ball surface inside the circle only. Canvas: square icon, centered circle, generous transparent padding. Output: transparent background PNG with real alpha channel, no white/gray/checkerboard background, no watermark, no extra text, no UI frame. Style: high-quality commercial casual mobile game art, bright, cute, polished, readable at small size."
+}

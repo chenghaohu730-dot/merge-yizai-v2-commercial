@@ -1,0 +1,246 @@
+﻿resourceName,expectedSize,actualSize,expectedFormat,actualFormat,alphaPass,checkerboardBaked,dynamicTextBaked,yizaiPass,stateSetConsistent,physicsSafePass,canAutoFix,fixAction,finalStatus,notes
+home_bg,750x1334,941x1672,JPG,PNG,N/A,NO,NO,N/A,N/A,N/A,YES,按目标比例裁切/缩放并输出 JPG,AUTO_FIXED,首页氛围背景，不带按钮文字、分数数字
+home_machine,750x1334,941x1672,PNG,PNG,NO,NO,NO,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 16.3%；等比居中到 750x1334,AUTO_FIXED,首页机器主体，透明，不能写动态数据
+btn_start_normal,520x160,2260x696,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 27.3%；等比居中到 520x160,AUTO_FIXED,开始游戏按钮 normal
+btn_start_pressed,520x160,2260x696,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 43.3%；等比居中到 520x160,AUTO_FIXED,开始游戏按钮 pressed
+btn_start_disabled,520x160,2260x696,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 36.2%；等比居中到 520x160,AUTO_FIXED,开始游戏按钮 disabled
+btn_task_normal,180x180,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 47.7%；等比居中到 180x180,AUTO_FIXED,任务入口按钮 normal
+btn_task_pressed,180x180,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 75.1%；等比居中到 180x180,AUTO_FIXED,任务入口按钮 pressed
+btn_task_disabled,180x180,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 66.6%；等比居中到 180x180,AUTO_FIXED,任务入口按钮 disabled
+btn_rank_normal,180x180,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 31.9%；等比居中到 180x180,AUTO_FIXED,排行榜入口按钮 normal
+btn_rank_pressed,180x180,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 60.8%；等比居中到 180x180,AUTO_FIXED,排行榜入口按钮 pressed
+btn_rank_disabled,180x180,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 49.3%；等比居中到 180x180,AUTO_FIXED,排行榜入口按钮 disabled
+btn_shop_normal,180x180,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 22.4%；等比居中到 180x180,AUTO_FIXED,商店入口按钮 normal
+btn_shop_pressed,180x180,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 48.9%；等比居中到 180x180,AUTO_FIXED,商店入口按钮 pressed
+btn_shop_disabled,180x180,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 45.4%；等比居中到 180x180,AUTO_FIXED,商店入口按钮 disabled
+panel_daily_goal,220x110,1774x887,PNG,PNG,NO,NO,NO,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 39.2%；等比居中到 220x110,AUTO_FIXED,今日目标数据底板，不写具体数字
+panel_best_score,220x110,1774x887,PNG,PNG,NO,NO,NO,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 42.7%；等比居中到 220x110,AUTO_FIXED,最高分数据底板，不写具体数字
+panel_coin_balance,220x90,1961x802,PNG,PNG,NO,NO,NO,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 56.0%；等比居中到 220x90,AUTO_FIXED,亿仔币余额底板，不写数量
+coin_icon,96x96,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 40.7%；等比居中到 96x96,AUTO_FIXED,亿仔币图标；当前不强制出现亿仔脸或 MAEE
+game_shell,750x1334,940x1672,PNG,PNG,NO,NO,NO,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 12.0%；等比居中到 750x1334,AUTO_FIXED,主游戏机器外壳，不能遮挡玩法仓
+game_playfield_bg,620x780,1118x1407,JPG,JPG,N/A,NO,N/A,N/A,N/A,N/A,YES,按目标比例裁切/缩放并输出 JPG,AUTO_FIXED,玻璃仓内部低干扰背景
+game_playfield_frame,650x820,1117x1409,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 22.1%；等比居中到 650x820,NEEDS_REGEN,玻璃仓边框；中心透明区域仍检测到不透明棋盘格，无法可靠自动修复
+hud_top,750x170,2172x724,PNG,PNG,NO,NO,NO,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 22.5%；等比居中到 750x170,AUTO_FIXED,顶部 HUD 底板，不带数字
+panel_score,220x110,1774x887,PNG,PNG,NO,NO,NO,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 44.3%；等比居中到 220x110,AUTO_FIXED,分数面板，不写具体数字
+panel_best,180x110,1604x980,PNG,PNG,NO,NO,NO,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 33.4%；等比居中到 180x110,AUTO_FIXED,最高分面板，不写具体数字
+panel_next_ball,140x140,1254x1254,PNG,PNG,NO,YES,N/A,N/A,N/A,N/A,YES,从边缘和内部棋盘格生成 alpha，背景占比 69.9%；等比居中到 140x140,AUTO_FIXED,下一个球预览框
+control_bar,520x150,2172x724,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 38.7%；等比居中到 520x150,AUTO_FIXED,底部控制台底板
+btn_sound_on_normal,128x128,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 52.0%；等比居中到 128x128,AUTO_FIXED,声音开启按钮 normal
+btn_sound_on_pressed,128x128,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 53.2%；等比居中到 128x128,AUTO_FIXED,声音开启按钮 pressed
+btn_sound_on_disabled,128x128,1254x1254,PNG,PNG,NO,YES,N/A,N/A,N/A,N/A,YES,从边缘和内部棋盘格生成 alpha，背景占比 55.9%；等比居中到 128x128,AUTO_FIXED,声音开启按钮 disabled
+btn_sound_off_normal,128x128,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 56.5%；等比居中到 128x128,AUTO_FIXED,静音按钮 normal
+btn_sound_off_pressed,128x128,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 56.0%；等比居中到 128x128,AUTO_FIXED,静音按钮 pressed
+btn_sound_off_disabled,128x128,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 58.8%；等比居中到 128x128,AUTO_FIXED,静音按钮 disabled
+btn_pause_normal,128x128,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 56.9%；等比居中到 128x128,AUTO_FIXED,暂停按钮 normal
+btn_pause_pressed,128x128,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 71.2%；等比居中到 128x128,AUTO_FIXED,暂停按钮 pressed
+btn_pause_disabled,128x128,1254x1254,PNG,PNG,NO,YES,N/A,N/A,N/A,N/A,YES,从边缘和内部棋盘格生成 alpha，背景占比 64.6%；等比居中到 128x128,AUTO_FIXED,暂停按钮 disabled
+btn_restart_normal,128x128,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 57.7%；等比居中到 128x128,AUTO_FIXED,重开按钮 normal
+btn_restart_pressed,128x128,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 56.0%；等比居中到 128x128,AUTO_FIXED,重开按钮 pressed
+btn_restart_disabled,128x128,1254x1254,PNG,PNG,NO,YES,N/A,N/A,N/A,N/A,YES,从边缘和内部棋盘格生成 alpha，背景占比 59.8%；等比居中到 128x128,AUTO_FIXED,重开按钮 disabled
+warning_line,560x40,2172x724,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 96.0%；等比居中到 560x40,AUTO_FIXED,失败警戒线
+dropper_head,140x120,1355x1161,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 72.3%；等比居中到 140x120,AUTO_FIXED,投放器头部
+face_01_sprout_bead,512x512,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,YES,YES,从边缘背景生成 alpha，背景占比 67.1%；等比居中到 512x512,AUTO_FIXED,"默认合成球；圆心 256,256，主体最大直径 460px，四周 26px 透明安全边距；bbox 457x460，最小边距 26px"
+face_02_peach_puff,512x512,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,YES,YES,从边缘背景生成 alpha，背景占比 65.5%；等比居中到 512x512,AUTO_FIXED,"默认合成球；圆心 256,256，主体最大直径 460px，四周 26px 透明安全边距；bbox 455x460，最小边距 26px"
+face_03_heart_jelly,512x512,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,YES,YES,从边缘背景生成 alpha，背景占比 68.1%；等比居中到 512x512,AUTO_FIXED,"默认合成球；圆心 256,256，主体最大直径 460px，四周 26px 透明安全边距；bbox 453x460，最小边距 26px"
+face_04_sun_wiggle,512x512,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,YES,YES,从边缘背景生成 alpha，背景占比 67.1%；等比居中到 512x512,AUTO_FIXED,"默认合成球；圆心 256,256，主体最大直径 460px，四周 26px 透明安全边距；bbox 457x459，最小边距 26px"
+face_05_sky_spark,512x512,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,YES,YES,从边缘背景生成 alpha，背景占比 61.2%；等比居中到 512x512,AUTO_FIXED,"默认合成球；圆心 256,256，主体最大直径 460px，四周 26px 透明安全边距；bbox 460x456，最小边距 26px"
+face_06_cream_smile,512x512,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,YES,YES,从边缘背景生成 alpha，背景占比 64.8%；等比居中到 512x512,AUTO_FIXED,"默认合成球；圆心 256,256，主体最大直径 460px，四周 26px 透明安全边距；bbox 451x460，最小边距 26px"
+face_07_seed_sage,512x512,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,YES,YES,从边缘背景生成 alpha，背景占比 61.9%；等比居中到 512x512,AUTO_FIXED,"默认合成球；圆心 256,256，主体最大直径 460px，四周 26px 透明安全边距；bbox 460x460，最小边距 26px"
+face_08_grape_zap,512x512,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,YES,YES,从边缘背景生成 alpha，背景占比 56.1%；等比居中到 512x512,AUTO_FIXED,"默认合成球；圆心 256,256，主体最大直径 460px，四周 26px 透明安全边距；bbox 455x460，最小边距 26px"
+face_09_flame_grin,512x512,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,YES,YES,从边缘背景生成 alpha，背景占比 67.1%；等比居中到 512x512,AUTO_FIXED,"默认合成球；圆心 256,256，主体最大直径 460px，四周 26px 透明安全边距；bbox 457x460，最小边距 26px"
+face_10_crown_star,512x512,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,YES,YES,从边缘背景生成 alpha，背景占比 66.4%；等比居中到 512x512,AUTO_FIXED,"默认合成球；圆心 256,256，主体最大直径 460px，四周 26px 透明安全边距；bbox 455x460，最小边距 26px"
+face_11_yizai,512x512,1254x1254,PNG,PNG,N/A,YES,N/A,NO,N/A,N/A,NO,,NEEDS_REGEN,"默认合成球；圆心 256,256，主体最大直径 460px，四周 26px 透明安全边距；亿仔主体和 MAEE 方向正确，但边缘残留明显棋盘格/白边抠图污染，最终球体必须重新生成透明 PNG"
+skin_jelly_face_01,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,jelly 皮肤球；仅改变前 10 级外观，不影响数值
+skin_jelly_face_02,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,jelly 皮肤球；仅改变前 10 级外观，不影响数值
+skin_jelly_face_03,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,jelly 皮肤球；仅改变前 10 级外观，不影响数值
+skin_jelly_face_04,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,jelly 皮肤球；仅改变前 10 级外观，不影响数值
+skin_jelly_face_05,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,jelly 皮肤球；仅改变前 10 级外观，不影响数值
+skin_jelly_face_06,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,jelly 皮肤球；仅改变前 10 级外观，不影响数值
+skin_jelly_face_07,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,jelly 皮肤球；仅改变前 10 级外观，不影响数值
+skin_jelly_face_08,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,jelly 皮肤球；仅改变前 10 级外观，不影响数值
+skin_jelly_face_09,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,jelly 皮肤球；仅改变前 10 级外观，不影响数值
+skin_jelly_face_10,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,jelly 皮肤球；仅改变前 10 级外观，不影响数值
+skin_preview_jelly,300x300,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,jelly 皮肤商店预览
+skin_star_face_01,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,star 皮肤球；仅改变前 10 级外观，不影响数值
+skin_star_face_02,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,star 皮肤球；仅改变前 10 级外观，不影响数值
+skin_star_face_03,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,star 皮肤球；仅改变前 10 级外观，不影响数值
+skin_star_face_04,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,star 皮肤球；仅改变前 10 级外观，不影响数值
+skin_star_face_05,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,star 皮肤球；仅改变前 10 级外观，不影响数值
+skin_star_face_06,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,star 皮肤球；仅改变前 10 级外观，不影响数值
+skin_star_face_07,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,star 皮肤球；仅改变前 10 级外观，不影响数值
+skin_star_face_08,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,star 皮肤球；仅改变前 10 级外观，不影响数值
+skin_star_face_09,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,star 皮肤球；仅改变前 10 级外观，不影响数值
+skin_star_face_10,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,star 皮肤球；仅改变前 10 级外观，不影响数值
+skin_preview_star,300x300,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,star 皮肤商店预览
+skin_cream_face_01,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,cream 皮肤球；仅改变前 10 级外观，不影响数值
+skin_cream_face_02,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,cream 皮肤球；仅改变前 10 级外观，不影响数值
+skin_cream_face_03,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,cream 皮肤球；仅改变前 10 级外观，不影响数值
+skin_cream_face_04,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,cream 皮肤球；仅改变前 10 级外观，不影响数值
+skin_cream_face_05,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,cream 皮肤球；仅改变前 10 级外观，不影响数值
+skin_cream_face_06,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,cream 皮肤球；仅改变前 10 级外观，不影响数值
+skin_cream_face_07,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,cream 皮肤球；仅改变前 10 级外观，不影响数值
+skin_cream_face_08,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,cream 皮肤球；仅改变前 10 级外观，不影响数值
+skin_cream_face_09,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,cream 皮肤球；仅改变前 10 级外观，不影响数值
+skin_cream_face_10,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,cream 皮肤球；仅改变前 10 级外观，不影响数值
+skin_preview_cream,300x300,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,cream 皮肤商店预览
+skin_coin_face_01,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,coin 皮肤球；仅改变前 10 级外观，不影响数值
+skin_coin_face_02,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,coin 皮肤球；仅改变前 10 级外观，不影响数值
+skin_coin_face_03,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,coin 皮肤球；仅改变前 10 级外观，不影响数值
+skin_coin_face_04,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,coin 皮肤球；仅改变前 10 级外观，不影响数值
+skin_coin_face_05,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,coin 皮肤球；仅改变前 10 级外观，不影响数值
+skin_coin_face_06,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,coin 皮肤球；仅改变前 10 级外观，不影响数值
+skin_coin_face_07,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,coin 皮肤球；仅改变前 10 级外观，不影响数值
+skin_coin_face_08,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,coin 皮肤球；仅改变前 10 级外观，不影响数值
+skin_coin_face_09,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,coin 皮肤球；仅改变前 10 级外观，不影响数值
+skin_coin_face_10,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,coin 皮肤球；仅改变前 10 级外观，不影响数值
+skin_preview_coin,300x300,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,coin 皮肤商店预览
+skin_festival_face_01,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,festival 皮肤球；仅改变前 10 级外观，不影响数值
+skin_festival_face_02,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,festival 皮肤球；仅改变前 10 级外观，不影响数值
+skin_festival_face_03,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,festival 皮肤球；仅改变前 10 级外观，不影响数值
+skin_festival_face_04,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,festival 皮肤球；仅改变前 10 级外观，不影响数值
+skin_festival_face_05,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,festival 皮肤球；仅改变前 10 级外观，不影响数值
+skin_festival_face_06,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,festival 皮肤球；仅改变前 10 级外观，不影响数值
+skin_festival_face_07,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,festival 皮肤球；仅改变前 10 级外观，不影响数值
+skin_festival_face_08,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,festival 皮肤球；仅改变前 10 级外观，不影响数值
+skin_festival_face_09,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,festival 皮肤球；仅改变前 10 级外观，不影响数值
+skin_festival_face_10,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,festival 皮肤球；仅改变前 10 级外观，不影响数值
+skin_preview_festival,300x300,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,festival 皮肤商店预览
+modal_base,620x760,1133x1388,PNG,PNG,NO,NO,NO,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 19.0%；等比居中到 620x760,AUTO_FIXED,通用弹窗底板，不带具体文字
+pause_panel,620x620,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 37.7%；等比居中到 620x620,AUTO_FIXED,暂停弹窗底板
+btn_resume_normal,300x100,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,继续游戏按钮 normal
+btn_resume_pressed,300x100,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,继续游戏按钮 pressed
+btn_resume_disabled,300x100,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,继续游戏按钮 disabled
+btn_pause_home_normal,260x86,2180x721,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 43.8%；等比居中到 260x86,AUTO_FIXED,暂停页返回大厅按钮 normal
+btn_pause_home_pressed,260x86,2180x721,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 46.2%；等比居中到 260x86,AUTO_FIXED,暂停页返回大厅按钮 pressed
+btn_pause_restart_normal,260x86,2180x721,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 47.5%；等比居中到 260x86,AUTO_FIXED,暂停页重新开始按钮 normal
+btn_pause_restart_pressed,260x86,2180x721,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 46.9%；等比居中到 260x86,AUTO_FIXED,暂停页重新开始按钮 pressed
+task_panel,620x760,1133x1388,PNG,PNG,NO,NO,NO,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 27.9%；等比居中到 620x760,AUTO_FIXED,任务弹窗，不写具体任务文案
+task_item,560x100,2968x530,PNG,PNG,NO,NO,NO,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 4.1%；等比居中到 560x100,AUTO_FIXED,单条任务底板，留进度和领取区域
+btn_claim_normal,180x72,1983x793,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 34.6%；等比居中到 180x72,AUTO_FIXED,领取按钮 normal
+btn_claim_pressed,180x72,1983x793,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 62.2%；等比居中到 180x72,AUTO_FIXED,领取按钮 pressed
+btn_claim_disabled,180x72,1983x793,PNG,PNG,NO,YES,N/A,N/A,N/A,N/A,YES,从边缘和内部棋盘格生成 alpha，背景占比 67.5%；等比居中到 180x72,AUTO_FIXED,领取按钮 disabled
+shop_panel,620x860,1065x1477,PNG,PNG,NO,NO,NO,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 19.7%；等比居中到 620x860,AUTO_FIXED,商店弹窗，不写具体价格和名字
+shop_card,250x300,1145x1374,PNG,PNG,NO,NO,NO,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 28.6%；等比居中到 250x300,AUTO_FIXED,皮肤卡片底板，留预览、价格、按钮区域
+btn_buy_normal,180x72,1983x793,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 38.1%；等比居中到 180x72,AUTO_FIXED,购买按钮 normal
+btn_buy_pressed,180x72,1983x793,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 34.6%；等比居中到 180x72,AUTO_FIXED,购买按钮 pressed
+btn_buy_disabled,180x72,1983x793,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 41.5%；等比居中到 180x72,AUTO_FIXED,购买按钮 disabled
+btn_use_normal,180x72,1983x793,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 44.6%；等比居中到 180x72,AUTO_FIXED,使用按钮 normal
+btn_use_pressed,180x72,1983x793,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 29.6%；等比居中到 180x72,AUTO_FIXED,使用按钮 pressed
+btn_use_disabled,180x72,1983x793,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 47.5%；等比居中到 180x72,AUTO_FIXED,使用按钮 disabled
+rank_panel,620x860,1065x1477,PNG,PNG,N/A,NO,YES,N/A,N/A,N/A,NO,,NEEDS_REGEN,"排行榜弹窗，不写具体排名和名字；OCR 疑似动态数字：ve
+
+eo@:s- ))
+
+a * ETT 18 t=
+
+|
+
+| |
+
+/ ]
+\
+
+|_|
+
+N
+
+|"
+rank_item,560x96,2172x724,PNG,PNG,NO,NO,NO,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 51.2%；等比居中到 560x96,AUTO_FIXED,单条排行底板，留头像、名次、昵称、分数区域
+result_panel,620x760,1133x1388,PNG,PNG,N/A,NO,YES,N/A,N/A,N/A,NO,,NEEDS_REGEN,"结算弹窗，不写分数数字；OCR 疑似动态数字：Toh vac POW re Se ae
+( ‘ ""ae AD 8 Aa —a }
+ee | rip Geo S¢
+=S =o.
+S 4
+| Ww LT
+Ke "
+btn_again_normal,300x100,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,再来一局按钮 normal
+btn_again_pressed,300x100,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,再来一局按钮 pressed
+btn_share_normal,300x100,2172x724,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 35.1%；等比居中到 300x100,AUTO_FIXED,分享成绩按钮 normal
+btn_share_pressed,300x100,2172x724,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 43.7%；等比居中到 300x100,AUTO_FIXED,分享成绩按钮 pressed
+btn_share_disabled,300x100,2172x724,PNG,PNG,NO,YES,N/A,N/A,N/A,N/A,YES,从边缘和内部棋盘格生成 alpha，背景占比 62.8%；等比居中到 300x100,AUTO_FIXED,分享成绩按钮 disabled
+btn_home_normal,260x86,2180x721,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 50.0%；等比居中到 260x86,AUTO_FIXED,返回大厅按钮 normal
+btn_home_pressed,260x86,2180x721,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 49.8%；等比居中到 260x86,AUTO_FIXED,返回大厅按钮 pressed
+btn_close_normal,96x96,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 53.5%；等比居中到 96x96,AUTO_FIXED,弹窗关闭按钮 normal
+btn_close_pressed,96x96,1254x1254,PNG,PNG,NO,NO,N/A,N/A,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 59.4%；等比居中到 96x96,AUTO_FIXED,弹窗关闭按钮 pressed
+fx_merge_spark_001,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,普通合成特效；序列帧 1/12，fps 12
+fx_merge_spark_002,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,普通合成特效；序列帧 2/12，fps 12
+fx_merge_spark_003,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,普通合成特效；序列帧 3/12，fps 12
+fx_merge_spark_004,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,普通合成特效；序列帧 4/12，fps 12
+fx_merge_spark_005,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,普通合成特效；序列帧 5/12，fps 12
+fx_merge_spark_006,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,普通合成特效；序列帧 6/12，fps 12
+fx_merge_spark_007,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,普通合成特效；序列帧 7/12，fps 12
+fx_merge_spark_008,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,普通合成特效；序列帧 8/12，fps 12
+fx_merge_spark_009,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,普通合成特效；序列帧 9/12，fps 12
+fx_merge_spark_010,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,普通合成特效；序列帧 10/12，fps 12
+fx_merge_spark_011,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,普通合成特效；序列帧 11/12，fps 12
+fx_merge_spark_012,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,普通合成特效；序列帧 12/12，fps 12
+fx_big_merge_001,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,高等级合成特效；序列帧 1/16，fps 12
+fx_big_merge_002,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,高等级合成特效；序列帧 2/16，fps 12
+fx_big_merge_003,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,高等级合成特效；序列帧 3/16，fps 12
+fx_big_merge_004,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,高等级合成特效；序列帧 4/16，fps 12
+fx_big_merge_005,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,高等级合成特效；序列帧 5/16，fps 12
+fx_big_merge_006,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,高等级合成特效；序列帧 6/16，fps 12
+fx_big_merge_007,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,高等级合成特效；序列帧 7/16，fps 12
+fx_big_merge_008,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,高等级合成特效；序列帧 8/16，fps 12
+fx_big_merge_009,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,高等级合成特效；序列帧 9/16，fps 12
+fx_big_merge_010,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,高等级合成特效；序列帧 10/16，fps 12
+fx_big_merge_011,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,高等级合成特效；序列帧 11/16，fps 12
+fx_big_merge_012,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,高等级合成特效；序列帧 12/16，fps 12
+fx_big_merge_013,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,高等级合成特效；序列帧 13/16，fps 12
+fx_big_merge_014,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,高等级合成特效；序列帧 14/16，fps 12
+fx_big_merge_015,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,高等级合成特效；序列帧 15/16，fps 12
+fx_big_merge_016,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,高等级合成特效；序列帧 16/16，fps 12
+fx_yizai_success_001,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,合出亿仔特效，不能遮住 MAEE；序列帧 1/24，fps 12
+fx_yizai_success_002,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,合出亿仔特效，不能遮住 MAEE；序列帧 2/24，fps 12
+fx_yizai_success_003,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,合出亿仔特效，不能遮住 MAEE；序列帧 3/24，fps 12
+fx_yizai_success_004,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,合出亿仔特效，不能遮住 MAEE；序列帧 4/24，fps 12
+fx_yizai_success_005,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,合出亿仔特效，不能遮住 MAEE；序列帧 5/24，fps 12
+fx_yizai_success_006,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,合出亿仔特效，不能遮住 MAEE；序列帧 6/24，fps 12
+fx_yizai_success_007,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,合出亿仔特效，不能遮住 MAEE；序列帧 7/24，fps 12
+fx_yizai_success_008,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,合出亿仔特效，不能遮住 MAEE；序列帧 8/24，fps 12
+fx_yizai_success_009,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,合出亿仔特效，不能遮住 MAEE；序列帧 9/24，fps 12
+fx_yizai_success_010,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,合出亿仔特效，不能遮住 MAEE；序列帧 10/24，fps 12
+fx_yizai_success_011,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,合出亿仔特效，不能遮住 MAEE；序列帧 11/24，fps 12
+fx_yizai_success_012,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,合出亿仔特效，不能遮住 MAEE；序列帧 12/24，fps 12
+fx_yizai_success_013,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,合出亿仔特效，不能遮住 MAEE；序列帧 13/24，fps 12
+fx_yizai_success_014,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,合出亿仔特效，不能遮住 MAEE；序列帧 14/24，fps 12
+fx_yizai_success_015,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,合出亿仔特效，不能遮住 MAEE；序列帧 15/24，fps 12
+fx_yizai_success_016,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,合出亿仔特效，不能遮住 MAEE；序列帧 16/24，fps 12
+fx_yizai_success_017,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,合出亿仔特效，不能遮住 MAEE；序列帧 17/24，fps 12
+fx_yizai_success_018,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,合出亿仔特效，不能遮住 MAEE；序列帧 18/24，fps 12
+fx_yizai_success_019,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,合出亿仔特效，不能遮住 MAEE；序列帧 19/24，fps 12
+fx_yizai_success_020,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,合出亿仔特效，不能遮住 MAEE；序列帧 20/24，fps 12
+fx_yizai_success_021,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,合出亿仔特效，不能遮住 MAEE；序列帧 21/24，fps 12
+fx_yizai_success_022,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,合出亿仔特效，不能遮住 MAEE；序列帧 22/24，fps 12
+fx_yizai_success_023,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,合出亿仔特效，不能遮住 MAEE；序列帧 23/24，fps 12
+fx_yizai_success_024,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,合出亿仔特效，不能遮住 MAEE；序列帧 24/24，fps 12
+fx_coin_fly_001,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,获得亿仔币动效；序列帧 1/16，fps 24
+fx_coin_fly_002,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,获得亿仔币动效；序列帧 2/16，fps 24
+fx_coin_fly_003,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,获得亿仔币动效；序列帧 3/16，fps 24
+fx_coin_fly_004,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,获得亿仔币动效；序列帧 4/16，fps 24
+fx_coin_fly_005,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,获得亿仔币动效；序列帧 5/16，fps 24
+fx_coin_fly_006,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,获得亿仔币动效；序列帧 6/16，fps 24
+fx_coin_fly_007,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,获得亿仔币动效；序列帧 7/16，fps 24
+fx_coin_fly_008,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,获得亿仔币动效；序列帧 8/16，fps 24
+fx_coin_fly_009,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,获得亿仔币动效；序列帧 9/16，fps 24
+fx_coin_fly_010,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,获得亿仔币动效；序列帧 10/16，fps 24
+fx_coin_fly_011,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,获得亿仔币动效；序列帧 11/16，fps 24
+fx_coin_fly_012,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,获得亿仔币动效；序列帧 12/16，fps 24
+fx_coin_fly_013,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,获得亿仔币动效；序列帧 13/16，fps 24
+fx_coin_fly_014,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,获得亿仔币动效；序列帧 14/16，fps 24
+fx_coin_fly_015,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,获得亿仔币动效；序列帧 15/16，fps 24
+fx_coin_fly_016,1024x1024,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,获得亿仔币动效；序列帧 16/16，fps 24
+fx_button_tap_001,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,按钮点击反馈；序列帧 1/8，fps 24
+fx_button_tap_002,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,按钮点击反馈；序列帧 2/8，fps 24
+fx_button_tap_003,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,按钮点击反馈；序列帧 3/8，fps 24
+fx_button_tap_004,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,按钮点击反馈；序列帧 4/8，fps 24
+fx_button_tap_005,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,按钮点击反馈；序列帧 5/8，fps 24
+fx_button_tap_006,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,按钮点击反馈；序列帧 6/8，fps 24
+fx_button_tap_007,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,按钮点击反馈；序列帧 7/8，fps 24
+fx_button_tap_008,512x512,MISSING,PNG,MISSING,N/A,N/A,N/A,N/A,N/A,N/A,NO,,MISSING,按钮点击反馈；序列帧 8/8，fps 24
+share_card_bg,1200x960,1200x960,JPG,PNG,N/A,NO,NO,PASS,N/A,N/A,YES,按目标比例裁切/缩放并输出 JPG,AUTO_FIXED,微信分享图背景，留分数/最高合成/亿仔头像区域
+app_icon,1024x1024,1024x1024,PNG,PNG,NO,NO,N/A,PASS,N/A,N/A,YES,从边缘背景生成 alpha，背景占比 3.6%；等比居中到 1024x1024,AUTO_FIXED,小游戏图标，小尺寸下 MAEE 尽量清晰
+store_cover,1280x720,1280x720,JPG,PNG,N/A,NO,NO,PASS,N/A,N/A,YES,按目标比例裁切/缩放并输出 JPG,AUTO_FIXED,微信后台/宣传封面，亿仔必须符合参考图
+loading_bg,750x1334,750x1334,JPG,PNG,N/A,NO,NO,N/A,N/A,N/A,YES,按目标比例裁切/缩放并输出 JPG,AUTO_FIXED,加载页背景，留进度条位置，不带动态数字
+loading_bar_bg,520x50,520x50,PNG,PNG,YES,NO,NO,N/A,N/A,N/A,YES,已有真实 alpha；等比居中到 520x50,PASS,进度条底板，不带数字
+loading_bar_fill,520x50,520x50,PNG,PNG,YES,NO,NO,N/A,N/A,N/A,YES,已有真实 alpha；等比居中到 520x50,PASS,进度条填充，可横向裁切，不带百分比

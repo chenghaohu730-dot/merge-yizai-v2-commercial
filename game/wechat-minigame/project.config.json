@@ -1,0 +1,27 @@
+{
+  "appid": "touristappid",
+  "compileType": "game",
+  "libVersion": "3.8.10",
+  "projectname": "合成亿仔",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "postcss": false,
+    "minified": true,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": false,
+    "uploadWithSourceMap": true
+  },
+  "condition": {},
+  "packOptions": {
+    "ignore": [
+      {
+        "type": "folder",
+        "value": "test"
+      }
+    ]
+  }
+}
+

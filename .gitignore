@@ -1,0 +1,55 @@
+# Broken repository metadata is retained for recovery, never committed.
+.git.broken-*/
+
+# Dependencies and generated build output.
+**/node_modules/
+**/dist/
+**/build/
+**/library/
+**/temp/
+**/.cache/
+**/coverage/
+**/__pycache__/
+*.py[cod]
+
+# Cocos Creator local/editor state. Project settings remain tracked.
+game/cocos-creator-v2/local/
+game/cocos-creator-v2/profiles/
+
+# Large reproducible delivery/install artifacts.
+downloads/
+exports/
+
+# Historical and intermediate art sources; approved source/final art stays tracked.
+art/backup/
+art/generated/
+art/rejected/
+assets_raw/
+assets_rejected/
+asset_audit/previews/
+
+# Generated test screenshots and browser traces.
+tests/device-checks/
+test-results/
+playwright-report/
+
+# Local platform settings and secrets.
+**/project.private.config.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs and temporary files.
+*.log
+*.tmp
+*.bak
+*.swp
+
+# OS metadata.
+Thumbs.db
+Desktop.ini
+.DS_Store

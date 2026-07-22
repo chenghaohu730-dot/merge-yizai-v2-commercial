@@ -1,0 +1,11 @@
+{
+  "dailyResetHour": 0,
+  "coinName": "亿仔币",
+  "tasks": [
+    { "id": "daily_login", "title": "每日登录", "type": "login", "target": 1, "rewardCoins": 20 },
+    { "id": "finish_rounds_3", "title": "完成 3 局", "type": "finish_rounds", "target": 3, "rewardCoins": 40 },
+    { "id": "merge_level_5", "title": "合成到 5 级", "type": "max_level", "target": 5, "rewardCoins": 50 },
+    { "id": "share_once", "title": "分享 1 次", "type": "share", "target": 1, "rewardCoins": 30 },
+    { "id": "merge_yizai", "title": "合出亿仔", "type": "max_level", "target": 11, "rewardCoins": 200 }
+  ]
+}

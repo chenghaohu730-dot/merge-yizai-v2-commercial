@@ -1,0 +1,19 @@
+{
+  "name": "merge-yizai-cocos-v2",
+  "displayName": "合成亿仔 V2.0",
+  "engine": "Cocos Creator 3.8 LTS",
+  "engineVersionTarget": "3.8.x",
+  "designResolution": {
+    "width": 750,
+    "height": 1334,
+    "fitWidth": true,
+    "fitHeight": false
+  },
+  "orientation": "portrait",
+  "platform": "wechatgame",
+  "notes": [
+    "This is the V2.0 Cocos migration workspace.",
+    "The existing Canvas and native WeChat projects remain reference only.",
+    "Scene files must be generated/opened by Cocos Creator after 3.8 LTS is installed."
+  ]
+}

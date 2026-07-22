@@ -1,0 +1,88 @@
+{
+  "sourceRoot": "E:\\美术素材",
+  "processedRoot": "D:\\01_Codex源码项目\\微信小游戏\\art\\final\\v2-local-assets",
+  "avatarReport": [
+    {
+      "file": "avatars/runtime-384/avatar_01.png",
+      "width": 384,
+      "height": 384,
+      "hasAlpha": true,
+      "size": 49908
+    },
+    {
+      "file": "avatars/runtime-384/avatar_02.png",
+      "width": 384,
+      "height": 384,
+      "hasAlpha": true,
+      "size": 56426
+    },
+    {
+      "file": "avatars/runtime-384/avatar_03.png",
+      "width": 384,
+      "height": 384,
+      "hasAlpha": true,
+      "size": 64738
+    },
+    {
+      "file": "avatars/runtime-384/avatar_04.png",
+      "width": 384,
+      "height": 384,
+      "hasAlpha": true,
+      "size": 51531
+    },
+    {
+      "file": "avatars/runtime-384/avatar_05.png",
+      "width": 384,
+      "height": 384,
+      "hasAlpha": true,
+      "size": 52902
+    },
+    {
+      "file": "avatars/runtime-384/avatar_06.png",
+      "width": 384,
+      "height": 384,
+      "hasAlpha": true,
+      "size": 51044
+    },
+    {
+      "file": "avatars/runtime-384/avatar_07.png",
+      "width": 384,
+      "height": 384,
+      "hasAlpha": true,
+      "size": 53310
+    },
+    {
+      "file": "avatars/runtime-384/avatar_08.png",
+      "width": 384,
+      "height": 384,
+      "hasAlpha": true,
+      "size": 54678
+    },
+    {
+      "file": "avatars/runtime-384/avatar_09.png",
+      "width": 384,
+      "height": 384,
+      "hasAlpha": true,
+      "size": 51262
+    },
+    {
+      "file": "avatars/runtime-384/avatar_10.png",
+      "width": 384,
+      "height": 384,
+      "hasAlpha": true,
+      "size": 46961
+    },
+    {
+      "file": "avatars/runtime-384/avatar_11_yizai.png",
+      "width": 384,
+      "height": 384,
+      "hasAlpha": true,
+      "size": 49938
+    }
+  ],
+  "notes": [
+    "原始 PNG 均为不带透明通道的棋盘格底图，已按边界连通背景抠底。",
+    "运行头像为 384x384，另保留 512x512 源处理图和 80x80 检查图。",
+    "运行端继续保留旧 face_* 文件名以兼容现有玩法代码，处理目录中同时提供 avatar_* 命名。"
+  ]
+}

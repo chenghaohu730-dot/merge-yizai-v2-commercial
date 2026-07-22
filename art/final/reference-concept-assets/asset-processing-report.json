@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "source": {
+    "splashReference": "D:\\Documents\\xwechat_files\\wxid_7huhikq24u1m21_48f0\\temp\\RWTemp\\2026-06\\9e20f478899dc29eb19741386f9343c8\\6aa4896df690b6ebe26006f42501c2db.png",
+    "gameReference": "D:\\Documents\\xwechat_files\\wxid_7huhikq24u1m21_48f0\\temp\\RWTemp\\2026-06\\9e20f478899dc29eb19741386f9343c8\\3299e05d7e0e4bafd7f3d793538b4d33.png"
+  },
+  "imagegenGameCandidate": "D:\\01_Codex源码项目\\微信小游戏\\art\\generated\\imagegen-reference-empty-machine\\imagegen_empty_machine.png",
+  "notes": [
+    "启动页使用用户确认的最终概念图作为运行母图。",
+    "游戏页使用用户确认的最终概念图提取机台外壳，并清理玩法区域里的静态球堆和固定分数，保留实时玩法绘制。",
+    "玻璃框、警戒线和落点头按概念图风格重新生成/提取，避免旧资源压过最终参考效果。"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "rule": "Every clickable button must provide normal, pressed and disabled states.",
+  "audio": "audio/button",
+  "buttons": [
+    { "id": "start", "normal": "ui/buttons/button_start_normal", "pressed": "ui/buttons/button_start_pressed", "disabled": "ui/buttons/button_start_disabled" },
+    { "id": "primary", "normal": "ui/buttons/button_primary_normal", "pressed": "ui/buttons/button_primary_pressed", "disabled": "ui/buttons/button_primary_disabled" },
+    { "id": "secondary", "normal": "ui/buttons/button_secondary_normal", "pressed": "ui/buttons/button_secondary_pressed", "disabled": "ui/buttons/button_secondary_disabled" },
+    { "id": "continue", "normal": "ui/buttons/button_continue_normal", "pressed": "ui/buttons/button_continue_pressed", "disabled": "ui/buttons/button_continue_disabled" },
+    { "id": "restart", "normal": "ui/buttons/button_restart_normal", "pressed": "ui/buttons/button_restart_pressed", "disabled": "ui/buttons/button_restart_disabled" },
+    { "id": "pause", "normal": "ui/buttons/control_pause_normal", "pressed": "ui/buttons/control_pause_pressed", "disabled": "ui/buttons/control_pause_disabled" },
+    { "id": "sound", "normal": "ui/buttons/control_sound_normal", "pressed": "ui/buttons/control_sound_pressed", "disabled": "ui/buttons/control_sound_disabled" }
+  ]
+}

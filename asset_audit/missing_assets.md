@@ -1,0 +1,138 @@
+# 缺失资源清单
+
+- `skin_jelly_face_01` 512x512 PNG：jelly 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_jelly_face_02` 512x512 PNG：jelly 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_jelly_face_03` 512x512 PNG：jelly 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_jelly_face_04` 512x512 PNG：jelly 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_jelly_face_05` 512x512 PNG：jelly 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_jelly_face_06` 512x512 PNG：jelly 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_jelly_face_07` 512x512 PNG：jelly 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_jelly_face_08` 512x512 PNG：jelly 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_jelly_face_09` 512x512 PNG：jelly 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_jelly_face_10` 512x512 PNG：jelly 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_preview_jelly` 300x300 PNG：jelly 皮肤商店预览
+- `skin_star_face_01` 512x512 PNG：star 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_star_face_02` 512x512 PNG：star 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_star_face_03` 512x512 PNG：star 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_star_face_04` 512x512 PNG：star 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_star_face_05` 512x512 PNG：star 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_star_face_06` 512x512 PNG：star 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_star_face_07` 512x512 PNG：star 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_star_face_08` 512x512 PNG：star 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_star_face_09` 512x512 PNG：star 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_star_face_10` 512x512 PNG：star 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_preview_star` 300x300 PNG：star 皮肤商店预览
+- `skin_cream_face_01` 512x512 PNG：cream 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_cream_face_02` 512x512 PNG：cream 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_cream_face_03` 512x512 PNG：cream 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_cream_face_04` 512x512 PNG：cream 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_cream_face_05` 512x512 PNG：cream 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_cream_face_06` 512x512 PNG：cream 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_cream_face_07` 512x512 PNG：cream 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_cream_face_08` 512x512 PNG：cream 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_cream_face_09` 512x512 PNG：cream 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_cream_face_10` 512x512 PNG：cream 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_preview_cream` 300x300 PNG：cream 皮肤商店预览
+- `skin_coin_face_01` 512x512 PNG：coin 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_coin_face_02` 512x512 PNG：coin 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_coin_face_03` 512x512 PNG：coin 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_coin_face_04` 512x512 PNG：coin 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_coin_face_05` 512x512 PNG：coin 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_coin_face_06` 512x512 PNG：coin 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_coin_face_07` 512x512 PNG：coin 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_coin_face_08` 512x512 PNG：coin 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_coin_face_09` 512x512 PNG：coin 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_coin_face_10` 512x512 PNG：coin 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_preview_coin` 300x300 PNG：coin 皮肤商店预览
+- `skin_festival_face_01` 512x512 PNG：festival 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_festival_face_02` 512x512 PNG：festival 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_festival_face_03` 512x512 PNG：festival 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_festival_face_04` 512x512 PNG：festival 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_festival_face_05` 512x512 PNG：festival 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_festival_face_06` 512x512 PNG：festival 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_festival_face_07` 512x512 PNG：festival 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_festival_face_08` 512x512 PNG：festival 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_festival_face_09` 512x512 PNG：festival 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_festival_face_10` 512x512 PNG：festival 皮肤球；仅改变前 10 级外观，不影响数值
+- `skin_preview_festival` 300x300 PNG：festival 皮肤商店预览
+- `btn_resume_normal` 300x100 PNG：继续游戏按钮 normal
+- `btn_resume_pressed` 300x100 PNG：继续游戏按钮 pressed
+- `btn_resume_disabled` 300x100 PNG：继续游戏按钮 disabled
+- `btn_again_normal` 300x100 PNG：再来一局按钮 normal
+- `btn_again_pressed` 300x100 PNG：再来一局按钮 pressed
+- `fx_merge_spark_001` 1024x1024 PNG：普通合成特效；序列帧 1/12，fps 12
+- `fx_merge_spark_002` 1024x1024 PNG：普通合成特效；序列帧 2/12，fps 12
+- `fx_merge_spark_003` 1024x1024 PNG：普通合成特效；序列帧 3/12，fps 12
+- `fx_merge_spark_004` 1024x1024 PNG：普通合成特效；序列帧 4/12，fps 12
+- `fx_merge_spark_005` 1024x1024 PNG：普通合成特效；序列帧 5/12，fps 12
+- `fx_merge_spark_006` 1024x1024 PNG：普通合成特效；序列帧 6/12，fps 12
+- `fx_merge_spark_007` 1024x1024 PNG：普通合成特效；序列帧 7/12，fps 12
+- `fx_merge_spark_008` 1024x1024 PNG：普通合成特效；序列帧 8/12，fps 12
+- `fx_merge_spark_009` 1024x1024 PNG：普通合成特效；序列帧 9/12，fps 12
+- `fx_merge_spark_010` 1024x1024 PNG：普通合成特效；序列帧 10/12，fps 12
+- `fx_merge_spark_011` 1024x1024 PNG：普通合成特效；序列帧 11/12，fps 12
+- `fx_merge_spark_012` 1024x1024 PNG：普通合成特效；序列帧 12/12，fps 12
+- `fx_big_merge_001` 1024x1024 PNG：高等级合成特效；序列帧 1/16，fps 12
+- `fx_big_merge_002` 1024x1024 PNG：高等级合成特效；序列帧 2/16，fps 12
+- `fx_big_merge_003` 1024x1024 PNG：高等级合成特效；序列帧 3/16，fps 12
+- `fx_big_merge_004` 1024x1024 PNG：高等级合成特效；序列帧 4/16，fps 12
+- `fx_big_merge_005` 1024x1024 PNG：高等级合成特效；序列帧 5/16，fps 12
+- `fx_big_merge_006` 1024x1024 PNG：高等级合成特效；序列帧 6/16，fps 12
+- `fx_big_merge_007` 1024x1024 PNG：高等级合成特效；序列帧 7/16，fps 12
+- `fx_big_merge_008` 1024x1024 PNG：高等级合成特效；序列帧 8/16，fps 12
+- `fx_big_merge_009` 1024x1024 PNG：高等级合成特效；序列帧 9/16，fps 12
+- `fx_big_merge_010` 1024x1024 PNG：高等级合成特效；序列帧 10/16，fps 12
+- `fx_big_merge_011` 1024x1024 PNG：高等级合成特效；序列帧 11/16，fps 12
+- `fx_big_merge_012` 1024x1024 PNG：高等级合成特效；序列帧 12/16，fps 12
+- `fx_big_merge_013` 1024x1024 PNG：高等级合成特效；序列帧 13/16，fps 12
+- `fx_big_merge_014` 1024x1024 PNG：高等级合成特效；序列帧 14/16，fps 12
+- `fx_big_merge_015` 1024x1024 PNG：高等级合成特效；序列帧 15/16，fps 12
+- `fx_big_merge_016` 1024x1024 PNG：高等级合成特效；序列帧 16/16，fps 12
+- `fx_yizai_success_001` 1024x1024 PNG：合出亿仔特效，不能遮住 MAEE；序列帧 1/24，fps 12
+- `fx_yizai_success_002` 1024x1024 PNG：合出亿仔特效，不能遮住 MAEE；序列帧 2/24，fps 12
+- `fx_yizai_success_003` 1024x1024 PNG：合出亿仔特效，不能遮住 MAEE；序列帧 3/24，fps 12
+- `fx_yizai_success_004` 1024x1024 PNG：合出亿仔特效，不能遮住 MAEE；序列帧 4/24，fps 12
+- `fx_yizai_success_005` 1024x1024 PNG：合出亿仔特效，不能遮住 MAEE；序列帧 5/24，fps 12
+- `fx_yizai_success_006` 1024x1024 PNG：合出亿仔特效，不能遮住 MAEE；序列帧 6/24，fps 12
+- `fx_yizai_success_007` 1024x1024 PNG：合出亿仔特效，不能遮住 MAEE；序列帧 7/24，fps 12
+- `fx_yizai_success_008` 1024x1024 PNG：合出亿仔特效，不能遮住 MAEE；序列帧 8/24，fps 12
+- `fx_yizai_success_009` 1024x1024 PNG：合出亿仔特效，不能遮住 MAEE；序列帧 9/24，fps 12
+- `fx_yizai_success_010` 1024x1024 PNG：合出亿仔特效，不能遮住 MAEE；序列帧 10/24，fps 12
+- `fx_yizai_success_011` 1024x1024 PNG：合出亿仔特效，不能遮住 MAEE；序列帧 11/24，fps 12
+- `fx_yizai_success_012` 1024x1024 PNG：合出亿仔特效，不能遮住 MAEE；序列帧 12/24，fps 12
+- `fx_yizai_success_013` 1024x1024 PNG：合出亿仔特效，不能遮住 MAEE；序列帧 13/24，fps 12
+- `fx_yizai_success_014` 1024x1024 PNG：合出亿仔特效，不能遮住 MAEE；序列帧 14/24，fps 12
+- `fx_yizai_success_015` 1024x1024 PNG：合出亿仔特效，不能遮住 MAEE；序列帧 15/24，fps 12
+- `fx_yizai_success_016` 1024x1024 PNG：合出亿仔特效，不能遮住 MAEE；序列帧 16/24，fps 12
+- `fx_yizai_success_017` 1024x1024 PNG：合出亿仔特效，不能遮住 MAEE；序列帧 17/24，fps 12
+- `fx_yizai_success_018` 1024x1024 PNG：合出亿仔特效，不能遮住 MAEE；序列帧 18/24，fps 12
+- `fx_yizai_success_019` 1024x1024 PNG：合出亿仔特效，不能遮住 MAEE；序列帧 19/24，fps 12
+- `fx_yizai_success_020` 1024x1024 PNG：合出亿仔特效，不能遮住 MAEE；序列帧 20/24，fps 12
+- `fx_yizai_success_021` 1024x1024 PNG：合出亿仔特效，不能遮住 MAEE；序列帧 21/24，fps 12
+- `fx_yizai_success_022` 1024x1024 PNG：合出亿仔特效，不能遮住 MAEE；序列帧 22/24，fps 12
+- `fx_yizai_success_023` 1024x1024 PNG：合出亿仔特效，不能遮住 MAEE；序列帧 23/24，fps 12
+- `fx_yizai_success_024` 1024x1024 PNG：合出亿仔特效，不能遮住 MAEE；序列帧 24/24，fps 12
+- `fx_coin_fly_001` 1024x1024 PNG：获得亿仔币动效；序列帧 1/16，fps 24
+- `fx_coin_fly_002` 1024x1024 PNG：获得亿仔币动效；序列帧 2/16，fps 24
+- `fx_coin_fly_003` 1024x1024 PNG：获得亿仔币动效；序列帧 3/16，fps 24
+- `fx_coin_fly_004` 1024x1024 PNG：获得亿仔币动效；序列帧 4/16，fps 24
+- `fx_coin_fly_005` 1024x1024 PNG：获得亿仔币动效；序列帧 5/16，fps 24
+- `fx_coin_fly_006` 1024x1024 PNG：获得亿仔币动效；序列帧 6/16，fps 24
+- `fx_coin_fly_007` 1024x1024 PNG：获得亿仔币动效；序列帧 7/16，fps 24
+- `fx_coin_fly_008` 1024x1024 PNG：获得亿仔币动效；序列帧 8/16，fps 24
+- `fx_coin_fly_009` 1024x1024 PNG：获得亿仔币动效；序列帧 9/16，fps 24
+- `fx_coin_fly_010` 1024x1024 PNG：获得亿仔币动效；序列帧 10/16，fps 24
+- `fx_coin_fly_011` 1024x1024 PNG：获得亿仔币动效；序列帧 11/16，fps 24
+- `fx_coin_fly_012` 1024x1024 PNG：获得亿仔币动效；序列帧 12/16，fps 24
+- `fx_coin_fly_013` 1024x1024 PNG：获得亿仔币动效；序列帧 13/16，fps 24
+- `fx_coin_fly_014` 1024x1024 PNG：获得亿仔币动效；序列帧 14/16，fps 24
+- `fx_coin_fly_015` 1024x1024 PNG：获得亿仔币动效；序列帧 15/16，fps 24
+- `fx_coin_fly_016` 1024x1024 PNG：获得亿仔币动效；序列帧 16/16，fps 24
+- `fx_button_tap_001` 512x512 PNG：按钮点击反馈；序列帧 1/8，fps 24
+- `fx_button_tap_002` 512x512 PNG：按钮点击反馈；序列帧 2/8，fps 24
+- `fx_button_tap_003` 512x512 PNG：按钮点击反馈；序列帧 3/8，fps 24
+- `fx_button_tap_004` 512x512 PNG：按钮点击反馈；序列帧 4/8，fps 24
+- `fx_button_tap_005` 512x512 PNG：按钮点击反馈；序列帧 5/8，fps 24
+- `fx_button_tap_006` 512x512 PNG：按钮点击反馈；序列帧 6/8，fps 24
+- `fx_button_tap_007` 512x512 PNG：按钮点击反馈；序列帧 7/8，fps 24
+- `fx_button_tap_008` 512x512 PNG：按钮点击反馈；序列帧 8/8，fps 24

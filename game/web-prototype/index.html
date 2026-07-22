@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>合成亿仔 原型</title>
+    <meta property="og:title" content="合成亿仔" />
+    <meta property="og:description" content="抽象头像一路合成，最后冲出带 MAEE 的亿仔" />
+    <meta property="og:image" content="/assets/ui/share_card.png" />
+    <link rel="icon" type="image/png" href="/assets/faces/face_11_yizai.png" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="game-shell">
+        <canvas id="game"></canvas>
+        <div class="topbar">
+        <div class="hud-panel score-panel">
+          <span>分数</span>
+          <strong id="score">0</strong>
+        </div>
+        <div class="hud-panel best-panel">
+          <span>最高</span>
+          <strong id="best">0</strong>
+        </div>
+        <div class="hud-panel next-panel">
+          <span>下一个</span>
+          <canvas id="nextFace" width="80" height="80"></canvas>
+        </div>
+      </div>
+      <div class="level-strip" id="levelStrip" aria-label="合成进度"></div>
+      <div class="mission-card" aria-live="polite">
+        <span>今日目标</span>
+        <strong id="dailyProgress">合成到 5 级</strong>
+      </div>
+      <div class="record-card">
+        <span>挑战</span>
+        <strong id="runCount">0 局</strong>
+        <span>亿仔</span>
+        <strong id="yizaiCount">0 次</strong>
+      </div>
+      <div id="toast" class="toast hidden">漂亮合成</div>
+      <div class="control-row">
+        <button id="soundToggle" class="icon-button" type="button" aria-label="关闭声音">声</button>
+        <button id="pause" class="icon-button" type="button" aria-label="暂停">Ⅱ</button>
+        <button id="restartTop" class="icon-button" type="button" aria-label="重新开始">↻</button>
+      </div>
+      <div id="start" class="start">
+        <div class="start-art"></div>
+        <div class="start-panel">
+          <h1>合成亿仔</h1>
+          <p>抽象头像，合成到底</p>
+          <div class="start-stats" aria-label="今日挑战">
+            <span>今日目标</span>
+            <strong>合成 5 级</strong>
+          </div>
+          <button id="startGame" type="button">开始挑战</button>
+          <div class="start-quick-links" aria-label="试玩功能入口">
+            <button type="button" data-open-panel="settings">设置</button>
+            <button type="button" data-open-panel="leaderboard">排行</button>
+            <button type="button" data-open-panel="achievements">成就</button>
+          </div>
+        </div>
+      </div>
+      <div id="paused" class="paused hidden">
+        <div class="panel">
+          <p class="label">已暂停</p>
+          <h1>合成亿仔</h1>
+          <button id="resume" type="button">继续游戏</button>
+          <div class="panel-menu" aria-label="暂停功能入口">
+            <button type="button" data-open-panel="settings">设置</button>
+            <button type="button" data-open-panel="leaderboard">排行</button>
+            <button type="button" data-open-panel="achievements">成就</button>
+          </div>
+        </div>
+      </div>
+      <div id="restartConfirm" class="restart-confirm hidden">
+        <div class="panel">
+          <button id="cancelRestart" class="confirm-cancel" type="button">继续游戏</button>
+          <button id="confirmRestart" class="confirm-danger" type="button">确认重置</button>
+        </div>
+      </div>
+      <div id="result" class="result hidden">
+        <div class="panel">
+          <p class="label">本局结束</p>
+          <h1 id="finalScore">0</h1>
+          <p id="finalLevel">最高合成：呆豆脸</p>
+          <p id="finalComment">差一点就更抽象了</p>
+          <p id="resultDaily" class="daily-result">今日目标进行中</p>
+          <p id="resultAchievement" class="achievement-result">成就进度已保存</p>
+          <button id="restart" type="button">再来一局</button>
+          <button id="shareResult" class="secondary-button" type="button">分享成绩</button>
+          <div class="panel-menu result-menu" aria-label="结算功能入口">
+            <button type="button" data-open-panel="settings">设置</button>
+            <button type="button" data-open-panel="leaderboard">排行</button>
+            <button type="button" data-open-panel="achievements">成就</button>
+          </div>
+        </div>
+      </div>
+      <div id="systemModal" class="system-modal hidden" role="dialog" aria-modal="true" aria-labelledby="systemModalTitle">
+        <div class="system-panel">
+          <div class="system-panel-head">
+            <h2 id="systemModalTitle">设置</h2>
+            <button id="closeSystemPanel" class="modal-close" type="button" aria-label="关闭面板">关闭</button>
+          </div>
+          <div id="systemModalBody" class="system-panel-body"></div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "scenes": [
+    { "name": "Boot", "role": "load profile, preload core resources, configure platform adapter" },
+    { "name": "Home", "role": "home lobby with start, task, rank, shop, best score, daily target, coin balance" },
+    { "name": "Game", "role": "main 2D physics merge gameplay" },
+    { "name": "Result", "role": "score, highest merged face, reward, replay, share, back home" },
+    { "name": "Task", "role": "daily task progress and coin claiming" },
+    { "name": "Shop", "role": "skin unlock and select; skin must not change gameplay values" },
+    { "name": "Rank", "role": "local leaderboard first, WeChat open data and cloud rank reserved" }
+  ],
+  "gameArea": {
+    "sourceNode": "Game/GameRoot/GameArea",
+    "layoutSource": "assets/data/asset_manifest.json",
+    "physicsRect": { "x": 89, "y": 254, "w": 572, "h": 732 },
+    "warningLineY": 345,
+    "dropperAnchor": { "x": 375, "y": 210 },
+    "cocosCoordinateFormula": {
+      "rect": "cocosX = x + w / 2 - 375; cocosY = 667 - (y + h / 2)",
+      "point": "cocosX = x - 375; cocosY = 667 - y"
+    },
+    "derivedNodes": [
+      "GlassView",
+      "LeftWall",
+      "RightWall",
+      "Floor",
+      "WarningLine",
+      "DropRange"
+    ],
+    "rule": "Visual glass, physics walls, fail line and drop range are derived from the latest resource table physics_rect and warning_line_y. Do not keep a separate hard-coded collision layout."
+  }
+}

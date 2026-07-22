@@ -1,0 +1,31 @@
+{
+  "name": "merge-yizai-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "assets": "node scripts/generate-assets.mjs",
+    "assets:commercial": "node ../../tools/generate-commercial-system-assets.mjs",
+    "assets:filing": "node ../../tools/generate-filing-system-ui-assets.mjs",
+    "validate": "node scripts/validate-project.mjs",
+    "test:viewport": "node scripts/viewport-smoke.mjs",
+    "test:soak": "node scripts/gameplay-soak.mjs",
+    "test:wechat": "node scripts/wechat-runtime-smoke.cjs",
+    "screenshots": "node scripts/capture-acceptance-screens.mjs",
+    "release": "node ../../tools/package-commercial-release.mjs",
+    "audit:release": "node ../../tools/audit-commercial-release.mjs",
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "matter-js": "^0.20.0"
+  },
+  "devDependencies": {
+    "@types/matter-js": "^0.19.8",
+    "playwright": "^1.60.0",
+    "sharp": "^0.35.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}
