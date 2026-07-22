@@ -64,7 +64,7 @@
 ### 最终微信构建证据
 
 - 构建器：Cocos Creator `3.8.8`，参数 `--project game/cocos-creator-v2 --build "platform=wechatgame;appid=touristappid"`。
-- Creator 日志明确记录 `build Task (wechatgame) Finished`；Electron CLI 进程返回码为 `36`，构建目录、`game.json`、资源和脚本均完整生成，并通过独立审计。该返回码不冒充为 0。
+- Creator 日志明确记录 `build Task (wechatgame) Finished`，进程返回码为 `36`；Cocos Creator 3.8 官方命令行文档将 `36` 定义为“构建成功”（`32/34` 才是失败）。
 - 构建文件：`383` 个，总计 `13,180,856` 字节。
 - 主包：`2,313,447` 字节，SHA256 `1d2c8c3073fff50eb6d137f3f311d6fd3d55f6b991de23d3692f9e701e3f9890`。
 - 整包排序内容 hash：`5fc79ef2c6dccbf2af29636eb604acc56d864b40c524c3e8453b221be81ccf0e`。

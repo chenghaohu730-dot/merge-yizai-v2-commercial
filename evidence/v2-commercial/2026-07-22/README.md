@@ -10,7 +10,8 @@
 - 构建 AppID：`touristappid`（正式 AppID 由发布者在联调/发布时填写）
 - 构建日志：`cocos-wechat-build-final.stdout.log`、`cocos-wechat-build-final.stderr.log`（本机保留，日志按仓库规则不提交）
 - 日志结论：`build Task (wechatgame) Finished`
-- Electron CLI 进程返回码：36；不冒充为 0，最终产物由独立结构、字节和 hash 审计确认。
+- CLI 进程返回码：36。Cocos Creator 3.8 官方将 36 定义为“构建成功”（32 为参数错误，34 为构建过程失败）；最终产物另由结构、字节和 hash 审计确认。
+- 官方命令行依据：<https://docs.cocos.com/creator/3.8/manual/zh/editor/publish/publish-in-command-line.html>
 
 复现命令：
 
@@ -37,6 +38,8 @@
 | total | 383 | 13,180,856 | `5fc79ef2c6dccbf2af29636eb604acc56d864b40c524c3e8453b221be81ccf0e` |
 
 审计结果：`errors=[]`、`warnings=[]`。所有皮肤包均为本地普通分包，`game.json` 没有远程包配置。
+
+微信小游戏官方限制为主包不超过 4M、主包与分包总计不超过 20M，单个普通分包不限制大小；本项目仍采用更严格的 3.3 MiB 主包和 16 MiB 总包内部门禁。依据：<https://intl.cloud.tencent.com/zh/document/product/1219/68072>。
 
 ## 自动测试
 
