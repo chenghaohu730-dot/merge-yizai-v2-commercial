@@ -5,11 +5,12 @@
 ## 当前锁定口径
 
 - V2.0 正式工程：Cocos Creator 3.8.8 + TypeScript。
-- V1 Web 与微信 Canvas 版本仅作行为和视觉基线。
+- V1 Web 与微信 Canvas 版本仅作玩法行为、数值、平台适配、测试方法和代码实现基线；全部 V1 美术及旧风格不得进入 V2。
 - 主包保持最小，功能与皮肤使用本地 Asset Bundle / 微信普通分包。
 - 所有皮肤随安装包内置，玩家解锁后直接使用，不做远程下载。
 - 全服榜使用 CloudBase 接口设计；无正式 AppID 时先完成本地 mock、合同测试和可部署云函数源码。
-- Grok 已完成真实图片生成探针；美术圣经与 Golden Slice 通过后才批量生产。
+- Grok 已完成真实图片生成探针；先制作 4–6 套全新风格方向，用户批准 Golden Slice 后才批量生产。
+- 所有 V2 可见美术从零重制；任何涉及亿仔的任务只使用本机 `art/source/yizai_highest_source.png` 作为唯一正式参考。
 
 ## 阶段 0：恢复可追溯地基
 
@@ -52,17 +53,23 @@
 
 ## 阶段 4：商业美术、音频与完整闭环
 
-- [x] 完成 V2.0 美术圣经、色板、首页/局内 Golden Slice 提示词和候选画面接入。
-- [ ] 用户确认 Golden Slice 方向后，再启动 Grok 批量生产。
+- [x] 将 V1/旧 Cocos 美术全部判定为不可继承，并建立 `docs/13_《合成亿仔》V2.0美术全量重制硬性边界.md` 与美术圣经 v2。
+- [x] 废止旧糖果机美术圣经 v1、旧色板、旧 Golden Slice 提示词和旧截图的完成资格。
+- [ ] 修复 V2 导入门禁，只允许 `art/final/v2-commercial` 中带 approved 记录的新资源进入 Cocos。
+- [ ] 重新探测 Grok 真实 CLI，并验证涉及亿仔时能够实际读取本机参考图。
+- [ ] 用 Grok 从零制作 4–6 套商业风格方向及同范围 Golden Slice。
+- [ ] 用户选择并签字确认新的 Golden Slice 方向。
+- [ ] 按批准方向批量生产全新 UI Kit、原创默认头像链、内置皮肤、图标和特效。
 - [ ] 替换可见代码绘制背景、按钮、面板、头像 fallback 和粒子。
-- [x] 接入经典链与 5 套内置皮肤；1–10 级换肤，11 级固定合规亿仔，皮肤不改变玩法数值。
+- [x] 完成本地经典链/5 套皮肤 Bundle、解锁、加载和 11 级锁定的技术骨架；当前图片均为无效旧占位。
+- [ ] 用本轮全新原创默认链和全新皮肤图片替换全部旧占位；1–10 级换肤，11 级只使用本机参考图生成的合规亿仔。
 - [x] 下载并接入 7 个 CC0 商业音频，保存来源、许可、逐文件 hash 和编码审计。
 - [ ] 完成任务、亿仔币、皮肤、排行和分享闭环。
 
 ## 本轮可复核证据
 
 - 微信构建审计：`evidence/v2-commercial/2026-07-22/wechat-package-audit-final.json`。
-- 首页截图：`output/playwright/yizai-v2-home-golden-slice-430x765.png`。
-- 游戏场景截图：`output/playwright/yizai-v2-game-golden-slice-430x765.png`。
+- 旧首页截图：`output/playwright/yizai-v2-home-golden-slice-430x765.png`，仅证明旧占位构建链，视觉验收作废。
+- 旧游戏场景截图：`output/playwright/yizai-v2-game-golden-slice-430x765.png`，仅证明旧占位构建链，视觉验收作废。
 - Cocos 本地 Bundle 测试：11/11 通过；CloudBase：24/24 通过；V1：548 项验证及微信 20 帧 smoke 通过。
 - 当前阶段 1 尚未退出：商业场景骨架可运行，但真实物理默认局尚未完整挂载；不得将 V2 报为完整可玩成品。

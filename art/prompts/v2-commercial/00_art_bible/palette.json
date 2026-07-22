@@ -1,24 +1,12 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "merge-yizai-v2-commercial",
+  "status": "superseded_do_not_use_for_generation",
+  "locked": false,
+  "reason": "The previous candy-machine palette is a historical candidate. V2 art direction must be re-explored and approved before a production palette is written.",
   "designSize": [750, 1334],
-  "colors": {
-    "maeeOrange": "#FF9500",
-    "candyPink": "#F4517F",
-    "brightGold": "#FFC53D",
-    "blueberryBlue": "#2E8DD6",
-    "workwearNavy": "#07346B",
-    "creamWhite": "#FFF2D3",
-    "successGreen": "#65B946",
-    "warningOrangeRed": "#FF583D",
-    "disabledGray": "#9B948C"
-  },
-  "radiiPx": {
-    "largePanel": 36,
-    "smallCard": 24,
-    "primaryButtonMin": 48,
-    "primaryButtonMax": 60
-  },
+  "productionPalette": null,
+  "approvedStyleManifest": null,
   "yizaiReference": {
     "path": "art/source/yizai_highest_source.png",
     "sha256": "6B6C74F39FB8A92E8CD7B23BDD729D2E14BD76E38DE4C0CB0AD528638A7BCD12",
