@@ -15,6 +15,11 @@
 - 根目录原 `.git` 是空目录，`git status`、`git log` 和 `git rev-parse` 均失败。
 - `TASKS.md`、`DEVLOG.md`、`.gitignore` 原先不存在。
 - Grok `0.2.106` 已登录；真实调用内置 `image_gen` 成功生成 1024×1024 JPG 探针。
+- 原空 `.git` 已原样移至 `.git.broken-20260722-1610`，其中项目数为 0；随后重新初始化 `main` 和 Git LFS。
+- V1 商业基线提交：`30a8bbf310caba1540808a28b68efd1b47131ee6`。
+- V1 商业基线标签：`v1-commercial-baseline-20260722`（标签对象 `43784aa05ece4232159650bce4afee5f38414f7f`）。
+- 私有 GitHub 仓库：`https://github.com/chenghaohu730-dot/merge-yizai-v2-commercial`；`main` 与基线标签均已推送。
+- 首次基线共纳入 843 个文件；405 个路径由 Git LFS 跟踪，对应 346 个唯一 LFS 对象，本地对象字节数约 `164,916,519`。
 
 ### 关键基线 SHA256
 
@@ -34,9 +39,12 @@
 - 远程 CDN 不进入当前范围。
 - 音频从授权清晰的线上来源重新选择并下载，优先 CC0/免署名。
 
+### 阶段 0 结论
+
+- 阶段 0 已完成：V1 行为、源码、包体、工具链、关键 hash、Git 基线和私有远端均有可追溯证据。
+- 后续阶段不得改写 V1 双端；只在 `game/cocos-creator-v2` 和 V2 后端/工具目录继续实现。
+
 ### 尚未完成
 
-- 备份空 `.git`、初始化仓库、建立基线标签并推送 GitHub。
 - Cocos 真实场景、Prefab、构建与微信开发者工具验证。
 - CloudBase 真实环境和双账号真机榜单验证。
-
